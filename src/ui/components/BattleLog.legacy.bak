@@ -1,0 +1,33 @@
+import React from 'react';
+
+import type { BattleLogEntry } from '../../battle/types';
+
+export interface BattleLogProps {
+  entries: BattleLogEntry[];
+}
+
+const sideLabel = {
+  player: '플레이어',
+  opponent: '상대',
+  system: '시스템',
+} as const;
+
+export const BattleLog: React.FC<BattleLogProps> = ({ entries }) => {
+  // 최신 로그 1개만 표시
+  const latestEntry = entries[entries.length - 1];
+
+  return (
+    <section className="battle-log card">
+      <h2>배틀 로그</h2>
+      <div className="battle-log-feed">
+        {!latestEntry && <p className="empty">아직 기록이 없습니다.</p>}
+        {latestEntry && (
+          <article key={latestEntry.id} className="log-card">
+            <header>{sideLabel[latestEntry.side]}</header>
+            <p>{latestEntry.message}</p>
+          </article>
+        )}
+      </div>
+    </section>
+  );
+};

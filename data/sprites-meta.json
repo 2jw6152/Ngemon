@@ -1,0 +1,9608 @@
+{
+  "000": {
+    "file": "000.png",
+    "width": 192,
+    "height": 192,
+    "frameCount": 1
+  },
+  "ABOMASNOW": {
+    "file": "ABOMASNOW.png",
+    "width": 3895,
+    "height": 95,
+    "frameCount": 39
+  },
+  "ABOMASNOW_1": {
+    "file": "ABOMASNOW_1.png",
+    "width": 4704,
+    "height": 96,
+    "frameCount": 49
+  },
+  "ABOMASNOW_female": {
+    "file": "ABOMASNOW_female.png",
+    "width": 3895,
+    "height": 95,
+    "frameCount": 39
+  },
+  "ABRA": {
+    "file": "ABRA.png",
+    "width": 3591,
+    "height": 63,
+    "frameCount": 57
+  },
+  "ABSOL": {
+    "file": "ABSOL.png",
+    "width": 4485,
+    "height": 65,
+    "frameCount": 69
+  },
+  "ABSOL_1": {
+    "file": "ABSOL_1.png",
+    "width": 1536,
+    "height": 96,
+    "frameCount": 16
+  },
+  "ACCELGOR": {
+    "file": "ACCELGOR.png",
+    "width": 8175,
+    "height": 75,
+    "frameCount": 109
+  },
+  "AEGISLASH": {
+    "file": "AEGISLASH.png",
+    "width": 8128,
+    "height": 127,
+    "frameCount": 64
+  },
+  "AEGISLASH_1": {
+    "file": "AEGISLASH_1.png",
+    "width": 1536,
+    "height": 96,
+    "frameCount": 16
+  },
+  "AERODACTYL": {
+    "file": "AERODACTYL.png",
+    "width": 837,
+    "height": 93,
+    "frameCount": 8
+  },
+  "AERODACTYL_1": {
+    "file": "AERODACTYL_1.png",
+    "width": 2112,
+    "height": 96,
+    "frameCount": 23
+  },
+  "AGGRON": {
+    "file": "AGGRON.png",
+    "width": 4235,
+    "height": 77,
+    "frameCount": 53
+  },
+  "AGGRON_1": {
+    "file": "AGGRON_1.png",
+    "width": 960,
+    "height": 96,
+    "frameCount": 10
+  },
+  "AIPOM": {
+    "file": "AIPOM.png",
+    "width": 2184,
+    "height": 56,
+    "frameCount": 39
+  },
+  "AIPOM_female": {
+    "file": "AIPOM_female.png",
+    "width": 2262,
+    "height": 58,
+    "frameCount": 39
+  },
+  "ALAKAZAM": {
+    "file": "ALAKAZAM.png",
+    "width": 4929,
+    "height": 93,
+    "frameCount": 53
+  },
+  "ALAKAZAM_1": {
+    "file": "ALAKAZAM_1.png",
+    "width": 2640,
+    "height": 110,
+    "frameCount": 24
+  },
+  "ALAKAZAM_female": {
+    "file": "ALAKAZAM_female.png",
+    "width": 4929,
+    "height": 93,
+    "frameCount": 53
+  },
+  "ALCREMIE": {
+    "file": "ALCREMIE.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_1": {
+    "file": "ALCREMIE_1.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_10": {
+    "file": "ALCREMIE_10.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_11": {
+    "file": "ALCREMIE_11.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_12": {
+    "file": "ALCREMIE_12.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_13": {
+    "file": "ALCREMIE_13.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_14": {
+    "file": "ALCREMIE_14.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_15": {
+    "file": "ALCREMIE_15.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_16": {
+    "file": "ALCREMIE_16.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_17": {
+    "file": "ALCREMIE_17.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_18": {
+    "file": "ALCREMIE_18.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_19": {
+    "file": "ALCREMIE_19.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_2": {
+    "file": "ALCREMIE_2.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_20": {
+    "file": "ALCREMIE_20.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_21": {
+    "file": "ALCREMIE_21.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_22": {
+    "file": "ALCREMIE_22.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_23": {
+    "file": "ALCREMIE_23.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_24": {
+    "file": "ALCREMIE_24.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_25": {
+    "file": "ALCREMIE_25.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_26": {
+    "file": "ALCREMIE_26.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_27": {
+    "file": "ALCREMIE_27.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_28": {
+    "file": "ALCREMIE_28.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_29": {
+    "file": "ALCREMIE_29.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_3": {
+    "file": "ALCREMIE_3.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_30": {
+    "file": "ALCREMIE_30.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_31": {
+    "file": "ALCREMIE_31.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_32": {
+    "file": "ALCREMIE_32.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_33": {
+    "file": "ALCREMIE_33.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_34": {
+    "file": "ALCREMIE_34.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_35": {
+    "file": "ALCREMIE_35.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_36": {
+    "file": "ALCREMIE_36.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_37": {
+    "file": "ALCREMIE_37.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_38": {
+    "file": "ALCREMIE_38.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_39": {
+    "file": "ALCREMIE_39.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_4": {
+    "file": "ALCREMIE_4.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_40": {
+    "file": "ALCREMIE_40.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_41": {
+    "file": "ALCREMIE_41.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_42": {
+    "file": "ALCREMIE_42.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_43": {
+    "file": "ALCREMIE_43.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_44": {
+    "file": "ALCREMIE_44.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_45": {
+    "file": "ALCREMIE_45.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_46": {
+    "file": "ALCREMIE_46.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_47": {
+    "file": "ALCREMIE_47.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_48": {
+    "file": "ALCREMIE_48.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_49": {
+    "file": "ALCREMIE_49.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_5": {
+    "file": "ALCREMIE_5.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_50": {
+    "file": "ALCREMIE_50.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_51": {
+    "file": "ALCREMIE_51.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_52": {
+    "file": "ALCREMIE_52.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_53": {
+    "file": "ALCREMIE_53.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_54": {
+    "file": "ALCREMIE_54.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_55": {
+    "file": "ALCREMIE_55.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_56": {
+    "file": "ALCREMIE_56.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_57": {
+    "file": "ALCREMIE_57.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_58": {
+    "file": "ALCREMIE_58.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_59": {
+    "file": "ALCREMIE_59.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_6": {
+    "file": "ALCREMIE_6.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_60": {
+    "file": "ALCREMIE_60.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_61": {
+    "file": "ALCREMIE_61.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_62": {
+    "file": "ALCREMIE_62.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_63": {
+    "file": "ALCREMIE_63.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "ALCREMIE_7": {
+    "file": "ALCREMIE_7.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_8": {
+    "file": "ALCREMIE_8.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALCREMIE_9": {
+    "file": "ALCREMIE_9.png",
+    "width": 7280,
+    "height": 70,
+    "frameCount": 104
+  },
+  "ALOMOMOLA": {
+    "file": "ALOMOMOLA.png",
+    "width": 5133,
+    "height": 87,
+    "frameCount": 59
+  },
+  "ALTARIA": {
+    "file": "ALTARIA.png",
+    "width": 5184,
+    "height": 64,
+    "frameCount": 81
+  },
+  "ALTARIA_1": {
+    "file": "ALTARIA_1.png",
+    "width": 3429,
+    "height": 127,
+    "frameCount": 27
+  },
+  "AMAURA": {
+    "file": "AMAURA.png",
+    "width": 14976,
+    "height": 96,
+    "frameCount": 156
+  },
+  "AMBIPOM": {
+    "file": "AMBIPOM.png",
+    "width": 8352,
+    "height": 87,
+    "frameCount": 96
+  },
+  "AMBIPOM_female": {
+    "file": "AMBIPOM_female.png",
+    "width": 8352,
+    "height": 87,
+    "frameCount": 96
+  },
+  "AMOONGUSS": {
+    "file": "AMOONGUSS.png",
+    "width": 2914,
+    "height": 62,
+    "frameCount": 47
+  },
+  "AMPHAROS": {
+    "file": "AMPHAROS.png",
+    "width": 2479,
+    "height": 67,
+    "frameCount": 37
+  },
+  "AMPHAROS_1": {
+    "file": "AMPHAROS_1.png",
+    "width": 960,
+    "height": 96,
+    "frameCount": 10
+  },
+  "ANNIHILAPE": {
+    "file": "ANNIHILAPE.png",
+    "width": 12864,
+    "height": 96,
+    "frameCount": 134
+  },
+  "ANORITH": {
+    "file": "ANORITH.png",
+    "width": 2808,
+    "height": 54,
+    "frameCount": 52
+  },
+  "APPLETUN": {
+    "file": "APPLETUN.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "APPLETUN_1": {
+    "file": "APPLETUN_1.png",
+    "width": 396,
+    "height": 99,
+    "frameCount": 4
+  },
+  "APPLIN": {
+    "file": "APPLIN.png",
+    "width": 4620,
+    "height": 42,
+    "frameCount": 110
+  },
+  "ARAQUANID": {
+    "file": "ARAQUANID.png",
+    "width": 5796,
+    "height": 84,
+    "frameCount": 69
+  },
+  "ARBOK": {
+    "file": "ARBOK.png",
+    "width": 2997,
+    "height": 81,
+    "frameCount": 37
+  },
+  "ARBOLIVA": {
+    "file": "ARBOLIVA.png",
+    "width": 2400,
+    "height": 100,
+    "frameCount": 17
+  },
+  "ARCANINE": {
+    "file": "ARCANINE.png",
+    "width": 2772,
+    "height": 77,
+    "frameCount": 28
+  },
+  "ARCANINE_1": {
+    "file": "ARCANINE_1.png",
+    "width": 9792,
+    "height": 96,
+    "frameCount": 102
+  },
+  "ARCEUS": {
+    "file": "ARCEUS.png",
+    "width": 3444,
+    "height": 82,
+    "frameCount": 42
+  },
+  "ARCEUS_1": {
+    "file": "ARCEUS_1.png",
+    "width": 3444,
+    "height": 82,
+    "frameCount": 42
+  },
+  "ARCEUS_10": {
+    "file": "ARCEUS_10.png",
+    "width": 3444,
+    "height": 82,
+    "frameCount": 42
+  },
+  "ARCEUS_11": {
+    "file": "ARCEUS_11.png",
+    "width": 3444,
+    "height": 82,
+    "frameCount": 42
+  },
+  "ARCEUS_12": {
+    "file": "ARCEUS_12.png",
+    "width": 3444,
+    "height": 82,
+    "frameCount": 42
+  },
+  "ARCEUS_13": {
+    "file": "ARCEUS_13.png",
+    "width": 3444,
+    "height": 82,
+    "frameCount": 42
+  },
+  "ARCEUS_14": {
+    "file": "ARCEUS_14.png",
+    "width": 3444,
+    "height": 82,
+    "frameCount": 42
+  },
+  "ARCEUS_15": {
+    "file": "ARCEUS_15.png",
+    "width": 3444,
+    "height": 82,
+    "frameCount": 42
+  },
+  "ARCEUS_16": {
+    "file": "ARCEUS_16.png",
+    "width": 3444,
+    "height": 82,
+    "frameCount": 42
+  },
+  "ARCEUS_17": {
+    "file": "ARCEUS_17.png",
+    "width": 3444,
+    "height": 82,
+    "frameCount": 42
+  },
+  "ARCEUS_18": {
+    "file": "ARCEUS_18.png",
+    "width": 3444,
+    "height": 82,
+    "frameCount": 42
+  },
+  "ARCEUS_2": {
+    "file": "ARCEUS_2.png",
+    "width": 3444,
+    "height": 82,
+    "frameCount": 42
+  },
+  "ARCEUS_3": {
+    "file": "ARCEUS_3.png",
+    "width": 3444,
+    "height": 82,
+    "frameCount": 42
+  },
+  "ARCEUS_4": {
+    "file": "ARCEUS_4.png",
+    "width": 3444,
+    "height": 82,
+    "frameCount": 42
+  },
+  "ARCEUS_5": {
+    "file": "ARCEUS_5.png",
+    "width": 3444,
+    "height": 82,
+    "frameCount": 42
+  },
+  "ARCEUS_6": {
+    "file": "ARCEUS_6.png",
+    "width": 3444,
+    "height": 82,
+    "frameCount": 42
+  },
+  "ARCEUS_7": {
+    "file": "ARCEUS_7.png",
+    "width": 3444,
+    "height": 82,
+    "frameCount": 42
+  },
+  "ARCEUS_8": {
+    "file": "ARCEUS_8.png",
+    "width": 3444,
+    "height": 82,
+    "frameCount": 42
+  },
+  "ARCEUS_9": {
+    "file": "ARCEUS_9.png",
+    "width": 3444,
+    "height": 82,
+    "frameCount": 42
+  },
+  "ARCHALUDON": {
+    "file": "ARCHALUDON.png",
+    "width": 5184,
+    "height": 96,
+    "frameCount": 54
+  },
+  "ARCHEN": {
+    "file": "ARCHEN.png",
+    "width": 3780,
+    "height": 60,
+    "frameCount": 63
+  },
+  "ARCHEOPS": {
+    "file": "ARCHEOPS.png",
+    "width": 3640,
+    "height": 91,
+    "frameCount": 40
+  },
+  "ARCTIBAX": {
+    "file": "ARCTIBAX.png",
+    "width": 4503,
+    "height": 57,
+    "frameCount": 73
+  },
+  "ARCTOVISH": {
+    "file": "ARCTOVISH.png",
+    "width": 12194,
+    "height": 91,
+    "frameCount": 134
+  },
+  "ARCTOZOLT": {
+    "file": "ARCTOZOLT.png",
+    "width": 11040,
+    "height": 96,
+    "frameCount": 120
+  },
+  "ARIADOS": {
+    "file": "ARIADOS.png",
+    "width": 1152,
+    "height": 64,
+    "frameCount": 16
+  },
+  "ARMALDO": {
+    "file": "ARMALDO.png",
+    "width": 6391,
+    "height": 83,
+    "frameCount": 77
+  },
+  "ARMAROUGE": {
+    "file": "ARMAROUGE.png",
+    "width": 2400,
+    "height": 100,
+    "frameCount": 24
+  },
+  "AROMATISSE": {
+    "file": "AROMATISSE.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "ARON": {
+    "file": "ARON.png",
+    "width": 480,
+    "height": 32,
+    "frameCount": 12
+  },
+  "ARROKUDA": {
+    "file": "ARROKUDA.png",
+    "width": 9256,
+    "height": 104,
+    "frameCount": 89
+  },
+  "ARTICUNO": {
+    "file": "ARTICUNO.png",
+    "width": 2106,
+    "height": 81,
+    "frameCount": 26
+  },
+  "ARTICUNO_1": {
+    "file": "ARTICUNO_1.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "AUDINO": {
+    "file": "AUDINO.png",
+    "width": 3120,
+    "height": 52,
+    "frameCount": 60
+  },
+  "AUDINO_1": {
+    "file": "AUDINO_1.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "AURORUS": {
+    "file": "AURORUS.png",
+    "width": 1344,
+    "height": 96,
+    "frameCount": 14
+  },
+  "AVALUGG": {
+    "file": "AVALUGG.png",
+    "width": 11616,
+    "height": 96,
+    "frameCount": 121
+  },
+  "AVALUGG_1": {
+    "file": "AVALUGG_1.png",
+    "width": 11904,
+    "height": 96,
+    "frameCount": 124
+  },
+  "AXEW": {
+    "file": "AXEW.png",
+    "width": 3375,
+    "height": 45,
+    "frameCount": 75
+  },
+  "AZELF": {
+    "file": "AZELF.png",
+    "width": 9900,
+    "height": 75,
+    "frameCount": 132
+  },
+  "AZUMARILL": {
+    "file": "AZUMARILL.png",
+    "width": 5329,
+    "height": 73,
+    "frameCount": 73
+  },
+  "AZURILL": {
+    "file": "AZURILL.png",
+    "width": 2898,
+    "height": 63,
+    "frameCount": 46
+  },
+  "BAGON": {
+    "file": "BAGON.png",
+    "width": 1377,
+    "height": 51,
+    "frameCount": 27
+  },
+  "BALTOY": {
+    "file": "BALTOY.png",
+    "width": 1681,
+    "height": 41,
+    "frameCount": 41
+  },
+  "BANETTE": {
+    "file": "BANETTE.png",
+    "width": 3520,
+    "height": 55,
+    "frameCount": 64
+  },
+  "BANETTE_1": {
+    "file": "BANETTE_1.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "BARBARACLE": {
+    "file": "BARBARACLE.png",
+    "width": 1056,
+    "height": 96,
+    "frameCount": 11
+  },
+  "BARBOACH": {
+    "file": "BARBOACH.png",
+    "width": 3408,
+    "height": 48,
+    "frameCount": 71
+  },
+  "BARRASKEWDA": {
+    "file": "BARRASKEWDA.png",
+    "width": 1218,
+    "height": 87,
+    "frameCount": 14
+  },
+  "BASCULEGION": {
+    "file": "BASCULEGION.png",
+    "width": 9900,
+    "height": 110,
+    "frameCount": 139
+  },
+  "BASCULEGION_female": {
+    "file": "BASCULEGION_female.png",
+    "width": 9900,
+    "height": 110,
+    "frameCount": 139
+  },
+  "BASCULIN": {
+    "file": "BASCULIN.png",
+    "width": 4784,
+    "height": 52,
+    "frameCount": 92
+  },
+  "BASCULIN_1": {
+    "file": "BASCULIN_1.png",
+    "width": 4968,
+    "height": 54,
+    "frameCount": 92
+  },
+  "BASCULIN_2": {
+    "file": "BASCULIN_2.png",
+    "width": 4576,
+    "height": 52,
+    "frameCount": 88
+  },
+  "BASTIODON": {
+    "file": "BASTIODON.png",
+    "width": 4270,
+    "height": 70,
+    "frameCount": 61
+  },
+  "BAXCALIBUR": {
+    "file": "BAXCALIBUR.png",
+    "width": 9240,
+    "height": 120,
+    "frameCount": 77
+  },
+  "BAYLEEF": {
+    "file": "BAYLEEF.png",
+    "width": 4720,
+    "height": 80,
+    "frameCount": 59
+  },
+  "BEARTIC": {
+    "file": "BEARTIC.png",
+    "width": 8848,
+    "height": 79,
+    "frameCount": 107
+  },
+  "BEAUTIFLY": {
+    "file": "BEAUTIFLY.png",
+    "width": 6006,
+    "height": 78,
+    "frameCount": 77
+  },
+  "BEAUTIFLY_female": {
+    "file": "BEAUTIFLY_female.png",
+    "width": 6006,
+    "height": 78,
+    "frameCount": 77
+  },
+  "BEEDRILL": {
+    "file": "BEEDRILL.png",
+    "width": 2220,
+    "height": 74,
+    "frameCount": 29
+  },
+  "BEEDRILL_1": {
+    "file": "BEEDRILL_1.png",
+    "width": 13905,
+    "height": 103,
+    "frameCount": 135
+  },
+  "BEHEEYEM": {
+    "file": "BEHEEYEM.png",
+    "width": 3551,
+    "height": 67,
+    "frameCount": 53
+  },
+  "BELDUM": {
+    "file": "BELDUM.png",
+    "width": 1632,
+    "height": 48,
+    "frameCount": 34
+  },
+  "BELLIBOLT": {
+    "file": "BELLIBOLT.png",
+    "width": 3072,
+    "height": 96,
+    "frameCount": 32
+  },
+  "BELLOSSOM": {
+    "file": "BELLOSSOM.png",
+    "width": 2968,
+    "height": 56,
+    "frameCount": 53
+  },
+  "BELLSPROUT": {
+    "file": "BELLSPROUT.png",
+    "width": 2068,
+    "height": 44,
+    "frameCount": 47
+  },
+  "BERGMITE": {
+    "file": "BERGMITE.png",
+    "width": 5764,
+    "height": 44,
+    "frameCount": 131
+  },
+  "BEWEAR": {
+    "file": "BEWEAR.png",
+    "width": 11424,
+    "height": 84,
+    "frameCount": 136
+  },
+  "BIBAREL": {
+    "file": "BIBAREL.png",
+    "width": 5751,
+    "height": 71,
+    "frameCount": 80
+  },
+  "BIBAREL_female": {
+    "file": "BIBAREL_female.png",
+    "width": 5751,
+    "height": 71,
+    "frameCount": 80
+  },
+  "BIDOOF": {
+    "file": "BIDOOF.png",
+    "width": 2548,
+    "height": 49,
+    "frameCount": 52
+  },
+  "BIDOOF_female": {
+    "file": "BIDOOF_female.png",
+    "width": 2448,
+    "height": 48,
+    "frameCount": 51
+  },
+  "BINACLE": {
+    "file": "BINACLE.png",
+    "width": 4640,
+    "height": 58,
+    "frameCount": 80
+  },
+  "BISHARP": {
+    "file": "BISHARP.png",
+    "width": 5925,
+    "height": 75,
+    "frameCount": 79
+  },
+  "BLACEPHALON": {
+    "file": "BLACEPHALON.png",
+    "width": 16016,
+    "height": 143,
+    "frameCount": 123
+  },
+  "BLASTOISE": {
+    "file": "BLASTOISE.png",
+    "width": 8418,
+    "height": 69,
+    "frameCount": 112
+  },
+  "BLASTOISE_1": {
+    "file": "BLASTOISE_1.png",
+    "width": 1536,
+    "height": 96,
+    "frameCount": 16
+  },
+  "BLASTOISE_2": {
+    "file": "BLASTOISE_2.png",
+    "width": 960,
+    "height": 96,
+    "frameCount": 10
+  },
+  "BLAZIKEN": {
+    "file": "BLAZIKEN.png",
+    "width": 4275,
+    "height": 75,
+    "frameCount": 57
+  },
+  "BLAZIKEN_1": {
+    "file": "BLAZIKEN_1.png",
+    "width": 10350,
+    "height": 115,
+    "frameCount": 90
+  },
+  "BLAZIKEN_female": {
+    "file": "BLAZIKEN_female.png",
+    "width": 4144,
+    "height": 74,
+    "frameCount": 56
+  },
+  "BLIPBUG": {
+    "file": "BLIPBUG.png",
+    "width": 450,
+    "height": 45,
+    "frameCount": 10
+  },
+  "BLISSEY": {
+    "file": "BLISSEY.png",
+    "width": 2928,
+    "height": 61,
+    "frameCount": 48
+  },
+  "BLITZLE": {
+    "file": "BLITZLE.png",
+    "width": 4898,
+    "height": 62,
+    "frameCount": 79
+  },
+  "BOLDORE": {
+    "file": "BOLDORE.png",
+    "width": 3599,
+    "height": 61,
+    "frameCount": 59
+  },
+  "BOLTUND": {
+    "file": "BOLTUND.png",
+    "width": 2304,
+    "height": 96,
+    "frameCount": 24
+  },
+  "BOMBIRDIER": {
+    "file": "BOMBIRDIER.png",
+    "width": 700,
+    "height": 100,
+    "frameCount": 6
+  },
+  "BONSLY": {
+    "file": "BONSLY.png",
+    "width": 4446,
+    "height": 57,
+    "frameCount": 78
+  },
+  "BOUFFALANT": {
+    "file": "BOUFFALANT.png",
+    "width": 6391,
+    "height": 83,
+    "frameCount": 76
+  },
+  "BOUNSWEET": {
+    "file": "BOUNSWEET.png",
+    "width": 6342,
+    "height": 42,
+    "frameCount": 151
+  },
+  "BRAIXEN": {
+    "file": "BRAIXEN.png",
+    "width": 5244,
+    "height": 69,
+    "frameCount": 77
+  },
+  "BRAMBLEGHAST": {
+    "file": "BRAMBLEGHAST.png",
+    "width": 3648,
+    "height": 96,
+    "frameCount": 38
+  },
+  "BRAMBLIN": {
+    "file": "BRAMBLIN.png",
+    "width": 3648,
+    "height": 96,
+    "frameCount": 38
+  },
+  "BRAVIARY": {
+    "file": "BRAVIARY.png",
+    "width": 2289,
+    "height": 109,
+    "frameCount": 21
+  },
+  "BRAVIARY_1": {
+    "file": "BRAVIARY_1.png",
+    "width": 8720,
+    "height": 109,
+    "frameCount": 80
+  },
+  "BRELOOM": {
+    "file": "BRELOOM.png",
+    "width": 1846,
+    "height": 71,
+    "frameCount": 26
+  },
+  "BRIONNE": {
+    "file": "BRIONNE.png",
+    "width": 7540,
+    "height": 65,
+    "frameCount": 118
+  },
+  "BRONZONG": {
+    "file": "BRONZONG.png",
+    "width": 5225,
+    "height": 95,
+    "frameCount": 52
+  },
+  "BRONZOR": {
+    "file": "BRONZOR.png",
+    "width": 3717,
+    "height": 59,
+    "frameCount": 63
+  },
+  "BRUTEBONNET": {
+    "file": "BRUTEBONNET.png",
+    "width": 3139,
+    "height": 73,
+    "frameCount": 43
+  },
+  "BRUXISH": {
+    "file": "BRUXISH.png",
+    "width": 9216,
+    "height": 96,
+    "frameCount": 96
+  },
+  "BUDEW": {
+    "file": "BUDEW.png",
+    "width": 2970,
+    "height": 55,
+    "frameCount": 54
+  },
+  "BUIZEL": {
+    "file": "BUIZEL.png",
+    "width": 2940,
+    "height": 49,
+    "frameCount": 60
+  },
+  "BUIZEL_female": {
+    "file": "BUIZEL_female.png",
+    "width": 2940,
+    "height": 49,
+    "frameCount": 60
+  },
+  "BULBASAUR": {
+    "file": "BULBASAUR.png",
+    "width": 1862,
+    "height": 38,
+    "frameCount": 49
+  },
+  "BUNEARY": {
+    "file": "BUNEARY.png",
+    "width": 6188,
+    "height": 68,
+    "frameCount": 91
+  },
+  "BUNNELBY": {
+    "file": "BUNNELBY.png",
+    "width": 1536,
+    "height": 96,
+    "frameCount": 16
+  },
+  "BURMY": {
+    "file": "BURMY.png",
+    "width": 5022,
+    "height": 62,
+    "frameCount": 81
+  },
+  "BURMY_1": {
+    "file": "BURMY_1.png",
+    "width": 4536,
+    "height": 56,
+    "frameCount": 81
+  },
+  "BURMY_2": {
+    "file": "BURMY_2.png",
+    "width": 4860,
+    "height": 60,
+    "frameCount": 81
+  },
+  "BUTTERFREE": {
+    "file": "BUTTERFREE.png",
+    "width": 2728,
+    "height": 62,
+    "frameCount": 44
+  },
+  "BUTTERFREE_1": {
+    "file": "BUTTERFREE_1.png",
+    "width": 2160,
+    "height": 120,
+    "frameCount": 22
+  },
+  "BUTTERFREE_female": {
+    "file": "BUTTERFREE_female.png",
+    "width": 2728,
+    "height": 62,
+    "frameCount": 44
+  },
+  "BUZZWOLE": {
+    "file": "BUZZWOLE.png",
+    "width": 6912,
+    "height": 96,
+    "frameCount": 72
+  },
+  "CACNEA": {
+    "file": "CACNEA.png",
+    "width": 2773,
+    "height": 59,
+    "frameCount": 43
+  },
+  "CACTURNE": {
+    "file": "CACTURNE.png",
+    "width": 3990,
+    "height": 70,
+    "frameCount": 57
+  },
+  "CACTURNE_female": {
+    "file": "CACTURNE_female.png",
+    "width": 3990,
+    "height": 70,
+    "frameCount": 57
+  },
+  "CALYREX": {
+    "file": "CALYREX.png",
+    "width": 10355,
+    "height": 109,
+    "frameCount": 95
+  },
+  "CALYREX_1": {
+    "file": "CALYREX_1.png",
+    "width": 7812,
+    "height": 84,
+    "frameCount": 93
+  },
+  "CALYREX_2": {
+    "file": "CALYREX_2.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "CAMERUPT": {
+    "file": "CAMERUPT.png",
+    "width": 4187,
+    "height": 79,
+    "frameCount": 53
+  },
+  "CAMERUPT_1": {
+    "file": "CAMERUPT_1.png",
+    "width": 2016,
+    "height": 96,
+    "frameCount": 21
+  },
+  "CAMERUPT_1_female": {
+    "file": "CAMERUPT_1_female.png",
+    "width": 2016,
+    "height": 96,
+    "frameCount": 21
+  },
+  "CAMERUPT_female": {
+    "file": "CAMERUPT_female.png",
+    "width": 4187,
+    "height": 79,
+    "frameCount": 53
+  },
+  "CAPSAKID": {
+    "file": "CAPSAKID.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "CARBINK": {
+    "file": "CARBINK.png",
+    "width": 1536,
+    "height": 96,
+    "frameCount": 16
+  },
+  "CARKOL": {
+    "file": "CARKOL.png",
+    "width": 5915,
+    "height": 65,
+    "frameCount": 99
+  },
+  "CARNIVINE": {
+    "file": "CARNIVINE.png",
+    "width": 5278,
+    "height": 91,
+    "frameCount": 58
+  },
+  "CARRACOSTA": {
+    "file": "CARRACOSTA.png",
+    "width": 7098,
+    "height": 78,
+    "frameCount": 85
+  },
+  "CARVANHA": {
+    "file": "CARVANHA.png",
+    "width": 3770,
+    "height": 58,
+    "frameCount": 65
+  },
+  "CASCOON": {
+    "file": "CASCOON.png",
+    "width": 2585,
+    "height": 55,
+    "frameCount": 44
+  },
+  "CASTFORM": {
+    "file": "CASTFORM.png",
+    "width": 1833,
+    "height": 47,
+    "frameCount": 39
+  },
+  "CASTFORM_1": {
+    "file": "CASTFORM_1.png",
+    "width": 3162,
+    "height": 62,
+    "frameCount": 51
+  },
+  "CASTFORM_2": {
+    "file": "CASTFORM_2.png",
+    "width": 2623,
+    "height": 61,
+    "frameCount": 43
+  },
+  "CASTFORM_3": {
+    "file": "CASTFORM_3.png",
+    "width": 2967,
+    "height": 69,
+    "frameCount": 43
+  },
+  "CATERPIE": {
+    "file": "CATERPIE.png",
+    "width": 1517,
+    "height": 37,
+    "frameCount": 41
+  },
+  "CELEBI": {
+    "file": "CELEBI.png",
+    "width": 1984,
+    "height": 62,
+    "frameCount": 32
+  },
+  "CELESTEELA": {
+    "file": "CELESTEELA.png",
+    "width": 8424,
+    "height": 117,
+    "frameCount": 72
+  },
+  "CENTISKORCH": {
+    "file": "CENTISKORCH.png",
+    "width": 1440,
+    "height": 120,
+    "frameCount": 12
+  },
+  "CENTISKORCH_1": {
+    "file": "CENTISKORCH_1.png",
+    "width": 1498,
+    "height": 107,
+    "frameCount": 11
+  },
+  "CERULEDGE": {
+    "file": "CERULEDGE.png",
+    "width": 600,
+    "height": 120,
+    "frameCount": 5
+  },
+  "CETITAN": {
+    "file": "CETITAN.png",
+    "width": 9600,
+    "height": 100,
+    "frameCount": 96
+  },
+  "CETODDLE": {
+    "file": "CETODDLE.png",
+    "width": 4930,
+    "height": 85,
+    "frameCount": 58
+  },
+  "CHANDELURE": {
+    "file": "CHANDELURE.png",
+    "width": 7802,
+    "height": 94,
+    "frameCount": 84
+  },
+  "CHANSEY": {
+    "file": "CHANSEY.png",
+    "width": 3538,
+    "height": 61,
+    "frameCount": 58
+  },
+  "CHARCADET": {
+    "file": "CHARCADET.png",
+    "width": 2000,
+    "height": 100,
+    "frameCount": 20
+  },
+  "CHARIZARD": {
+    "file": "CHARIZARD.png",
+    "width": 6552,
+    "height": 91,
+    "frameCount": 72
+  },
+  "CHARIZARD_1": {
+    "file": "CHARIZARD_1.png",
+    "width": 10080,
+    "height": 105,
+    "frameCount": 96
+  },
+  "CHARIZARD_2": {
+    "file": "CHARIZARD_2.png",
+    "width": 2496,
+    "height": 96,
+    "frameCount": 26
+  },
+  "CHARIZARD_3": {
+    "file": "CHARIZARD_3.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "CHARJABUG": {
+    "file": "CHARJABUG.png",
+    "width": 11520,
+    "height": 96,
+    "frameCount": 120
+  },
+  "CHARMANDER": {
+    "file": "CHARMANDER.png",
+    "width": 2226,
+    "height": 42,
+    "frameCount": 53
+  },
+  "CHARMELEON": {
+    "file": "CHARMELEON.png",
+    "width": 3105,
+    "height": 69,
+    "frameCount": 47
+  },
+  "CHATOT": {
+    "file": "CHATOT.png",
+    "width": 3920,
+    "height": 49,
+    "frameCount": 80
+  },
+  "CHERRIM": {
+    "file": "CHERRIM.png",
+    "width": 2352,
+    "height": 49,
+    "frameCount": 48
+  },
+  "CHERRIM_1": {
+    "file": "CHERRIM_1.png",
+    "width": 1716,
+    "height": 44,
+    "frameCount": 39
+  },
+  "CHERUBI": {
+    "file": "CHERUBI.png",
+    "width": 2419,
+    "height": 41,
+    "frameCount": 59
+  },
+  "CHESNAUGHT": {
+    "file": "CHESNAUGHT.png",
+    "width": 8640,
+    "height": 96,
+    "frameCount": 86
+  },
+  "CHESPIN": {
+    "file": "CHESPIN.png",
+    "width": 2600,
+    "height": 50,
+    "frameCount": 52
+  },
+  "CHEWTLE": {
+    "file": "CHEWTLE.png",
+    "width": 2585,
+    "height": 47,
+    "frameCount": 55
+  },
+  "CHIENPAO": {
+    "file": "CHIENPAO.png",
+    "width": 7524,
+    "height": 99,
+    "frameCount": 77
+  },
+  "CHIKORITA": {
+    "file": "CHIKORITA.png",
+    "width": 1400,
+    "height": 56,
+    "frameCount": 25
+  },
+  "CHIMCHAR": {
+    "file": "CHIMCHAR.png",
+    "width": 3850,
+    "height": 55,
+    "frameCount": 70
+  },
+  "CHIMECHO": {
+    "file": "CHIMECHO.png",
+    "width": 3564,
+    "height": 66,
+    "frameCount": 54
+  },
+  "CHINCHOU": {
+    "file": "CHINCHOU.png",
+    "width": 2046,
+    "height": 66,
+    "frameCount": 31
+  },
+  "CHINGLING": {
+    "file": "CHINGLING.png",
+    "width": 4698,
+    "height": 58,
+    "frameCount": 81
+  },
+  "CHIYU": {
+    "file": "CHIYU.png",
+    "width": 7752,
+    "height": 68,
+    "frameCount": 115
+  },
+  "CINCCINO": {
+    "file": "CINCCINO.png",
+    "width": 3300,
+    "height": 66,
+    "frameCount": 50
+  },
+  "CINDERACE": {
+    "file": "CINDERACE.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "CINDERACE_1": {
+    "file": "CINDERACE_1.png",
+    "width": 7200,
+    "height": 100,
+    "frameCount": 110
+  },
+  "CLAMPERL": {
+    "file": "CLAMPERL.png",
+    "width": 1935,
+    "height": 45,
+    "frameCount": 43
+  },
+  "CLAUNCHER": {
+    "file": "CLAUNCHER.png",
+    "width": 8352,
+    "height": 96,
+    "frameCount": 87
+  },
+  "CLAWITZER": {
+    "file": "CLAWITZER.png",
+    "width": 11682,
+    "height": 118,
+    "frameCount": 99
+  },
+  "CLAYDOL": {
+    "file": "CLAYDOL.png",
+    "width": 3600,
+    "height": 72,
+    "frameCount": 50
+  },
+  "CLEFABLE": {
+    "file": "CLEFABLE.png",
+    "width": 2805,
+    "height": 55,
+    "frameCount": 51
+  },
+  "CLEFAIRY": {
+    "file": "CLEFAIRY.png",
+    "width": 3149,
+    "height": 47,
+    "frameCount": 67
+  },
+  "CLEFFA": {
+    "file": "CLEFFA.png",
+    "width": 1147,
+    "height": 37,
+    "frameCount": 31
+  },
+  "CLOBBOPUS": {
+    "file": "CLOBBOPUS.png",
+    "width": 3360,
+    "height": 96,
+    "frameCount": 35
+  },
+  "CLODSIRE": {
+    "file": "CLODSIRE.png",
+    "width": 6734,
+    "height": 74,
+    "frameCount": 91
+  },
+  "CLOYSTER": {
+    "file": "CLOYSTER.png",
+    "width": 3700,
+    "height": 74,
+    "frameCount": 50
+  },
+  "COALOSSAL": {
+    "file": "COALOSSAL.png",
+    "width": 7728,
+    "height": 84,
+    "frameCount": 92
+  },
+  "COALOSSAL_1": {
+    "file": "COALOSSAL_1.png",
+    "width": 9990,
+    "height": 111,
+    "frameCount": 90
+  },
+  "COBALION": {
+    "file": "COBALION.png",
+    "width": 5372,
+    "height": 79,
+    "frameCount": 68
+  },
+  "COFAGRIGUS": {
+    "file": "COFAGRIGUS.png",
+    "width": 8784,
+    "height": 122,
+    "frameCount": 72
+  },
+  "COMBEE": {
+    "file": "COMBEE.png",
+    "width": 1072,
+    "height": 67,
+    "frameCount": 16
+  },
+  "COMBEE_female": {
+    "file": "COMBEE_female.png",
+    "width": 1072,
+    "height": 67,
+    "frameCount": 16
+  },
+  "COMBUSKEN": {
+    "file": "COMBUSKEN.png",
+    "width": 7810,
+    "height": 71,
+    "frameCount": 109
+  },
+  "COMBUSKEN_female": {
+    "file": "COMBUSKEN_female.png",
+    "width": 8804,
+    "height": 71,
+    "frameCount": 122
+  },
+  "COMFEY": {
+    "file": "COMFEY.png",
+    "width": 7968,
+    "height": 83,
+    "frameCount": 96
+  },
+  "CONKELDURR": {
+    "file": "CONKELDURR.png",
+    "width": 7038,
+    "height": 102,
+    "frameCount": 69
+  },
+  "COPPERAJAH": {
+    "file": "COPPERAJAH.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "COPPERAJAH_1": {
+    "file": "COPPERAJAH_1.png",
+    "width": 1128,
+    "height": 94,
+    "frameCount": 12
+  },
+  "CORPHISH": {
+    "file": "CORPHISH.png",
+    "width": 4543,
+    "height": 59,
+    "frameCount": 77
+  },
+  "CORSOLA": {
+    "file": "CORSOLA.png",
+    "width": 2964,
+    "height": 52,
+    "frameCount": 57
+  },
+  "CORSOLA_1": {
+    "file": "CORSOLA_1.png",
+    "width": 3675,
+    "height": 49,
+    "frameCount": 75
+  },
+  "CORVIKNIGHT": {
+    "file": "CORVIKNIGHT.png",
+    "width": 9312,
+    "height": 96,
+    "frameCount": 97
+  },
+  "CORVIKNIGHT_1": {
+    "file": "CORVIKNIGHT_1.png",
+    "width": 12117,
+    "height": 248,
+    "frameCount": 57
+  },
+  "CORVISQUIRE": {
+    "file": "CORVISQUIRE.png",
+    "width": 1674,
+    "height": 93,
+    "frameCount": 18
+  },
+  "COSMOEM": {
+    "file": "COSMOEM.png",
+    "width": 6200,
+    "height": 62,
+    "frameCount": 100
+  },
+  "COSMOG": {
+    "file": "COSMOG.png",
+    "width": 8004,
+    "height": 87,
+    "frameCount": 92
+  },
+  "COTTONEE": {
+    "file": "COTTONEE.png",
+    "width": 3276,
+    "height": 52,
+    "frameCount": 63
+  },
+  "CRABOMINABLE": {
+    "file": "CRABOMINABLE.png",
+    "width": 9292,
+    "height": 101,
+    "frameCount": 92
+  },
+  "CRABRAWLER": {
+    "file": "CRABRAWLER.png",
+    "width": 4680,
+    "height": 72,
+    "frameCount": 65
+  },
+  "CRADILY": {
+    "file": "CRADILY.png",
+    "width": 5214,
+    "height": 79,
+    "frameCount": 66
+  },
+  "CRAMORANT": {
+    "file": "CRAMORANT.png",
+    "width": 4212,
+    "height": 78,
+    "frameCount": 54
+  },
+  "CRAMORANT_1": {
+    "file": "CRAMORANT_1.png",
+    "width": 1512,
+    "height": 126,
+    "frameCount": 12
+  },
+  "CRAMORANT_2": {
+    "file": "CRAMORANT_2.png",
+    "width": 1260,
+    "height": 105,
+    "frameCount": 12
+  },
+  "CRANIDOS": {
+    "file": "CRANIDOS.png",
+    "width": 3717,
+    "height": 59,
+    "frameCount": 63
+  },
+  "CRAWDAUNT": {
+    "file": "CRAWDAUNT.png",
+    "width": 3430,
+    "height": 70,
+    "frameCount": 49
+  },
+  "CRESSELIA": {
+    "file": "CRESSELIA.png",
+    "width": 7776,
+    "height": 81,
+    "frameCount": 96
+  },
+  "CROAGUNK": {
+    "file": "CROAGUNK.png",
+    "width": 3850,
+    "height": 50,
+    "frameCount": 77
+  },
+  "CROAGUNK_female": {
+    "file": "CROAGUNK_female.png",
+    "width": 3850,
+    "height": 50,
+    "frameCount": 77
+  },
+  "CROBAT": {
+    "file": "CROBAT.png",
+    "width": 4982,
+    "height": 106,
+    "frameCount": 47
+  },
+  "CROCALOR": {
+    "file": "CROCALOR.png",
+    "width": 7584,
+    "height": 96,
+    "frameCount": 79
+  },
+  "CROCONAW": {
+    "file": "CROCONAW.png",
+    "width": 5310,
+    "height": 59,
+    "frameCount": 90
+  },
+  "CRUSTLE": {
+    "file": "CRUSTLE.png",
+    "width": 4500,
+    "height": 75,
+    "frameCount": 60
+  },
+  "CRYOGONAL": {
+    "file": "CRYOGONAL.png",
+    "width": 6106,
+    "height": 86,
+    "frameCount": 79
+  },
+  "CUBCHOO": {
+    "file": "CUBCHOO.png",
+    "width": 3496,
+    "height": 38,
+    "frameCount": 92
+  },
+  "CUBONE": {
+    "file": "CUBONE.png",
+    "width": 3871,
+    "height": 49,
+    "frameCount": 79
+  },
+  "CUFANT": {
+    "file": "CUFANT.png",
+    "width": 6240,
+    "height": 78,
+    "frameCount": 75
+  },
+  "CURSOLA": {
+    "file": "CURSOLA.png",
+    "width": 15950,
+    "height": 110,
+    "frameCount": 146
+  },
+  "CUTIEFLY": {
+    "file": "CUTIEFLY.png",
+    "width": 2880,
+    "height": 90,
+    "frameCount": 32
+  },
+  "CYCLIZAR": {
+    "file": "CYCLIZAR.png",
+    "width": 8184,
+    "height": 88,
+    "frameCount": 93
+  },
+  "CYNDAQUIL": {
+    "file": "CYNDAQUIL.png",
+    "width": 5632,
+    "height": 44,
+    "frameCount": 123
+  },
+  "DACHSBUN": {
+    "file": "DACHSBUN.png",
+    "width": 8640,
+    "height": 120,
+    "frameCount": 72
+  },
+  "DARKRAI": {
+    "file": "DARKRAI.png",
+    "width": 6816,
+    "height": 96,
+    "frameCount": 71
+  },
+  "DARMANITAN": {
+    "file": "DARMANITAN.png",
+    "width": 4968,
+    "height": 69,
+    "frameCount": 72
+  },
+  "DARMANITAN_1": {
+    "file": "DARMANITAN_1.png",
+    "width": 3283,
+    "height": 49,
+    "frameCount": 67
+  },
+  "DARMANITAN_2": {
+    "file": "DARMANITAN_2.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "DARMANITAN_3": {
+    "file": "DARMANITAN_3.png",
+    "width": 432,
+    "height": 72,
+    "frameCount": 6
+  },
+  "DARTRIX": {
+    "file": "DARTRIX.png",
+    "width": 4512,
+    "height": 96,
+    "frameCount": 47
+  },
+  "DARUMAKA": {
+    "file": "DARUMAKA.png",
+    "width": 3318,
+    "height": 42,
+    "frameCount": 79
+  },
+  "DARUMAKA_1": {
+    "file": "DARUMAKA_1.png",
+    "width": 192,
+    "height": 192,
+    "frameCount": 1
+  },
+  "DARUMAKA_2": {
+    "file": "DARUMAKA_2.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "DECIDUEYE": {
+    "file": "DECIDUEYE.png",
+    "width": 4704,
+    "height": 96,
+    "frameCount": 49
+  },
+  "DECIDUEYE_1": {
+    "file": "DECIDUEYE_1.png",
+    "width": 12636,
+    "height": 81,
+    "frameCount": 156
+  },
+  "DEDENNE": {
+    "file": "DEDENNE.png",
+    "width": 2976,
+    "height": 96,
+    "frameCount": 31
+  },
+  "DEERLING": {
+    "file": "DEERLING.png",
+    "width": 3250,
+    "height": 50,
+    "frameCount": 65
+  },
+  "DEERLING_1": {
+    "file": "DEERLING_1.png",
+    "width": 3250,
+    "height": 50,
+    "frameCount": 65
+  },
+  "DEERLING_2": {
+    "file": "DEERLING_2.png",
+    "width": 3250,
+    "height": 50,
+    "frameCount": 65
+  },
+  "DEERLING_3": {
+    "file": "DEERLING_3.png",
+    "width": 3250,
+    "height": 50,
+    "frameCount": 65
+  },
+  "DEINO": {
+    "file": "DEINO.png",
+    "width": 3150,
+    "height": 50,
+    "frameCount": 63
+  },
+  "DELCATTY": {
+    "file": "DELCATTY.png",
+    "width": 4575,
+    "height": 61,
+    "frameCount": 75
+  },
+  "DELIBIRD": {
+    "file": "DELIBIRD.png",
+    "width": 3060,
+    "height": 51,
+    "frameCount": 60
+  },
+  "DELPHOX": {
+    "file": "DELPHOX.png",
+    "width": 1536,
+    "height": 96,
+    "frameCount": 16
+  },
+  "DEOXYS": {
+    "file": "DEOXYS.png",
+    "width": 3850,
+    "height": 77,
+    "frameCount": 50
+  },
+  "DEOXYS_1": {
+    "file": "DEOXYS_1.png",
+    "width": 6800,
+    "height": 85,
+    "frameCount": 80
+  },
+  "DEOXYS_2": {
+    "file": "DEOXYS_2.png",
+    "width": 5481,
+    "height": 87,
+    "frameCount": 63
+  },
+  "DEOXYS_3": {
+    "file": "DEOXYS_3.png",
+    "width": 8245,
+    "height": 97,
+    "frameCount": 85
+  },
+  "DEWGONG": {
+    "file": "DEWGONG.png",
+    "width": 4575,
+    "height": 75,
+    "frameCount": 61
+  },
+  "DEWOTT": {
+    "file": "DEWOTT.png",
+    "width": 2907,
+    "height": 57,
+    "frameCount": 51
+  },
+  "DEWPIDER": {
+    "file": "DEWPIDER.png",
+    "width": 6192,
+    "height": 43,
+    "frameCount": 144
+  },
+  "DHELMISE": {
+    "file": "DHELMISE.png",
+    "width": 12649,
+    "height": 91,
+    "frameCount": 139
+  },
+  "DIALGA": {
+    "file": "DIALGA.png",
+    "width": 5984,
+    "height": 88,
+    "frameCount": 68
+  },
+  "DIALGA_1": {
+    "file": "DIALGA_1.png",
+    "width": 14040,
+    "height": 120,
+    "frameCount": 117
+  },
+  "DIANCIE": {
+    "file": "DIANCIE.png",
+    "width": 7776,
+    "height": 81,
+    "frameCount": 96
+  },
+  "DIANCIE_1": {
+    "file": "DIANCIE_1.png",
+    "width": 3441,
+    "height": 93,
+    "frameCount": 37
+  },
+  "DIGGERSBY": {
+    "file": "DIGGERSBY.png",
+    "width": 5856,
+    "height": 96,
+    "frameCount": 61
+  },
+  "DIGLETT": {
+    "file": "DIGLETT.png",
+    "width": 2052,
+    "height": 38,
+    "frameCount": 54
+  },
+  "DIGLETT_1": {
+    "file": "DIGLETT_1.png",
+    "width": 1749,
+    "height": 33,
+    "frameCount": 53
+  },
+  "DIPPLIN": {
+    "file": "DIPPLIN.png",
+    "width": 6336,
+    "height": 96,
+    "frameCount": 66
+  },
+  "DITTO": {
+    "file": "DITTO.png",
+    "width": 1880,
+    "height": 47,
+    "frameCount": 40
+  },
+  "DODRIO": {
+    "file": "DODRIO.png",
+    "width": 5852,
+    "height": 76,
+    "frameCount": 77
+  },
+  "DODRIO_female": {
+    "file": "DODRIO_female.png",
+    "width": 5852,
+    "height": 76,
+    "frameCount": 77
+  },
+  "DODUO": {
+    "file": "DODUO.png",
+    "width": 5640,
+    "height": 60,
+    "frameCount": 90
+  },
+  "DODUO_female": {
+    "file": "DODUO_female.png",
+    "width": 5640,
+    "height": 60,
+    "frameCount": 90
+  },
+  "DOLLIV": {
+    "file": "DOLLIV.png",
+    "width": 4000,
+    "height": 100,
+    "frameCount": 40
+  },
+  "DONDOZO": {
+    "file": "DONDOZO.png",
+    "width": 3840,
+    "height": 96,
+    "frameCount": 40
+  },
+  "DONPHAN": {
+    "file": "DONPHAN.png",
+    "width": 5166,
+    "height": 82,
+    "frameCount": 57
+  },
+  "DONPHAN_female": {
+    "file": "DONPHAN_female.png",
+    "width": 5166,
+    "height": 82,
+    "frameCount": 57
+  },
+  "DOTTLER": {
+    "file": "DOTTLER.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "DOUBLADE": {
+    "file": "DOUBLADE.png",
+    "width": 1632,
+    "height": 96,
+    "frameCount": 17
+  },
+  "DRACOVISH": {
+    "file": "DRACOVISH.png",
+    "width": 6552,
+    "height": 84,
+    "frameCount": 78
+  },
+  "DRACOZOLT": {
+    "file": "DRACOZOLT.png",
+    "width": 3654,
+    "height": 87,
+    "frameCount": 42
+  },
+  "DRAGALGE": {
+    "file": "DRAGALGE.png",
+    "width": 2548,
+    "height": 98,
+    "frameCount": 24
+  },
+  "DRAGAPULT": {
+    "file": "DRAGAPULT.png",
+    "width": 6992,
+    "height": 92,
+    "frameCount": 76
+  },
+  "DRAGONAIR": {
+    "file": "DRAGONAIR.png",
+    "width": 4662,
+    "height": 74,
+    "frameCount": 63
+  },
+  "DRAGONITE": {
+    "file": "DRAGONITE.png",
+    "width": 4182,
+    "height": 82,
+    "frameCount": 51
+  },
+  "DRAKLOAK": {
+    "file": "DRAKLOAK.png",
+    "width": 9240,
+    "height": 88,
+    "frameCount": 105
+  },
+  "DRAMPA": {
+    "file": "DRAMPA.png",
+    "width": 1440,
+    "height": 120,
+    "frameCount": 12
+  },
+  "DRAPION": {
+    "file": "DRAPION.png",
+    "width": 8448,
+    "height": 96,
+    "frameCount": 88
+  },
+  "DRATINI": {
+    "file": "DRATINI.png",
+    "width": 1275,
+    "height": 51,
+    "frameCount": 25
+  },
+  "DREDNAW": {
+    "file": "DREDNAW.png",
+    "width": 3744,
+    "height": 96,
+    "frameCount": 39
+  },
+  "DREDNAW_1": {
+    "file": "DREDNAW_1.png",
+    "width": 9350,
+    "height": 110,
+    "frameCount": 85
+  },
+  "DREEPY": {
+    "file": "DREEPY.png",
+    "width": 5192,
+    "height": 59,
+    "frameCount": 88
+  },
+  "DRIFBLIM": {
+    "file": "DRIFBLIM.png",
+    "width": 2628,
+    "height": 73,
+    "frameCount": 36
+  },
+  "DRIFLOON": {
+    "file": "DRIFLOON.png",
+    "width": 4416,
+    "height": 69,
+    "frameCount": 72
+  },
+  "DRILBUR": {
+    "file": "DRILBUR.png",
+    "width": 4182,
+    "height": 82,
+    "frameCount": 51
+  },
+  "DRIZZILE": {
+    "file": "DRIZZILE.png",
+    "width": 7367,
+    "height": 53,
+    "frameCount": 139
+  },
+  "DROWZEE": {
+    "file": "DROWZEE.png",
+    "width": 4408,
+    "height": 58,
+    "frameCount": 76
+  },
+  "DRUDDIGON": {
+    "file": "DRUDDIGON.png",
+    "width": 5670,
+    "height": 90,
+    "frameCount": 63
+  },
+  "DUBWOOL": {
+    "file": "DUBWOOL.png",
+    "width": 5472,
+    "height": 76,
+    "frameCount": 72
+  },
+  "DUCKLETT": {
+    "file": "DUCKLETT.png",
+    "width": 1640,
+    "height": 40,
+    "frameCount": 41
+  },
+  "DUDUNSPARCE": {
+    "file": "DUDUNSPARCE.png",
+    "width": 5952,
+    "height": 96,
+    "frameCount": 62
+  },
+  "DUDUNSPARCE_1": {
+    "file": "DUDUNSPARCE_1.png",
+    "width": 1008,
+    "height": 63,
+    "frameCount": 7
+  },
+  "DUGTRIO": {
+    "file": "DUGTRIO.png",
+    "width": 2132,
+    "height": 52,
+    "frameCount": 41
+  },
+  "DUGTRIO_1": {
+    "file": "DUGTRIO_1.png",
+    "width": 2016,
+    "height": 48,
+    "frameCount": 28
+  },
+  "DUNSPARCE": {
+    "file": "DUNSPARCE.png",
+    "width": 2160,
+    "height": 45,
+    "frameCount": 48
+  },
+  "DUOSION": {
+    "file": "DUOSION.png",
+    "width": 5372,
+    "height": 68,
+    "frameCount": 79
+  },
+  "DURALUDON": {
+    "file": "DURALUDON.png",
+    "width": 768,
+    "height": 96,
+    "frameCount": 8
+  },
+  "DURALUDON_1": {
+    "file": "DURALUDON_1.png",
+    "width": 2304,
+    "height": 96,
+    "frameCount": 24
+  },
+  "DURANT": {
+    "file": "DURANT.png",
+    "width": 1944,
+    "height": 54,
+    "frameCount": 36
+  },
+  "DUSCLOPS": {
+    "file": "DUSCLOPS.png",
+    "width": 4872,
+    "height": 84,
+    "frameCount": 58
+  },
+  "DUSKNOIR": {
+    "file": "DUSKNOIR.png",
+    "width": 3600,
+    "height": 75,
+    "frameCount": 48
+  },
+  "DUSKULL": {
+    "file": "DUSKULL.png",
+    "width": 2142,
+    "height": 51,
+    "frameCount": 38
+  },
+  "DUSTOX": {
+    "file": "DUSTOX.png",
+    "width": 6560,
+    "height": 80,
+    "frameCount": 82
+  },
+  "DUSTOX_female": {
+    "file": "DUSTOX_female.png",
+    "width": 6560,
+    "height": 80,
+    "frameCount": 82
+  },
+  "DWEBBLE": {
+    "file": "DWEBBLE.png",
+    "width": 1681,
+    "height": 41,
+    "frameCount": 37
+  },
+  "EELEKTRIK": {
+    "file": "EELEKTRIK.png",
+    "width": 2967,
+    "height": 69,
+    "frameCount": 43
+  },
+  "EELEKTROSS": {
+    "file": "EELEKTROSS.png",
+    "width": 6048,
+    "height": 96,
+    "frameCount": 63
+  },
+  "EEVEE": {
+    "file": "EEVEE.png",
+    "width": 3087,
+    "height": 49,
+    "frameCount": 63
+  },
+  "EEVEE_2": {
+    "file": "EEVEE_2.png",
+    "width": 7392,
+    "height": 96,
+    "frameCount": 77
+  },
+  "EISCUE": {
+    "file": "EISCUE.png",
+    "width": 6120,
+    "height": 85,
+    "frameCount": 72
+  },
+  "EISCUE_1": {
+    "file": "EISCUE_1.png",
+    "width": 5980,
+    "height": 92,
+    "frameCount": 65
+  },
+  "EKANS": {
+    "file": "EKANS.png",
+    "width": 2124,
+    "height": 59,
+    "frameCount": 36
+  },
+  "ELDEGOSS": {
+    "file": "ELDEGOSS.png",
+    "width": 3528,
+    "height": 72,
+    "frameCount": 49
+  },
+  "ELECTABUZZ": {
+    "file": "ELECTABUZZ.png",
+    "width": 3408,
+    "height": 71,
+    "frameCount": 45
+  },
+  "ELECTABUZZ_shadow": {
+    "file": "ELECTABUZZ_shadow.png",
+    "width": 160,
+    "height": 160,
+    "frameCount": 1
+  },
+  "ELECTIVIRE": {
+    "file": "ELECTIVIRE.png",
+    "width": 4896,
+    "height": 96,
+    "frameCount": 49
+  },
+  "ELECTRIKE": {
+    "file": "ELECTRIKE.png",
+    "width": 2050,
+    "height": 50,
+    "frameCount": 30
+  },
+  "ELECTRODE": {
+    "file": "ELECTRODE.png",
+    "width": 1248,
+    "height": 52,
+    "frameCount": 24
+  },
+  "ELECTRODE_1": {
+    "file": "ELECTRODE_1.png",
+    "width": 3776,
+    "height": 59,
+    "frameCount": 64
+  },
+  "ELEKID": {
+    "file": "ELEKID.png",
+    "width": 2444,
+    "height": 52,
+    "frameCount": 47
+  },
+  "ELGYEM": {
+    "file": "ELGYEM.png",
+    "width": 2800,
+    "height": 50,
+    "frameCount": 56
+  },
+  "EMBOAR": {
+    "file": "EMBOAR.png",
+    "width": 7387,
+    "height": 89,
+    "frameCount": 83
+  },
+  "EMOLGA": {
+    "file": "EMOLGA.png",
+    "width": 7802,
+    "height": 83,
+    "frameCount": 94
+  },
+  "EMPOLEON": {
+    "file": "EMPOLEON.png",
+    "width": 5720,
+    "height": 88,
+    "frameCount": 65
+  },
+  "ENAMORUS": {
+    "file": "ENAMORUS.png",
+    "width": 10848,
+    "height": 96,
+    "frameCount": 113
+  },
+  "ENAMORUS_1": {
+    "file": "ENAMORUS_1.png",
+    "width": 12360,
+    "height": 120,
+    "frameCount": 103
+  },
+  "ENTEI": {
+    "file": "ENTEI.png",
+    "width": 4180,
+    "height": 76,
+    "frameCount": 52
+  },
+  "ESCAVALIER": {
+    "file": "ESCAVALIER.png",
+    "width": 9520,
+    "height": 80,
+    "frameCount": 115
+  },
+  "ESPATHRA": {
+    "file": "ESPATHRA.png",
+    "width": 5952,
+    "height": 96,
+    "frameCount": 62
+  },
+  "ESPEON": {
+    "file": "ESPEON.png",
+    "width": 4095,
+    "height": 63,
+    "frameCount": 62
+  },
+  "ESPURR": {
+    "file": "ESPURR.png",
+    "width": 2688,
+    "height": 96,
+    "frameCount": 28
+  },
+  "ETERNATUS": {
+    "file": "ETERNATUS.png",
+    "width": 13320,
+    "height": 111,
+    "frameCount": 120
+  },
+  "ETERNATUS_1": {
+    "file": "ETERNATUS_1.png",
+    "width": 3920,
+    "height": 112,
+    "frameCount": 35
+  },
+  "EXCADRILL": {
+    "file": "EXCADRILL.png",
+    "width": 7644,
+    "height": 91,
+    "frameCount": 82
+  },
+  "EXEGGCUTE": {
+    "file": "EXEGGCUTE.png",
+    "width": 1485,
+    "height": 55,
+    "frameCount": 24
+  },
+  "EXEGGUTOR": {
+    "file": "EXEGGUTOR.png",
+    "width": 3555,
+    "height": 79,
+    "frameCount": 45
+  },
+  "EXEGGUTOR_1": {
+    "file": "EXEGGUTOR_1.png",
+    "width": 11413,
+    "height": 113,
+    "frameCount": 101
+  },
+  "EXPLOUD": {
+    "file": "EXPLOUD.png",
+    "width": 4307,
+    "height": 73,
+    "frameCount": 59
+  },
+  "FALINKS": {
+    "file": "FALINKS.png",
+    "width": 1728,
+    "height": 96,
+    "frameCount": 18
+  },
+  "FARFETCHD": {
+    "file": "FARFETCHD.png",
+    "width": 1536,
+    "height": 48,
+    "frameCount": 32
+  },
+  "FARFETCHD_1": {
+    "file": "FARFETCHD_1.png",
+    "width": 14976,
+    "height": 96,
+    "frameCount": 156
+  },
+  "FARIGIRAF": {
+    "file": "FARIGIRAF.png",
+    "width": 3840,
+    "height": 96,
+    "frameCount": 40
+  },
+  "FEAROW": {
+    "file": "FEAROW.png",
+    "width": 1155,
+    "height": 105,
+    "frameCount": 11
+  },
+  "FEEBAS": {
+    "file": "FEEBAS.png",
+    "width": 2340,
+    "height": 52,
+    "frameCount": 45
+  },
+  "FENNEKIN": {
+    "file": "FENNEKIN.png",
+    "width": 3577,
+    "height": 49,
+    "frameCount": 73
+  },
+  "FERALIGATR": {
+    "file": "FERALIGATR.png",
+    "width": 3362,
+    "height": 82,
+    "frameCount": 38
+  },
+  "FERROSEED": {
+    "file": "FERROSEED.png",
+    "width": 3402,
+    "height": 42,
+    "frameCount": 81
+  },
+  "FERROTHORN": {
+    "file": "FERROTHORN.png",
+    "width": 5070,
+    "height": 78,
+    "frameCount": 65
+  },
+  "FEZANDIPITI": {
+    "file": "FEZANDIPITI.png",
+    "width": 12672,
+    "height": 96,
+    "frameCount": 132
+  },
+  "FIDOUGH": {
+    "file": "FIDOUGH.png",
+    "width": 6048,
+    "height": 96,
+    "frameCount": 63
+  },
+  "FINIZEN": {
+    "file": "FINIZEN.png",
+    "width": 7600,
+    "height": 100,
+    "frameCount": 76
+  },
+  "FINNEON": {
+    "file": "FINNEON.png",
+    "width": 6699,
+    "height": 77,
+    "frameCount": 87
+  },
+  "FINNEON_female": {
+    "file": "FINNEON_female.png",
+    "width": 6699,
+    "height": 77,
+    "frameCount": 87
+  },
+  "FLAAFFY": {
+    "file": "FLAAFFY.png",
+    "width": 2860,
+    "height": 52,
+    "frameCount": 55
+  },
+  "FLABEBE": {
+    "file": "FLABEBE.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "FLABEBE_1": {
+    "file": "FLABEBE_1.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "FLABEBE_2": {
+    "file": "FLABEBE_2.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "FLABEBE_3": {
+    "file": "FLABEBE_3.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "FLABEBE_4": {
+    "file": "FLABEBE_4.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "FLAMIGO": {
+    "file": "FLAMIGO.png",
+    "width": 7872,
+    "height": 96,
+    "frameCount": 82
+  },
+  "FLAPPLE": {
+    "file": "FLAPPLE.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "FLAPPLE_1": {
+    "file": "FLAPPLE_1.png",
+    "width": 396,
+    "height": 99,
+    "frameCount": 4
+  },
+  "FLAREON": {
+    "file": "FLAREON.png",
+    "width": 3894,
+    "height": 66,
+    "frameCount": 41
+  },
+  "FLETCHINDER": {
+    "file": "FLETCHINDER.png",
+    "width": 2322,
+    "height": 86,
+    "frameCount": 27
+  },
+  "FLETCHLING": {
+    "file": "FLETCHLING.png",
+    "width": 2976,
+    "height": 96,
+    "frameCount": 31
+  },
+  "FLITTLE": {
+    "file": "FLITTLE.png",
+    "width": 5952,
+    "height": 96,
+    "frameCount": 62
+  },
+  "FLOATZEL": {
+    "file": "FLOATZEL.png",
+    "width": 5964,
+    "height": 71,
+    "frameCount": 84
+  },
+  "FLOATZEL_female": {
+    "file": "FLOATZEL_female.png",
+    "width": 5964,
+    "height": 71,
+    "frameCount": 84
+  },
+  "FLOETTE": {
+    "file": "FLOETTE.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "FLOETTE_1": {
+    "file": "FLOETTE_1.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "FLOETTE_2": {
+    "file": "FLOETTE_2.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "FLOETTE_3": {
+    "file": "FLOETTE_3.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "FLOETTE_4": {
+    "file": "FLOETTE_4.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "FLOETTE_5": {
+    "file": "FLOETTE_5.png",
+    "width": 3520,
+    "height": 80,
+    "frameCount": 44
+  },
+  "FLORAGATO": {
+    "file": "FLORAGATO.png",
+    "width": 6790,
+    "height": 97,
+    "frameCount": 78
+  },
+  "FLORGES": {
+    "file": "FLORGES.png",
+    "width": 2304,
+    "height": 96,
+    "frameCount": 24
+  },
+  "FLORGES_1": {
+    "file": "FLORGES_1.png",
+    "width": 2304,
+    "height": 96,
+    "frameCount": 24
+  },
+  "FLORGES_2": {
+    "file": "FLORGES_2.png",
+    "width": 2304,
+    "height": 96,
+    "frameCount": 24
+  },
+  "FLORGES_3": {
+    "file": "FLORGES_3.png",
+    "width": 2304,
+    "height": 96,
+    "frameCount": 24
+  },
+  "FLORGES_4": {
+    "file": "FLORGES_4.png",
+    "width": 2304,
+    "height": 96,
+    "frameCount": 24
+  },
+  "FLUTTERMANE": {
+    "file": "FLUTTERMANE.png",
+    "width": 6912,
+    "height": 72,
+    "frameCount": 96
+  },
+  "FLYGON": {
+    "file": "FLYGON.png",
+    "width": 5103,
+    "height": 81,
+    "frameCount": 63
+  },
+  "FOMANTIS": {
+    "file": "FOMANTIS.png",
+    "width": 11712,
+    "height": 96,
+    "frameCount": 122
+  },
+  "FOONGUS": {
+    "file": "FOONGUS.png",
+    "width": 1764,
+    "height": 36,
+    "frameCount": 49
+  },
+  "FORRETRESS": {
+    "file": "FORRETRESS.png",
+    "width": 1701,
+    "height": 63,
+    "frameCount": 27
+  },
+  "FRAXURE": {
+    "file": "FRAXURE.png",
+    "width": 3339,
+    "height": 63,
+    "frameCount": 53
+  },
+  "FRIGIBAX": {
+    "file": "FRIGIBAX.png",
+    "width": 3108,
+    "height": 37,
+    "frameCount": 84
+  },
+  "FRILLISH": {
+    "file": "FRILLISH.png",
+    "width": 5904,
+    "height": 72,
+    "frameCount": 82
+  },
+  "FRILLISH_female": {
+    "file": "FRILLISH_female.png",
+    "width": 5740,
+    "height": 70,
+    "frameCount": 82
+  },
+  "FROAKIE": {
+    "file": "FROAKIE.png",
+    "width": 2976,
+    "height": 96,
+    "frameCount": 31
+  },
+  "FROGADIER": {
+    "file": "FROGADIER.png",
+    "width": 2208,
+    "height": 96,
+    "frameCount": 23
+  },
+  "FROSLASS": {
+    "file": "FROSLASS.png",
+    "width": 4950,
+    "height": 75,
+    "frameCount": 66
+  },
+  "FROSMOTH": {
+    "file": "FROSMOTH.png",
+    "width": 2068,
+    "height": 94,
+    "frameCount": 22
+  },
+  "FUECOCO": {
+    "file": "FUECOCO.png",
+    "width": 2496,
+    "height": 96,
+    "frameCount": 26
+  },
+  "FURFROU": {
+    "file": "FURFROU.png",
+    "width": 2304,
+    "height": 96,
+    "frameCount": 24
+  },
+  "FURFROU_1": {
+    "file": "FURFROU_1.png",
+    "width": 792,
+    "height": 66,
+    "frameCount": 12
+  },
+  "FURFROU_2": {
+    "file": "FURFROU_2.png",
+    "width": 792,
+    "height": 66,
+    "frameCount": 12
+  },
+  "FURFROU_3": {
+    "file": "FURFROU_3.png",
+    "width": 816,
+    "height": 68,
+    "frameCount": 12
+  },
+  "FURFROU_4": {
+    "file": "FURFROU_4.png",
+    "width": 732,
+    "height": 61,
+    "frameCount": 12
+  },
+  "FURFROU_5": {
+    "file": "FURFROU_5.png",
+    "width": 744,
+    "height": 62,
+    "frameCount": 12
+  },
+  "FURFROU_6": {
+    "file": "FURFROU_6.png",
+    "width": 780,
+    "height": 65,
+    "frameCount": 12
+  },
+  "FURFROU_7": {
+    "file": "FURFROU_7.png",
+    "width": 756,
+    "height": 63,
+    "frameCount": 12
+  },
+  "FURFROU_8": {
+    "file": "FURFROU_8.png",
+    "width": 768,
+    "height": 64,
+    "frameCount": 12
+  },
+  "FURFROU_9": {
+    "file": "FURFROU_9.png",
+    "width": 756,
+    "height": 63,
+    "frameCount": 12
+  },
+  "FURRET": {
+    "file": "FURRET.png",
+    "width": 3190,
+    "height": 58,
+    "frameCount": 55
+  },
+  "GABITE": {
+    "file": "GABITE.png",
+    "width": 1917,
+    "height": 71,
+    "frameCount": 27
+  },
+  "GABITE_female": {
+    "file": "GABITE_female.png",
+    "width": 1917,
+    "height": 71,
+    "frameCount": 27
+  },
+  "GALLADE": {
+    "file": "GALLADE.png",
+    "width": 4620,
+    "height": 70,
+    "frameCount": 66
+  },
+  "GALLADE_1": {
+    "file": "GALLADE_1.png",
+    "width": 11232,
+    "height": 96,
+    "frameCount": 117
+  },
+  "GALVANTULA": {
+    "file": "GALVANTULA.png",
+    "width": 4828,
+    "height": 68,
+    "frameCount": 71
+  },
+  "GARBODOR": {
+    "file": "GARBODOR.png",
+    "width": 6324,
+    "height": 93,
+    "frameCount": 64
+  },
+  "GARBODOR_1": {
+    "file": "GARBODOR_1.png",
+    "width": 5280,
+    "height": 110,
+    "frameCount": 48
+  },
+  "GARCHOMP": {
+    "file": "GARCHOMP.png",
+    "width": 3608,
+    "height": 82,
+    "frameCount": 38
+  },
+  "GARCHOMP_1": {
+    "file": "GARCHOMP_1.png",
+    "width": 10602,
+    "height": 93,
+    "frameCount": 114
+  },
+  "GARCHOMP_female": {
+    "file": "GARCHOMP_female.png",
+    "width": 3608,
+    "height": 82,
+    "frameCount": 38
+  },
+  "GARDEVOIR": {
+    "file": "GARDEVOIR.png",
+    "width": 9394,
+    "height": 77,
+    "frameCount": 122
+  },
+  "GARDEVOIR_1": {
+    "file": "GARDEVOIR_1.png",
+    "width": 2976,
+    "height": 96,
+    "frameCount": 31
+  },
+  "GARGANACL": {
+    "file": "GARGANACL.png",
+    "width": 3120,
+    "height": 120,
+    "frameCount": 26
+  },
+  "GASTLY": {
+    "file": "GASTLY.png",
+    "width": 4125,
+    "height": 75,
+    "frameCount": 124
+  },
+  "GASTRODON": {
+    "file": "GASTRODON.png",
+    "width": 3240,
+    "height": 60,
+    "frameCount": 54
+  },
+  "GASTRODON_1": {
+    "file": "GASTRODON_1.png",
+    "width": 3721,
+    "height": 61,
+    "frameCount": 61
+  },
+  "GENESECT": {
+    "file": "GENESECT.png",
+    "width": 6230,
+    "height": 70,
+    "frameCount": 89
+  },
+  "GENESECT_1": {
+    "file": "GENESECT_1.png",
+    "width": 6230,
+    "height": 70,
+    "frameCount": 89
+  },
+  "GENESECT_2": {
+    "file": "GENESECT_2.png",
+    "width": 6230,
+    "height": 70,
+    "frameCount": 89
+  },
+  "GENESECT_3": {
+    "file": "GENESECT_3.png",
+    "width": 6230,
+    "height": 70,
+    "frameCount": 89
+  },
+  "GENESECT_4": {
+    "file": "GENESECT_4.png",
+    "width": 6230,
+    "height": 70,
+    "frameCount": 89
+  },
+  "GENGAR": {
+    "file": "GENGAR.png",
+    "width": 3476,
+    "height": 79,
+    "frameCount": 44
+  },
+  "GENGAR_1": {
+    "file": "GENGAR_1.png",
+    "width": 2262,
+    "height": 78,
+    "frameCount": 24
+  },
+  "GENGAR_2": {
+    "file": "GENGAR_2.png",
+    "width": 832,
+    "height": 104,
+    "frameCount": 8
+  },
+  "GEODUDE": {
+    "file": "GEODUDE.png",
+    "width": 3172,
+    "height": 61,
+    "frameCount": 41
+  },
+  "GEODUDE_1": {
+    "file": "GEODUDE_1.png",
+    "width": 3220,
+    "height": 70,
+    "frameCount": 45
+  },
+  "GHOLDENGO": {
+    "file": "GHOLDENGO.png",
+    "width": 11067,
+    "height": 119,
+    "frameCount": 105
+  },
+  "GIBLE": {
+    "file": "GIBLE.png",
+    "width": 3591,
+    "height": 57,
+    "frameCount": 63
+  },
+  "GIBLE_female": {
+    "file": "GIBLE_female.png",
+    "width": 3591,
+    "height": 57,
+    "frameCount": 63
+  },
+  "GIGALITH": {
+    "file": "GIGALITH.png",
+    "width": 8019,
+    "height": 81,
+    "frameCount": 96
+  },
+  "GIMMIGHOUL": {
+    "file": "GIMMIGHOUL.png",
+    "width": 6649,
+    "height": 61,
+    "frameCount": 109
+  },
+  "GIMMIGHOUL_1": {
+    "file": "GIMMIGHOUL_1.png",
+    "width": 350,
+    "height": 50,
+    "frameCount": 8
+  },
+  "GIRAFARIG": {
+    "file": "GIRAFARIG.png",
+    "width": 3952,
+    "height": 76,
+    "frameCount": 52
+  },
+  "GIRAFARIG_female": {
+    "file": "GIRAFARIG_female.png",
+    "width": 3952,
+    "height": 76,
+    "frameCount": 52
+  },
+  "GIRATINA": {
+    "file": "GIRATINA.png",
+    "width": 8137,
+    "height": 103,
+    "frameCount": 79
+  },
+  "GIRATINA_1": {
+    "file": "GIRATINA_1.png",
+    "width": 1183,
+    "height": 91,
+    "frameCount": 13
+  },
+  "GLACEON": {
+    "file": "GLACEON.png",
+    "width": 6622,
+    "height": 77,
+    "frameCount": 86
+  },
+  "GLALIE": {
+    "file": "GLALIE.png",
+    "width": 3038,
+    "height": 62,
+    "frameCount": 49
+  },
+  "GLALIE_1": {
+    "file": "GLALIE_1.png",
+    "width": 3038,
+    "height": 62,
+    "frameCount": 49
+  },
+  "GLAMEOW": {
+    "file": "GLAMEOW.png",
+    "width": 6912,
+    "height": 72,
+    "frameCount": 96
+  },
+  "GLASTRIER": {
+    "file": "GLASTRIER.png",
+    "width": 7812,
+    "height": 84,
+    "frameCount": 93
+  },
+  "GLIGAR": {
+    "file": "GLIGAR.png",
+    "width": 3162,
+    "height": 93,
+    "frameCount": 34
+  },
+  "GLIGAR_female": {
+    "file": "GLIGAR_female.png",
+    "width": 3162,
+    "height": 93,
+    "frameCount": 34
+  },
+  "GLIMMET": {
+    "file": "GLIMMET.png",
+    "width": 5700,
+    "height": 75,
+    "frameCount": 76
+  },
+  "GLIMMORA": {
+    "file": "GLIMMORA.png",
+    "width": 3648,
+    "height": 96,
+    "frameCount": 38
+  },
+  "GLISCOR": {
+    "file": "GLISCOR.png",
+    "width": 5610,
+    "height": 85,
+    "frameCount": 66
+  },
+  "GLOOM": {
+    "file": "GLOOM.png",
+    "width": 2448,
+    "height": 51,
+    "frameCount": 48
+  },
+  "GLOOM_female": {
+    "file": "GLOOM_female.png",
+    "width": 2448,
+    "height": 51,
+    "frameCount": 48
+  },
+  "GOGOAT": {
+    "file": "GOGOAT.png",
+    "width": 1536,
+    "height": 96,
+    "frameCount": 16
+  },
+  "GOLBAT": {
+    "file": "GOLBAT.png",
+    "width": 888,
+    "height": 111,
+    "frameCount": 8
+  },
+  "GOLBAT_female": {
+    "file": "GOLBAT_female.png",
+    "width": 888,
+    "height": 111,
+    "frameCount": 8
+  },
+  "GOLDEEN": {
+    "file": "GOLDEEN.png",
+    "width": 4275,
+    "height": 75,
+    "frameCount": 57
+  },
+  "GOLDEEN_female": {
+    "file": "GOLDEEN_female.png",
+    "width": 4275,
+    "height": 75,
+    "frameCount": 57
+  },
+  "GOLDUCK": {
+    "file": "GOLDUCK.png",
+    "width": 2280,
+    "height": 60,
+    "frameCount": 38
+  },
+  "GOLEM": {
+    "file": "GOLEM.png",
+    "width": 3240,
+    "height": 72,
+    "frameCount": 45
+  },
+  "GOLEM_1": {
+    "file": "GOLEM_1.png",
+    "width": 7844,
+    "height": 74,
+    "frameCount": 106
+  },
+  "GOLETT": {
+    "file": "GOLETT.png",
+    "width": 2320,
+    "height": 58,
+    "frameCount": 32
+  },
+  "GOLISOPOD": {
+    "file": "GOLISOPOD.png",
+    "width": 1728,
+    "height": 96,
+    "frameCount": 18
+  },
+  "GOLURK": {
+    "file": "GOLURK.png",
+    "width": 6640,
+    "height": 83,
+    "frameCount": 77
+  },
+  "GOODRA": {
+    "file": "GOODRA.png",
+    "width": 14592,
+    "height": 96,
+    "frameCount": 152
+  },
+  "GOODRA_1": {
+    "file": "GOODRA_1.png",
+    "width": 9500,
+    "height": 100,
+    "frameCount": 95
+  },
+  "GOOMY": {
+    "file": "GOOMY.png",
+    "width": 8064,
+    "height": 96,
+    "frameCount": 84
+  },
+  "GOREBYSS": {
+    "file": "GOREBYSS.png",
+    "width": 5194,
+    "height": 98,
+    "frameCount": 53
+  },
+  "GOSSIFLEUR": {
+    "file": "GOSSIFLEUR.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "GOTHITA": {
+    "file": "GOTHITA.png",
+    "width": 2730,
+    "height": 39,
+    "frameCount": 70
+  },
+  "GOTHITELLE": {
+    "file": "GOTHITELLE.png",
+    "width": 7008,
+    "height": 73,
+    "frameCount": 96
+  },
+  "GOTHORITA": {
+    "file": "GOTHORITA.png",
+    "width": 4880,
+    "height": 61,
+    "frameCount": 80
+  },
+  "GOUGINGFIRE": {
+    "file": "GOUGINGFIRE.png",
+    "width": 6840,
+    "height": 90,
+    "frameCount": 76
+  },
+  "GOURGEIST": {
+    "file": "GOURGEIST.png",
+    "width": 4128,
+    "height": 96,
+    "frameCount": 43
+  },
+  "GOURGEIST_1": {
+    "file": "GOURGEIST_1.png",
+    "width": 4128,
+    "height": 96,
+    "frameCount": 43
+  },
+  "GOURGEIST_2": {
+    "file": "GOURGEIST_2.png",
+    "width": 4128,
+    "height": 96,
+    "frameCount": 43
+  },
+  "GOURGEIST_3": {
+    "file": "GOURGEIST_3.png",
+    "width": 4128,
+    "height": 96,
+    "frameCount": 43
+  },
+  "GRAFAIAI": {
+    "file": "GRAFAIAI.png",
+    "width": 1216,
+    "height": 76,
+    "frameCount": 16
+  },
+  "GRANBULL": {
+    "file": "GRANBULL.png",
+    "width": 3843,
+    "height": 61,
+    "frameCount": 63
+  },
+  "GRAPPLOCT": {
+    "file": "GRAPPLOCT.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "GRAVELER": {
+    "file": "GRAVELER.png",
+    "width": 1704,
+    "height": 71,
+    "frameCount": 21
+  },
+  "GRAVELER_1": {
+    "file": "GRAVELER_1.png",
+    "width": 7476,
+    "height": 84,
+    "frameCount": 89
+  },
+  "GREATTUSK": {
+    "file": "GREATTUSK.png",
+    "width": 15092,
+    "height": 98,
+    "frameCount": 154
+  },
+  "GREAVARD": {
+    "file": "GREAVARD.png",
+    "width": 2496,
+    "height": 96,
+    "frameCount": 26
+  },
+  "GREEDENT": {
+    "file": "GREEDENT.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "GRENINJA": {
+    "file": "GRENINJA.png",
+    "width": 2208,
+    "height": 96,
+    "frameCount": 23
+  },
+  "GRENINJA_2": {
+    "file": "GRENINJA_2.png",
+    "width": 9984,
+    "height": 104,
+    "frameCount": 96
+  },
+  "GRIMER": {
+    "file": "GRIMER.png",
+    "width": 4234,
+    "height": 73,
+    "frameCount": 58
+  },
+  "GRIMER_1": {
+    "file": "GRIMER_1.png",
+    "width": 1098,
+    "height": 61,
+    "frameCount": 17
+  },
+  "GRIMMSNARL": {
+    "file": "GRIMMSNARL.png",
+    "width": 6138,
+    "height": 93,
+    "frameCount": 66
+  },
+  "GRIMMSNARL_1": {
+    "file": "GRIMMSNARL_1.png",
+    "width": 6720,
+    "height": 96,
+    "frameCount": 70
+  },
+  "GROOKEY": {
+    "file": "GROOKEY.png",
+    "width": 5376,
+    "height": 96,
+    "frameCount": 56
+  },
+  "GROTLE": {
+    "file": "GROTLE.png",
+    "width": 3477,
+    "height": 61,
+    "frameCount": 57
+  },
+  "GROUDON": {
+    "file": "GROUDON.png",
+    "width": 4410,
+    "height": 90,
+    "frameCount": 49
+  },
+  "GROUDON_1": {
+    "file": "GROUDON_1.png",
+    "width": 4800,
+    "height": 96,
+    "frameCount": 50
+  },
+  "GROVYLE": {
+    "file": "GROVYLE.png",
+    "width": 7980,
+    "height": 70,
+    "frameCount": 114
+  },
+  "GROWLITHE": {
+    "file": "GROWLITHE.png",
+    "width": 3905,
+    "height": 55,
+    "frameCount": 71
+  },
+  "GROWLITHE_1": {
+    "file": "GROWLITHE_1.png",
+    "width": 10032,
+    "height": 88,
+    "frameCount": 114
+  },
+  "GRUBBIN": {
+    "file": "GRUBBIN.png",
+    "width": 1920,
+    "height": 96,
+    "frameCount": 20
+  },
+  "GRUMPIG": {
+    "file": "GRUMPIG.png",
+    "width": 952,
+    "height": 68,
+    "frameCount": 14
+  },
+  "GULPIN": {
+    "file": "GULPIN.png",
+    "width": 2156,
+    "height": 44,
+    "frameCount": 49
+  },
+  "GULPIN_female": {
+    "file": "GULPIN_female.png",
+    "width": 1960,
+    "height": 40,
+    "frameCount": 49
+  },
+  "GUMSHOOS": {
+    "file": "GUMSHOOS.png",
+    "width": 6674,
+    "height": 71,
+    "frameCount": 82
+  },
+  "GURDURR": {
+    "file": "GURDURR.png",
+    "width": 5832,
+    "height": 81,
+    "frameCount": 72
+  },
+  "GUZZLORD": {
+    "file": "GUZZLORD.png",
+    "width": 1386,
+    "height": 99,
+    "frameCount": 14
+  },
+  "GYARADOS": {
+    "file": "GYARADOS.png",
+    "width": 4386,
+    "height": 102,
+    "frameCount": 43
+  },
+  "GYARADOS_1": {
+    "file": "GYARADOS_1.png",
+    "width": 1200,
+    "height": 100,
+    "frameCount": 12
+  },
+  "GYARADOS_female": {
+    "file": "GYARADOS_female.png",
+    "width": 4386,
+    "height": 102,
+    "frameCount": 43
+  },
+  "HAKAMOO": {
+    "file": "HAKAMOO.png",
+    "width": 8056,
+    "height": 76,
+    "frameCount": 106
+  },
+  "HAPPINY": {
+    "file": "HAPPINY.png",
+    "width": 1400,
+    "height": 50,
+    "frameCount": 28
+  },
+  "HARIYAMA": {
+    "file": "HARIYAMA.png",
+    "width": 5896,
+    "height": 88,
+    "frameCount": 66
+  },
+  "HATENNA": {
+    "file": "HATENNA.png",
+    "width": 1632,
+    "height": 96,
+    "frameCount": 17
+  },
+  "HATTERENE": {
+    "file": "HATTERENE.png",
+    "width": 6972,
+    "height": 83,
+    "frameCount": 84
+  },
+  "HATTERENE_1": {
+    "file": "HATTERENE_1.png",
+    "width": 2112,
+    "height": 96,
+    "frameCount": 22
+  },
+  "HATTREM": {
+    "file": "HATTREM.png",
+    "width": 3072,
+    "height": 96,
+    "frameCount": 32
+  },
+  "HAUNTER": {
+    "file": "HAUNTER.png",
+    "width": 1105,
+    "height": 85,
+    "frameCount": 13
+  },
+  "HAWLUCHA": {
+    "file": "HAWLUCHA.png",
+    "width": 5088,
+    "height": 96,
+    "frameCount": 53
+  },
+  "HAXORUS": {
+    "file": "HAXORUS.png",
+    "width": 7644,
+    "height": 84,
+    "frameCount": 91
+  },
+  "HEATMOR": {
+    "file": "HEATMOR.png",
+    "width": 4512,
+    "height": 94,
+    "frameCount": 50
+  },
+  "HEATRAN": {
+    "file": "HEATRAN.png",
+    "width": 8686,
+    "height": 86,
+    "frameCount": 101
+  },
+  "HELIOLISK": {
+    "file": "HELIOLISK.png",
+    "width": 1040,
+    "height": 80,
+    "frameCount": 13
+  },
+  "HELIOPTILE": {
+    "file": "HELIOPTILE.png",
+    "width": 5208,
+    "height": 62,
+    "frameCount": 84
+  },
+  "HERACROSS": {
+    "file": "HERACROSS.png",
+    "width": 2940,
+    "height": 70,
+    "frameCount": 42
+  },
+  "HERACROSS_1": {
+    "file": "HERACROSS_1.png",
+    "width": 4128,
+    "height": 96,
+    "frameCount": 43
+  },
+  "HERACROSS_female": {
+    "file": "HERACROSS_female.png",
+    "width": 2688,
+    "height": 64,
+    "frameCount": 42
+  },
+  "HERDIER": {
+    "file": "HERDIER.png",
+    "width": 3364,
+    "height": 58,
+    "frameCount": 58
+  },
+  "HIPPOPOTAS": {
+    "file": "HIPPOPOTAS.png",
+    "width": 6110,
+    "height": 65,
+    "frameCount": 76
+  },
+  "HIPPOPOTAS_female": {
+    "file": "HIPPOPOTAS_female.png",
+    "width": 6110,
+    "height": 65,
+    "frameCount": 76
+  },
+  "HIPPOWDON": {
+    "file": "HIPPOWDON.png",
+    "width": 3780,
+    "height": 84,
+    "frameCount": 27
+  },
+  "HIPPOWDON_female": {
+    "file": "HIPPOWDON_female.png",
+    "width": 3780,
+    "height": 84,
+    "frameCount": 27
+  },
+  "HITMONCHAN": {
+    "file": "HITMONCHAN.png",
+    "width": 2419,
+    "height": 59,
+    "frameCount": 41
+  },
+  "HITMONLEE": {
+    "file": "HITMONLEE.png",
+    "width": 4368,
+    "height": 78,
+    "frameCount": 56
+  },
+  "HITMONTOP": {
+    "file": "HITMONTOP.png",
+    "width": 5395,
+    "height": 83,
+    "frameCount": 65
+  },
+  "HONCHKROW": {
+    "file": "HONCHKROW.png",
+    "width": 3311,
+    "height": 77,
+    "frameCount": 43
+  },
+  "HONEDGE": {
+    "file": "HONEDGE.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "HOOH": {
+    "file": "HOOH.png",
+    "width": 4494,
+    "height": 107,
+    "frameCount": 42
+  },
+  "HOOPA": {
+    "file": "HOOPA.png",
+    "width": 1632,
+    "height": 96,
+    "frameCount": 17
+  },
+  "HOOPA_1": {
+    "file": "HOOPA_1.png",
+    "width": 10656,
+    "height": 96,
+    "frameCount": 111
+  },
+  "HOOTHOOT": {
+    "file": "HOOTHOOT.png",
+    "width": 4148,
+    "height": 61,
+    "frameCount": 68
+  },
+  "HOPPIP": {
+    "file": "HOPPIP.png",
+    "width": 2680,
+    "height": 67,
+    "frameCount": 40
+  },
+  "HORSEA": {
+    "file": "HORSEA.png",
+    "width": 1720,
+    "height": 43,
+    "frameCount": 40
+  },
+  "HOUNDOOM": {
+    "file": "HOUNDOOM.png",
+    "width": 4081,
+    "height": 77,
+    "frameCount": 54
+  },
+  "HOUNDOOM_1": {
+    "file": "HOUNDOOM_1.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "HOUNDOOM_female": {
+    "file": "HOUNDOOM_female.png",
+    "width": 4081,
+    "height": 77,
+    "frameCount": 54
+  },
+  "HOUNDOUR": {
+    "file": "HOUNDOUR.png",
+    "width": 2700,
+    "height": 45,
+    "frameCount": 60
+  },
+  "HOUNDSTONE": {
+    "file": "HOUNDSTONE.png",
+    "width": 768,
+    "height": 64,
+    "frameCount": 12
+  },
+  "HUNTAIL": {
+    "file": "HUNTAIL.png",
+    "width": 4617,
+    "height": 81,
+    "frameCount": 57
+  },
+  "HYDRAPPLE": {
+    "file": "HYDRAPPLE.png",
+    "width": 4800,
+    "height": 80,
+    "frameCount": 60
+  },
+  "HYDREIGON": {
+    "file": "HYDREIGON.png",
+    "width": 4066,
+    "height": 107,
+    "frameCount": 38
+  },
+  "HYPNO": {
+    "file": "HYPNO.png",
+    "width": 4092,
+    "height": 66,
+    "frameCount": 62
+  },
+  "HYPNO_female": {
+    "file": "HYPNO_female.png",
+    "width": 4092,
+    "height": 66,
+    "frameCount": 62
+  },
+  "IGGLYBUFF": {
+    "file": "IGGLYBUFF.png",
+    "width": 4455,
+    "height": 55,
+    "frameCount": 81
+  },
+  "ILLUMISE": {
+    "file": "ILLUMISE.png",
+    "width": 1188,
+    "height": 54,
+    "frameCount": 22
+  },
+  "IMPIDIMP": {
+    "file": "IMPIDIMP.png",
+    "width": 3186,
+    "height": 54,
+    "frameCount": 58
+  },
+  "INCINEROAR": {
+    "file": "INCINEROAR.png",
+    "width": 7134,
+    "height": 87,
+    "frameCount": 82
+  },
+  "INDEEDEE": {
+    "file": "INDEEDEE.png",
+    "width": 4070,
+    "height": 55,
+    "frameCount": 74
+  },
+  "INDEEDEE_female": {
+    "file": "INDEEDEE_female.png",
+    "width": 3848,
+    "height": 52,
+    "frameCount": 74
+  },
+  "INFERNAPE": {
+    "file": "INFERNAPE.png",
+    "width": 5280,
+    "height": 80,
+    "frameCount": 80
+  },
+  "INKAY": {
+    "file": "INKAY.png",
+    "width": 2784,
+    "height": 96,
+    "frameCount": 29
+  },
+  "INTELEON": {
+    "file": "INTELEON.png",
+    "width": 7600,
+    "height": 80,
+    "frameCount": 95
+  },
+  "INTELEON_1": {
+    "file": "INTELEON_1.png",
+    "width": 2496,
+    "height": 96,
+    "frameCount": 26
+  },
+  "IRONBOULDER": {
+    "file": "IRONBOULDER.png",
+    "width": 768,
+    "height": 96,
+    "frameCount": 8
+  },
+  "IRONBUNDLE": {
+    "file": "IRONBUNDLE.png",
+    "width": 2016,
+    "height": 96,
+    "frameCount": 21
+  },
+  "IRONCROWN": {
+    "file": "IRONCROWN.png",
+    "width": 8160,
+    "height": 96,
+    "frameCount": 85
+  },
+  "IRONHANDS": {
+    "file": "IRONHANDS.png",
+    "width": 14980,
+    "height": 107,
+    "frameCount": 140
+  },
+  "IRONJUGULIS": {
+    "file": "IRONJUGULIS.png",
+    "width": 5904,
+    "height": 123,
+    "frameCount": 48
+  },
+  "IRONLEAVES": {
+    "file": "IRONLEAVES.png",
+    "width": 5952,
+    "height": 96,
+    "frameCount": 62
+  },
+  "IRONMOTH": {
+    "file": "IRONMOTH.png",
+    "width": 5904,
+    "height": 123,
+    "frameCount": 48
+  },
+  "IRONTHORNS": {
+    "file": "IRONTHORNS.png",
+    "width": 2944,
+    "height": 92,
+    "frameCount": 32
+  },
+  "IRONTREADS": {
+    "file": "IRONTREADS.png",
+    "width": 4608,
+    "height": 72,
+    "frameCount": 70
+  },
+  "IRONVALIANT": {
+    "file": "IRONVALIANT.png",
+    "width": 6231,
+    "height": 93,
+    "frameCount": 66
+  },
+  "IVYSAUR": {
+    "file": "IVYSAUR.png",
+    "width": 3190,
+    "height": 58,
+    "frameCount": 55
+  },
+  "JANGMOO": {
+    "file": "JANGMOO.png",
+    "width": 10656,
+    "height": 96,
+    "frameCount": 111
+  },
+  "JELLICENT": {
+    "file": "JELLICENT.png",
+    "width": 5865,
+    "height": 85,
+    "frameCount": 69
+  },
+  "JELLICENT_female": {
+    "file": "JELLICENT_female.png",
+    "width": 5848,
+    "height": 86,
+    "frameCount": 68
+  },
+  "JIGGLYPUFF": {
+    "file": "JIGGLYPUFF.png",
+    "width": 2744,
+    "height": 49,
+    "frameCount": 56
+  },
+  "JIRACHI": {
+    "file": "JIRACHI.png",
+    "width": 3942,
+    "height": 54,
+    "frameCount": 69
+  },
+  "JOLTEON": {
+    "file": "JOLTEON.png",
+    "width": 2450,
+    "height": 49,
+    "frameCount": 50
+  },
+  "JOLTIK": {
+    "file": "JOLTIK.png",
+    "width": 1376,
+    "height": 43,
+    "frameCount": 32
+  },
+  "JUMPLUFF": {
+    "file": "JUMPLUFF.png",
+    "width": 3120,
+    "height": 65,
+    "frameCount": 48
+  },
+  "JYNX": {
+    "file": "JYNX.png",
+    "width": 3402,
+    "height": 63,
+    "frameCount": 50
+  },
+  "KABUTO": {
+    "file": "KABUTO.png",
+    "width": 1394,
+    "height": 41,
+    "frameCount": 34
+  },
+  "KABUTOPS": {
+    "file": "KABUTOPS.png",
+    "width": 1560,
+    "height": 65,
+    "frameCount": 24
+  },
+  "KADABRA": {
+    "file": "KADABRA.png",
+    "width": 4740,
+    "height": 79,
+    "frameCount": 57
+  },
+  "KADABRA_female": {
+    "file": "KADABRA_female.png",
+    "width": 4740,
+    "height": 79,
+    "frameCount": 57
+  },
+  "KAKUNA": {
+    "file": "KAKUNA.png",
+    "width": 1560,
+    "height": 40,
+    "frameCount": 39
+  },
+  "KANGASKHAN": {
+    "file": "KANGASKHAN.png",
+    "width": 10033,
+    "height": 79,
+    "frameCount": 127
+  },
+  "KANGASKHAN_1": {
+    "file": "KANGASKHAN_1.png",
+    "width": 6144,
+    "height": 96,
+    "frameCount": 64
+  },
+  "KARRABLAST": {
+    "file": "KARRABLAST.png",
+    "width": 4698,
+    "height": 54,
+    "frameCount": 87
+  },
+  "KARTANA": {
+    "file": "KARTANA.png",
+    "width": 8184,
+    "height": 88,
+    "frameCount": 93
+  },
+  "KECLEON": {
+    "file": "KECLEON.png",
+    "width": 2795,
+    "height": 65,
+    "frameCount": 42
+  },
+  "KELDEO": {
+    "file": "KELDEO.png",
+    "width": 4680,
+    "height": 65,
+    "frameCount": 72
+  },
+  "KELDEO_1": {
+    "file": "KELDEO_1.png",
+    "width": 4056,
+    "height": 78,
+    "frameCount": 52
+  },
+  "KILOWATTREL": {
+    "file": "KILOWATTREL.png",
+    "width": 1800,
+    "height": 120,
+    "frameCount": 15
+  },
+  "KINGAMBIT": {
+    "file": "KINGAMBIT.png",
+    "width": 3840,
+    "height": 120,
+    "frameCount": 32
+  },
+  "KINGDRA": {
+    "file": "KINGDRA.png",
+    "width": 2457,
+    "height": 91,
+    "frameCount": 27
+  },
+  "KINGLER": {
+    "file": "KINGLER.png",
+    "width": 3936,
+    "height": 82,
+    "frameCount": 44
+  },
+  "KINGLER_1": {
+    "file": "KINGLER_1.png",
+    "width": 832,
+    "height": 104,
+    "frameCount": 8
+  },
+  "KIRLIA": {
+    "file": "KIRLIA.png",
+    "width": 4788,
+    "height": 63,
+    "frameCount": 76
+  },
+  "KLANG": {
+    "file": "KLANG.png",
+    "width": 4930,
+    "height": 58,
+    "frameCount": 61
+  },
+  "KLAWF": {
+    "file": "KLAWF.png",
+    "width": 5904,
+    "height": 123,
+    "frameCount": 48
+  },
+  "KLEAVOR": {
+    "file": "KLEAVOR.png",
+    "width": 14520,
+    "height": 132,
+    "frameCount": 110
+  },
+  "KLEFKI": {
+    "file": "KLEFKI.png",
+    "width": 13932,
+    "height": 108,
+    "frameCount": 129
+  },
+  "KLINK": {
+    "file": "KLINK.png",
+    "width": 2322,
+    "height": 43,
+    "frameCount": 47
+  },
+  "KLINKLANG": {
+    "file": "KLINKLANG.png",
+    "width": 5950,
+    "height": 70,
+    "frameCount": 80
+  },
+  "KOFFING": {
+    "file": "KOFFING.png",
+    "width": 4004,
+    "height": 91,
+    "frameCount": 64
+  },
+  "KOMALA": {
+    "file": "KOMALA.png",
+    "width": 7680,
+    "height": 60,
+    "frameCount": 128
+  },
+  "KOMMOO": {
+    "file": "KOMMOO.png",
+    "width": 9612,
+    "height": 108,
+    "frameCount": 89
+  },
+  "KORAIDON": {
+    "file": "KORAIDON.png",
+    "width": 12792,
+    "height": 156,
+    "frameCount": 82
+  },
+  "KRABBY": {
+    "file": "KRABBY.png",
+    "width": 2035,
+    "height": 55,
+    "frameCount": 31
+  },
+  "KRICKETOT": {
+    "file": "KRICKETOT.png",
+    "width": 3375,
+    "height": 45,
+    "frameCount": 75
+  },
+  "KRICKETOT_female": {
+    "file": "KRICKETOT_female.png",
+    "width": 3375,
+    "height": 45,
+    "frameCount": 75
+  },
+  "KRICKETUNE": {
+    "file": "KRICKETUNE.png",
+    "width": 3519,
+    "height": 69,
+    "frameCount": 51
+  },
+  "KRICKETUNE_female": {
+    "file": "KRICKETUNE_female.png",
+    "width": 3519,
+    "height": 69,
+    "frameCount": 51
+  },
+  "KROKOROK": {
+    "file": "KROKOROK.png",
+    "width": 3658,
+    "height": 62,
+    "frameCount": 59
+  },
+  "KROOKODILE": {
+    "file": "KROOKODILE.png",
+    "width": 4940,
+    "height": 95,
+    "frameCount": 52
+  },
+  "KUBFU": {
+    "file": "KUBFU.png",
+    "width": 3072,
+    "height": 96,
+    "frameCount": 32
+  },
+  "KYOGRE": {
+    "file": "KYOGRE.png",
+    "width": 13625,
+    "height": 109,
+    "frameCount": 125
+  },
+  "KYOGRE_1": {
+    "file": "KYOGRE_1.png",
+    "width": 10285,
+    "height": 121,
+    "frameCount": 85
+  },
+  "KYUREM": {
+    "file": "KYUREM.png",
+    "width": 5643,
+    "height": 99,
+    "frameCount": 55
+  },
+  "KYUREM_1": {
+    "file": "KYUREM_1.png",
+    "width": 16068,
+    "height": 103,
+    "frameCount": 156
+  },
+  "KYUREM_2": {
+    "file": "KYUREM_2.png",
+    "width": 9116,
+    "height": 106,
+    "frameCount": 86
+  },
+  "KYUREM_3": {
+    "file": "KYUREM_3.png",
+    "width": 16068,
+    "height": 103,
+    "frameCount": 156
+  },
+  "KYUREM_4": {
+    "file": "KYUREM_4.png",
+    "width": 9116,
+    "height": 106,
+    "frameCount": 86
+  },
+  "LAIRON": {
+    "file": "LAIRON.png",
+    "width": 3654,
+    "height": 63,
+    "frameCount": 49
+  },
+  "LAMPENT": {
+    "file": "LAMPENT.png",
+    "width": 4554,
+    "height": 69,
+    "frameCount": 66
+  },
+  "LANDORUS": {
+    "file": "LANDORUS.png",
+    "width": 8544,
+    "height": 89,
+    "frameCount": 96
+  },
+  "LANDORUS_1": {
+    "file": "LANDORUS_1.png",
+    "width": 14536,
+    "height": 92,
+    "frameCount": 158
+  },
+  "LANTURN": {
+    "file": "LANTURN.png",
+    "width": 4599,
+    "height": 73,
+    "frameCount": 63
+  },
+  "LAPRAS": {
+    "file": "LAPRAS.png",
+    "width": 2343,
+    "height": 71,
+    "frameCount": 33
+  },
+  "LAPRAS_1": {
+    "file": "LAPRAS_1.png",
+    "width": 1900,
+    "height": 95,
+    "frameCount": 20
+  },
+  "LARVESTA": {
+    "file": "LARVESTA.png",
+    "width": 4410,
+    "height": 49,
+    "frameCount": 90
+  },
+  "LARVITAR": {
+    "file": "LARVITAR.png",
+    "width": 2236,
+    "height": 52,
+    "frameCount": 43
+  },
+  "LATIAS": {
+    "file": "LATIAS.png",
+    "width": 5022,
+    "height": 93,
+    "frameCount": 54
+  },
+  "LATIAS_1": {
+    "file": "LATIAS_1.png",
+    "width": 10355,
+    "height": 109,
+    "frameCount": 95
+  },
+  "LATIOS": {
+    "file": "LATIOS.png",
+    "width": 3610,
+    "height": 95,
+    "frameCount": 38
+  },
+  "LATIOS_1": {
+    "file": "LATIOS_1.png",
+    "width": 9880,
+    "height": 104,
+    "frameCount": 95
+  },
+  "LEAFEON": {
+    "file": "LEAFEON.png",
+    "width": 4216,
+    "height": 62,
+    "frameCount": 68
+  },
+  "LEAVANNY": {
+    "file": "LEAVANNY.png",
+    "width": 3750,
+    "height": 75,
+    "frameCount": 50
+  },
+  "LECHONK": {
+    "file": "LECHONK.png",
+    "width": 3900,
+    "height": 100,
+    "frameCount": 39
+  },
+  "LEDIAN": {
+    "file": "LEDIAN.png",
+    "width": 1280,
+    "height": 64,
+    "frameCount": 20
+  },
+  "LEDIAN_female": {
+    "file": "LEDIAN_female.png",
+    "width": 1240,
+    "height": 62,
+    "frameCount": 20
+  },
+  "LEDYBA": {
+    "file": "LEDYBA.png",
+    "width": 2499,
+    "height": 51,
+    "frameCount": 49
+  },
+  "LEDYBA_female": {
+    "file": "LEDYBA_female.png",
+    "width": 2304,
+    "height": 48,
+    "frameCount": 48
+  },
+  "LICKILICKY": {
+    "file": "LICKILICKY.png",
+    "width": 5070,
+    "height": 78,
+    "frameCount": 65
+  },
+  "LICKITUNG": {
+    "file": "LICKITUNG.png",
+    "width": 2415,
+    "height": 69,
+    "frameCount": 33
+  },
+  "LIEPARD": {
+    "file": "LIEPARD.png",
+    "width": 4756,
+    "height": 82,
+    "frameCount": 56
+  },
+  "LILEEP": {
+    "file": "LILEEP.png",
+    "width": 4331,
+    "height": 61,
+    "frameCount": 71
+  },
+  "LILLIGANT": {
+    "file": "LILLIGANT.png",
+    "width": 4200,
+    "height": 70,
+    "frameCount": 60
+  },
+  "LILLIGANT_1": {
+    "file": "LILLIGANT_1.png",
+    "width": 9072,
+    "height": 81,
+    "frameCount": 112
+  },
+  "LILLIPUP": {
+    "file": "LILLIPUP.png",
+    "width": 3136,
+    "height": 49,
+    "frameCount": 64
+  },
+  "LINOONE": {
+    "file": "LINOONE.png",
+    "width": 4617,
+    "height": 81,
+    "frameCount": 57
+  },
+  "LINOONE_1": {
+    "file": "LINOONE_1.png",
+    "width": 3936,
+    "height": 82,
+    "frameCount": 48
+  },
+  "LITLEO": {
+    "file": "LITLEO.png",
+    "width": 6912,
+    "height": 96,
+    "frameCount": 72
+  },
+  "LITTEN": {
+    "file": "LITTEN.png",
+    "width": 11328,
+    "height": 96,
+    "frameCount": 118
+  },
+  "LITWICK": {
+    "file": "LITWICK.png",
+    "width": 3388,
+    "height": 44,
+    "frameCount": 77
+  },
+  "LOKIX": {
+    "file": "LOKIX.png",
+    "width": 8352,
+    "height": 96,
+    "frameCount": 87
+  },
+  "LOMBRE": {
+    "file": "LOMBRE.png",
+    "width": 2184,
+    "height": 52,
+    "frameCount": 42
+  },
+  "LOPUNNY": {
+    "file": "LOPUNNY.png",
+    "width": 3744,
+    "height": 72,
+    "frameCount": 52
+  },
+  "LOPUNNY_1": {
+    "file": "LOPUNNY_1.png",
+    "width": 7776,
+    "height": 96,
+    "frameCount": 81
+  },
+  "LOTAD": {
+    "file": "LOTAD.png",
+    "width": 2520,
+    "height": 45,
+    "frameCount": 56
+  },
+  "LOUDRED": {
+    "file": "LOUDRED.png",
+    "width": 3591,
+    "height": 63,
+    "frameCount": 51
+  },
+  "LUCARIO": {
+    "file": "LUCARIO.png",
+    "width": 4536,
+    "height": 63,
+    "frameCount": 72
+  },
+  "LUCARIO_1": {
+    "file": "LUCARIO_1.png",
+    "width": 6912,
+    "height": 96,
+    "frameCount": 72
+  },
+  "LUDICOLO": {
+    "file": "LUDICOLO.png",
+    "width": 3230,
+    "height": 85,
+    "frameCount": 38
+  },
+  "LUDICOLO_female": {
+    "file": "LUDICOLO_female.png",
+    "width": 3230,
+    "height": 85,
+    "frameCount": 38
+  },
+  "LUGIA": {
+    "file": "LUGIA.png",
+    "width": 9240,
+    "height": 154,
+    "frameCount": 60
+  },
+  "LUMINEON": {
+    "file": "LUMINEON.png",
+    "width": 6278,
+    "height": 73,
+    "frameCount": 86
+  },
+  "LUMINEON_female": {
+    "file": "LUMINEON_female.png",
+    "width": 6278,
+    "height": 73,
+    "frameCount": 86
+  },
+  "LUNALA": {
+    "file": "LUNALA.png",
+    "width": 8611,
+    "height": 109,
+    "frameCount": 79
+  },
+  "LUNALA_1": {
+    "file": "LUNALA_1.png",
+    "width": 192,
+    "height": 192,
+    "frameCount": 1
+  },
+  "LUNATONE": {
+    "file": "LUNATONE.png",
+    "width": 4956,
+    "height": 59,
+    "frameCount": 84
+  },
+  "LURANTIS": {
+    "file": "LURANTIS.png",
+    "width": 5088,
+    "height": 96,
+    "frameCount": 53
+  },
+  "LUVDISC": {
+    "file": "LUVDISC.png",
+    "width": 1443,
+    "height": 37,
+    "frameCount": 39
+  },
+  "LUXIO": {
+    "file": "LUXIO.png",
+    "width": 6432,
+    "height": 67,
+    "frameCount": 91
+  },
+  "LUXIO_female": {
+    "file": "LUXIO_female.png",
+    "width": 6432,
+    "height": 67,
+    "frameCount": 91
+  },
+  "LUXRAY": {
+    "file": "LUXRAY.png",
+    "width": 6622,
+    "height": 77,
+    "frameCount": 86
+  },
+  "LUXRAY_female": {
+    "file": "LUXRAY_female.png",
+    "width": 6460,
+    "height": 76,
+    "frameCount": 85
+  },
+  "LYCANROC": {
+    "file": "LYCANROC.png",
+    "width": 4420,
+    "height": 68,
+    "frameCount": 64
+  },
+  "LYCANROC_1": {
+    "file": "LYCANROC_1.png",
+    "width": 7360,
+    "height": 80,
+    "frameCount": 92
+  },
+  "LYCANROC_2": {
+    "file": "LYCANROC_2.png",
+    "width": 2304,
+    "height": 96,
+    "frameCount": 24
+  },
+  "MABOSSTIFF": {
+    "file": "MABOSSTIFF.png",
+    "width": 7400,
+    "height": 100,
+    "frameCount": 74
+  },
+  "MACHAMP": {
+    "file": "MACHAMP.png",
+    "width": 2204,
+    "height": 76,
+    "frameCount": 29
+  },
+  "MACHAMP_1": {
+    "file": "MACHAMP_1.png",
+    "width": 1116,
+    "height": 93,
+    "frameCount": 12
+  },
+  "MACHOKE": {
+    "file": "MACHOKE.png",
+    "width": 3479,
+    "height": 71,
+    "frameCount": 49
+  },
+  "MACHOP": {
+    "file": "MACHOP.png",
+    "width": 3825,
+    "height": 51,
+    "frameCount": 51
+  },
+  "MAGBY": {
+    "file": "MAGBY.png",
+    "width": 1848,
+    "height": 56,
+    "frameCount": 33
+  },
+  "MAGCARGO": {
+    "file": "MAGCARGO.png",
+    "width": 1888,
+    "height": 59,
+    "frameCount": 32
+  },
+  "MAGEARNA": {
+    "file": "MAGEARNA.png",
+    "width": 6392,
+    "height": 68,
+    "frameCount": 94
+  },
+  "MAGEARNA_1": {
+    "file": "MAGEARNA_1.png",
+    "width": 6392,
+    "height": 68,
+    "frameCount": 94
+  },
+  "MAGIKARP": {
+    "file": "MAGIKARP.png",
+    "width": 3780,
+    "height": 63,
+    "frameCount": 60
+  },
+  "MAGIKARP_female": {
+    "file": "MAGIKARP_female.png",
+    "width": 3780,
+    "height": 63,
+    "frameCount": 60
+  },
+  "MAGMAR": {
+    "file": "MAGMAR.png",
+    "width": 2409,
+    "height": 73,
+    "frameCount": 33
+  },
+  "MAGMORTAR": {
+    "file": "MAGMORTAR.png",
+    "width": 7120,
+    "height": 89,
+    "frameCount": 79
+  },
+  "MAGNEMITE": {
+    "file": "MAGNEMITE.png",
+    "width": 1976,
+    "height": 38,
+    "frameCount": 52
+  },
+  "MAGNETON": {
+    "file": "MAGNETON.png",
+    "width": 4828,
+    "height": 68,
+    "frameCount": 71
+  },
+  "MAGNEZONE": {
+    "file": "MAGNEZONE.png",
+    "width": 3948,
+    "height": 84,
+    "frameCount": 47
+  },
+  "MAKUHITA": {
+    "file": "MAKUHITA.png",
+    "width": 3654,
+    "height": 63,
+    "frameCount": 58
+  },
+  "MALAMAR": {
+    "file": "MALAMAR.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "MAMOSWINE": {
+    "file": "MAMOSWINE.png",
+    "width": 6888,
+    "height": 84,
+    "frameCount": 82
+  },
+  "MAMOSWINE_female": {
+    "file": "MAMOSWINE_female.png",
+    "width": 6889,
+    "height": 83,
+    "frameCount": 83
+  },
+  "MANAPHY": {
+    "file": "MANAPHY.png",
+    "width": 3420,
+    "height": 57,
+    "frameCount": 60
+  },
+  "MANDIBUZZ": {
+    "file": "MANDIBUZZ.png",
+    "width": 4900,
+    "height": 70,
+    "frameCount": 70
+  },
+  "MANECTRIC": {
+    "file": "MANECTRIC.png",
+    "width": 2660,
+    "height": 70,
+    "frameCount": 38
+  },
+  "MANECTRIC_1": {
+    "file": "MANECTRIC_1.png",
+    "width": 7452,
+    "height": 92,
+    "frameCount": 80
+  },
+  "MANKEY": {
+    "file": "MANKEY.png",
+    "width": 3960,
+    "height": 66,
+    "frameCount": 53
+  },
+  "MANTINE": {
+    "file": "MANTINE.png",
+    "width": 6972,
+    "height": 83,
+    "frameCount": 84
+  },
+  "MANTYKE": {
+    "file": "MANTYKE.png",
+    "width": 3120,
+    "height": 65,
+    "frameCount": 48
+  },
+  "MARACTUS": {
+    "file": "MARACTUS.png",
+    "width": 5112,
+    "height": 71,
+    "frameCount": 72
+  },
+  "MAREANIE": {
+    "file": "MAREANIE.png",
+    "width": 552,
+    "height": 69,
+    "frameCount": 8
+  },
+  "MAREEP": {
+    "file": "MAREEP.png",
+    "width": 2400,
+    "height": 50,
+    "frameCount": 48
+  },
+  "MARILL": {
+    "file": "MARILL.png",
+    "width": 3618,
+    "height": 54,
+    "frameCount": 67
+  },
+  "MAROWAK": {
+    "file": "MAROWAK.png",
+    "width": 4624,
+    "height": 68,
+    "frameCount": 68
+  },
+  "MAROWAK_1": {
+    "file": "MAROWAK_1.png",
+    "width": 4512,
+    "height": 96,
+    "frameCount": 47
+  },
+  "MARSHADOW": {
+    "file": "MARSHADOW.png",
+    "width": 3162,
+    "height": 51,
+    "frameCount": 62
+  },
+  "MARSHADOW_1": {
+    "file": "MARSHADOW_1.png",
+    "width": 192,
+    "height": 192,
+    "frameCount": 1
+  },
+  "MARSHTOMP": {
+    "file": "MARSHTOMP.png",
+    "width": 3538,
+    "height": 58,
+    "frameCount": 61
+  },
+  "MASCHIFF": {
+    "file": "MASCHIFF.png",
+    "width": 8100,
+    "height": 100,
+    "frameCount": 81
+  },
+  "MASQUERAIN": {
+    "file": "MASQUERAIN.png",
+    "width": 6290,
+    "height": 74,
+    "frameCount": 81
+  },
+  "MAUSHOLD": {
+    "file": "MAUSHOLD.png",
+    "width": 6240,
+    "height": 78,
+    "frameCount": 71
+  },
+  "MAUSHOLD_1": {
+    "file": "MAUSHOLD_1.png",
+    "width": 6160,
+    "height": 77,
+    "frameCount": 80
+  },
+  "MAWILE": {
+    "file": "MAWILE.png",
+    "width": 6160,
+    "height": 80,
+    "frameCount": 77
+  },
+  "MAWILE_1": {
+    "file": "MAWILE_1.png",
+    "width": 1536,
+    "height": 96,
+    "frameCount": 16
+  },
+  "MEDICHAM": {
+    "file": "MEDICHAM.png",
+    "width": 3256,
+    "height": 74,
+    "frameCount": 44
+  },
+  "MEDICHAM_1": {
+    "file": "MEDICHAM_1.png",
+    "width": 8556,
+    "height": 93,
+    "frameCount": 90
+  },
+  "MEDICHAM_female": {
+    "file": "MEDICHAM_female.png",
+    "width": 3285,
+    "height": 73,
+    "frameCount": 45
+  },
+  "MEDITITE": {
+    "file": "MEDITITE.png",
+    "width": 7722,
+    "height": 54,
+    "frameCount": 143
+  },
+  "MEDITITE_female": {
+    "file": "MEDITITE_female.png",
+    "width": 7722,
+    "height": 54,
+    "frameCount": 143
+  },
+  "MEGANIUM": {
+    "file": "MEGANIUM.png",
+    "width": 3690,
+    "height": 82,
+    "frameCount": 45
+  },
+  "MEGANIUM_female": {
+    "file": "MEGANIUM_female.png",
+    "width": 3690,
+    "height": 82,
+    "frameCount": 45
+  },
+  "MELMETAL": {
+    "file": "MELMETAL.png",
+    "width": 2828,
+    "height": 101,
+    "frameCount": 24
+  },
+  "MELMETAL_1": {
+    "file": "MELMETAL_1.png",
+    "width": 4224,
+    "height": 96,
+    "frameCount": 39
+  },
+  "MELOETTA": {
+    "file": "MELOETTA.png",
+    "width": 9450,
+    "height": 63,
+    "frameCount": 150
+  },
+  "MELOETTA_1": {
+    "file": "MELOETTA_1.png",
+    "width": 5776,
+    "height": 76,
+    "frameCount": 76
+  },
+  "MELTAN": {
+    "file": "MELTAN.png",
+    "width": 2014,
+    "height": 38,
+    "frameCount": 53
+  },
+  "MEOWSCARADA": {
+    "file": "MEOWSCARADA.png",
+    "width": 6528,
+    "height": 96,
+    "frameCount": 72
+  },
+  "MEOWSTIC": {
+    "file": "MEOWSTIC.png",
+    "width": 880,
+    "height": 80,
+    "frameCount": 11
+  },
+  "MEOWSTIC_female": {
+    "file": "MEOWSTIC_female.png",
+    "width": 11520,
+    "height": 80,
+    "frameCount": 144
+  },
+  "MEOWTH": {
+    "file": "MEOWTH.png",
+    "width": 4550,
+    "height": 65,
+    "frameCount": 70
+  },
+  "MEOWTH_1": {
+    "file": "MEOWTH_1.png",
+    "width": 2622,
+    "height": 46,
+    "frameCount": 57
+  },
+  "MEOWTH_2": {
+    "file": "MEOWTH_2.png",
+    "width": 7200,
+    "height": 96,
+    "frameCount": 75
+  },
+  "MEOWTH_3": {
+    "file": "MEOWTH_3.png",
+    "width": 1920,
+    "height": 96,
+    "frameCount": 20
+  },
+  "MESPRIT": {
+    "file": "MESPRIT.png",
+    "width": 6480,
+    "height": 90,
+    "frameCount": 72
+  },
+  "METAGROSS": {
+    "file": "METAGROSS.png",
+    "width": 4399,
+    "height": 83,
+    "frameCount": 53
+  },
+  "METAGROSS_1": {
+    "file": "METAGROSS_1.png",
+    "width": 1440,
+    "height": 120,
+    "frameCount": 12
+  },
+  "METANG": {
+    "file": "METANG.png",
+    "width": 7052,
+    "height": 82,
+    "frameCount": 86
+  },
+  "METAPOD": {
+    "file": "METAPOD.png",
+    "width": 2090,
+    "height": 38,
+    "frameCount": 55
+  },
+  "MEW": {
+    "file": "MEW.png",
+    "width": 4602,
+    "height": 78,
+    "frameCount": 59
+  },
+  "MEWTWO": {
+    "file": "MEWTWO.png",
+    "width": 5580,
+    "height": 90,
+    "frameCount": 62
+  },
+  "MEWTWO_1": {
+    "file": "MEWTWO_1.png",
+    "width": 960,
+    "height": 96,
+    "frameCount": 10
+  },
+  "MEWTWO_2": {
+    "file": "MEWTWO_2.png",
+    "width": 1920,
+    "height": 96,
+    "frameCount": 20
+  },
+  "MIENFOO": {
+    "file": "MIENFOO.png",
+    "width": 4356,
+    "height": 66,
+    "frameCount": 66
+  },
+  "MIENSHAO": {
+    "file": "MIENSHAO.png",
+    "width": 5896,
+    "height": 88,
+    "frameCount": 67
+  },
+  "MIGHTYENA": {
+    "file": "MIGHTYENA.png",
+    "width": 3285,
+    "height": 73,
+    "frameCount": 45
+  },
+  "MILCERY": {
+    "file": "MILCERY.png",
+    "width": 5472,
+    "height": 96,
+    "frameCount": 57
+  },
+  "MILOTIC": {
+    "file": "MILOTIC.png",
+    "width": 8170,
+    "height": 86,
+    "frameCount": 95
+  },
+  "MILOTIC_female": {
+    "file": "MILOTIC_female.png",
+    "width": 8170,
+    "height": 86,
+    "frameCount": 95
+  },
+  "MILTANK": {
+    "file": "MILTANK.png",
+    "width": 2820,
+    "height": 60,
+    "frameCount": 47
+  },
+  "MIMEJR": {
+    "file": "MIMEJR.png",
+    "width": 4898,
+    "height": 62,
+    "frameCount": 79
+  },
+  "MIMIKYU": {
+    "file": "MIMIKYU.png",
+    "width": 6048,
+    "height": 96,
+    "frameCount": 63
+  },
+  "MIMIKYU_1": {
+    "file": "MIMIKYU_1.png",
+    "width": 6048,
+    "height": 96,
+    "frameCount": 63
+  },
+  "MINCCINO": {
+    "file": "MINCCINO.png",
+    "width": 4480,
+    "height": 64,
+    "frameCount": 70
+  },
+  "MINIOR": {
+    "file": "MINIOR.png",
+    "width": 9024,
+    "height": 96,
+    "frameCount": 94
+  },
+  "MINIOR_10": {
+    "file": "MINIOR_10.png",
+    "width": 9024,
+    "height": 96,
+    "frameCount": 95
+  },
+  "MINIOR_11": {
+    "file": "MINIOR_11.png",
+    "width": 9024,
+    "height": 96,
+    "frameCount": 95
+  },
+  "MINIOR_12": {
+    "file": "MINIOR_12.png",
+    "width": 9024,
+    "height": 96,
+    "frameCount": 95
+  },
+  "MINIOR_13": {
+    "file": "MINIOR_13.png",
+    "width": 9024,
+    "height": 96,
+    "frameCount": 95
+  },
+  "MINIOR_7": {
+    "file": "MINIOR_7.png",
+    "width": 9024,
+    "height": 96,
+    "frameCount": 95
+  },
+  "MINIOR_8": {
+    "file": "MINIOR_8.png",
+    "width": 9024,
+    "height": 96,
+    "frameCount": 95
+  },
+  "MINIOR_9": {
+    "file": "MINIOR_9.png",
+    "width": 9024,
+    "height": 96,
+    "frameCount": 95
+  },
+  "MINUN": {
+    "file": "MINUN.png",
+    "width": 3528,
+    "height": 49,
+    "frameCount": 72
+  },
+  "MIRAIDON": {
+    "file": "MIRAIDON.png",
+    "width": 11016,
+    "height": 108,
+    "frameCount": 102
+  },
+  "MISDREAVUS": {
+    "file": "MISDREAVUS.png",
+    "width": 2736,
+    "height": 57,
+    "frameCount": 48
+  },
+  "MISMAGIUS": {
+    "file": "MISMAGIUS.png",
+    "width": 1176,
+    "height": 84,
+    "frameCount": 14
+  },
+  "MOLTRES": {
+    "file": "MOLTRES.png",
+    "width": 3483,
+    "height": 129,
+    "frameCount": 27
+  },
+  "MOLTRES_1": {
+    "file": "MOLTRES_1.png",
+    "width": 2134,
+    "height": 97,
+    "frameCount": 20
+  },
+  "MONFERNO": {
+    "file": "MONFERNO.png",
+    "width": 4544,
+    "height": 71,
+    "frameCount": 64
+  },
+  "MORELULL": {
+    "file": "MORELULL.png",
+    "width": 12672,
+    "height": 96,
+    "frameCount": 132
+  },
+  "MORGREM": {
+    "file": "MORGREM.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "MORPEKO": {
+    "file": "MORPEKO.png",
+    "width": 1419,
+    "height": 43,
+    "frameCount": 33
+  },
+  "MORPEKO_1": {
+    "file": "MORPEKO_1.png",
+    "width": 1419,
+    "height": 43,
+    "frameCount": 33
+  },
+  "MOTHIM": {
+    "file": "MOTHIM.png",
+    "width": 747,
+    "height": 83,
+    "frameCount": 9
+  },
+  "MRMIME": {
+    "file": "MRMIME.png",
+    "width": 3648,
+    "height": 57,
+    "frameCount": 64
+  },
+  "MRMIME_1": {
+    "file": "MRMIME_1.png",
+    "width": 804,
+    "height": 67,
+    "frameCount": 12
+  },
+  "MRRIME": {
+    "file": "MRRIME.png",
+    "width": 6210,
+    "height": 69,
+    "frameCount": 90
+  },
+  "MUDBRAY": {
+    "file": "MUDBRAY.png",
+    "width": 8023,
+    "height": 71,
+    "frameCount": 113
+  },
+  "MUDKIP": {
+    "file": "MUDKIP.png",
+    "width": 3430,
+    "height": 49,
+    "frameCount": 70
+  },
+  "MUDSDALE": {
+    "file": "MUDSDALE.png",
+    "width": 9180,
+    "height": 90,
+    "frameCount": 102
+  },
+  "MUK": {
+    "file": "MUK.png",
+    "width": 4794,
+    "height": 94,
+    "frameCount": 51
+  },
+  "MUK_1": {
+    "file": "MUK_1.png",
+    "width": 9960,
+    "height": 83,
+    "frameCount": 85
+  },
+  "MUNCHLAX": {
+    "file": "MUNCHLAX.png",
+    "width": 3408,
+    "height": 48,
+    "frameCount": 71
+  },
+  "MUNKIDORI": {
+    "file": "MUNKIDORI.png",
+    "width": 1664,
+    "height": 64,
+    "frameCount": 26
+  },
+  "MUNNA": {
+    "file": "MUNNA.png",
+    "width": 4140,
+    "height": 46,
+    "frameCount": 90
+  },
+  "MURKROW": {
+    "file": "MURKROW.png",
+    "width": 1320,
+    "height": 44,
+    "frameCount": 30
+  },
+  "MURKROW_female": {
+    "file": "MURKROW_female.png",
+    "width": 1320,
+    "height": 44,
+    "frameCount": 30
+  },
+  "MUSHARNA": {
+    "file": "MUSHARNA.png",
+    "width": 2340,
+    "height": 78,
+    "frameCount": 30
+  },
+  "NACLI": {
+    "file": "NACLI.png",
+    "width": 3456,
+    "height": 96,
+    "frameCount": 36
+  },
+  "NACLSTACK": {
+    "file": "NACLSTACK.png",
+    "width": 2016,
+    "height": 96,
+    "frameCount": 21
+  },
+  "NAGANADEL": {
+    "file": "NAGANADEL.png",
+    "width": 1128,
+    "height": 94,
+    "frameCount": 12
+  },
+  "NATU": {
+    "file": "NATU.png",
+    "width": 2665,
+    "height": 41,
+    "frameCount": 65
+  },
+  "NECROZMA": {
+    "file": "NECROZMA.png",
+    "width": 2784,
+    "height": 96,
+    "frameCount": 29
+  },
+  "NECROZMA_1": {
+    "file": "NECROZMA_1.png",
+    "width": 8056,
+    "height": 106,
+    "frameCount": 76
+  },
+  "NECROZMA_2": {
+    "file": "NECROZMA_2.png",
+    "width": 9006,
+    "height": 114,
+    "frameCount": 79
+  },
+  "NECROZMA_3": {
+    "file": "NECROZMA_3.png",
+    "width": 12600,
+    "height": 140,
+    "frameCount": 90
+  },
+  "NECROZMA_4": {
+    "file": "NECROZMA_4.png",
+    "width": 12600,
+    "height": 140,
+    "frameCount": 90
+  },
+  "NICKIT": {
+    "file": "NICKIT.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "NIDOKING": {
+    "file": "NIDOKING.png",
+    "width": 4128,
+    "height": 86,
+    "frameCount": 48
+  },
+  "NIDOQUEEN": {
+    "file": "NIDOQUEEN.png",
+    "width": 4636,
+    "height": 76,
+    "frameCount": 58
+  },
+  "NIDORANfE": {
+    "file": "NIDORANfE.png",
+    "width": 1584,
+    "height": 36,
+    "frameCount": 44
+  },
+  "NIDORANmA": {
+    "file": "NIDORANmA.png",
+    "width": 2257,
+    "height": 37,
+    "frameCount": 61
+  },
+  "NIDORINA": {
+    "file": "NIDORINA.png",
+    "width": 1248,
+    "height": 52,
+    "frameCount": 20
+  },
+  "NIDORINO": {
+    "file": "NIDORINO.png",
+    "width": 2744,
+    "height": 56,
+    "frameCount": 49
+  },
+  "NIHILEGO": {
+    "file": "NIHILEGO.png",
+    "width": 9918,
+    "height": 87,
+    "frameCount": 114
+  },
+  "NINCADA": {
+    "file": "NINCADA.png",
+    "width": 2754,
+    "height": 51,
+    "frameCount": 54
+  },
+  "NINETALES": {
+    "file": "NINETALES.png",
+    "width": 1976,
+    "height": 76,
+    "frameCount": 26
+  },
+  "NINETALES_1": {
+    "file": "NINETALES_1.png",
+    "width": 1376,
+    "height": 86,
+    "frameCount": 15
+  },
+  "NINJASK": {
+    "file": "NINJASK.png",
+    "width": 2109,
+    "height": 57,
+    "frameCount": 21
+  },
+  "NOCTOWL": {
+    "file": "NOCTOWL.png",
+    "width": 2376,
+    "height": 66,
+    "frameCount": 36
+  },
+  "NOIBAT": {
+    "file": "NOIBAT.png",
+    "width": 1960,
+    "height": 70,
+    "frameCount": 28
+  },
+  "NOIVERN": {
+    "file": "NOIVERN.png",
+    "width": 1818,
+    "height": 101,
+    "frameCount": 18
+  },
+  "NOSEPASS": {
+    "file": "NOSEPASS.png",
+    "width": 322,
+    "height": 46,
+    "frameCount": 7
+  },
+  "NUMEL": {
+    "file": "NUMEL.png",
+    "width": 1152,
+    "height": 48,
+    "frameCount": 23
+  },
+  "NUMEL_female": {
+    "file": "NUMEL_female.png",
+    "width": 1152,
+    "height": 48,
+    "frameCount": 23
+  },
+  "NUZLEAF": {
+    "file": "NUZLEAF.png",
+    "width": 2726,
+    "height": 58,
+    "frameCount": 47
+  },
+  "NUZLEAF_female": {
+    "file": "NUZLEAF_female.png",
+    "width": 2726,
+    "height": 58,
+    "frameCount": 47
+  },
+  "NYMBLE": {
+    "file": "NYMBLE.png",
+    "width": 6970,
+    "height": 85,
+    "frameCount": 82
+  },
+  "OBSTAGOON": {
+    "file": "OBSTAGOON.png",
+    "width": 3040,
+    "height": 80,
+    "frameCount": 38
+  },
+  "OCTILLERY": {
+    "file": "OCTILLERY.png",
+    "width": 1139,
+    "height": 67,
+    "frameCount": 17
+  },
+  "OCTILLERY_female": {
+    "file": "OCTILLERY_female.png",
+    "width": 1139,
+    "height": 67,
+    "frameCount": 17
+  },
+  "ODDISH": {
+    "file": "ODDISH.png",
+    "width": 2700,
+    "height": 50,
+    "frameCount": 54
+  },
+  "OGERPON": {
+    "file": "OGERPON.png",
+    "width": 4851,
+    "height": 77,
+    "frameCount": 63
+  },
+  "OGERPON_1": {
+    "file": "OGERPON_1.png",
+    "width": 4851,
+    "height": 77,
+    "frameCount": 63
+  },
+  "OGERPON_10": {
+    "file": "OGERPON_10.png",
+    "width": 3686,
+    "height": 97,
+    "frameCount": 38
+  },
+  "OGERPON_11": {
+    "file": "OGERPON_11.png",
+    "width": 3458,
+    "height": 91,
+    "frameCount": 38
+  },
+  "OGERPON_2": {
+    "file": "OGERPON_2.png",
+    "width": 4851,
+    "height": 77,
+    "frameCount": 63
+  },
+  "OGERPON_3": {
+    "file": "OGERPON_3.png",
+    "width": 4851,
+    "height": 77,
+    "frameCount": 63
+  },
+  "OGERPON_4": {
+    "file": "OGERPON_4.png",
+    "width": 4851,
+    "height": 77,
+    "frameCount": 63
+  },
+  "OGERPON_5": {
+    "file": "OGERPON_5.png",
+    "width": 4851,
+    "height": 77,
+    "frameCount": 63
+  },
+  "OGERPON_6": {
+    "file": "OGERPON_6.png",
+    "width": 4851,
+    "height": 77,
+    "frameCount": 63
+  },
+  "OGERPON_7": {
+    "file": "OGERPON_7.png",
+    "width": 4851,
+    "height": 77,
+    "frameCount": 63
+  },
+  "OGERPON_8": {
+    "file": "OGERPON_8.png",
+    "width": 3648,
+    "height": 96,
+    "frameCount": 38
+  },
+  "OGERPON_9": {
+    "file": "OGERPON_9.png",
+    "width": 3534,
+    "height": 93,
+    "frameCount": 38
+  },
+  "OINKOLOGNE": {
+    "file": "OINKOLOGNE.png",
+    "width": 640,
+    "height": 80,
+    "frameCount": 8
+  },
+  "OINKOLOGNE_1": {
+    "file": "OINKOLOGNE_1.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "OKIDOGI": {
+    "file": "OKIDOGI.png",
+    "width": 11808,
+    "height": 96,
+    "frameCount": 123
+  },
+  "OMANYTE": {
+    "file": "OMANYTE.png",
+    "width": 1530,
+    "height": 45,
+    "frameCount": 34
+  },
+  "OMASTAR": {
+    "file": "OMASTAR.png",
+    "width": 4914,
+    "height": 63,
+    "frameCount": 78
+  },
+  "ONIX": {
+    "file": "ONIX.png",
+    "width": 3626,
+    "height": 74,
+    "frameCount": 49
+  },
+  "ORANGURU": {
+    "file": "ORANGURU.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "ORBEETLE": {
+    "file": "ORBEETLE.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "ORBEETLE_1": {
+    "file": "ORBEETLE_1.png",
+    "width": 8400,
+    "height": 100,
+    "frameCount": 84
+  },
+  "ORICORIO": {
+    "file": "ORICORIO.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "ORICORIO_1": {
+    "file": "ORICORIO_1.png",
+    "width": 4599,
+    "height": 63,
+    "frameCount": 73
+  },
+  "ORICORIO_2": {
+    "file": "ORICORIO_2.png",
+    "width": 4212,
+    "height": 54,
+    "frameCount": 78
+  },
+  "ORICORIO_3": {
+    "file": "ORICORIO_3.png",
+    "width": 4875,
+    "height": 65,
+    "frameCount": 75
+  },
+  "ORTHWORM": {
+    "file": "ORTHWORM.png",
+    "width": 9400,
+    "height": 100,
+    "frameCount": 94
+  },
+  "OSHAWOTT": {
+    "file": "OSHAWOTT.png",
+    "width": 7548,
+    "height": 51,
+    "frameCount": 148
+  },
+  "OVERQWIL": {
+    "file": "OVERQWIL.png",
+    "width": 10807,
+    "height": 107,
+    "frameCount": 101
+  },
+  "PACHIRISU": {
+    "file": "PACHIRISU.png",
+    "width": 3080,
+    "height": 55,
+    "frameCount": 56
+  },
+  "PACHIRISU_female": {
+    "file": "PACHIRISU_female.png",
+    "width": 3080,
+    "height": 55,
+    "frameCount": 56
+  },
+  "PALAFIN": {
+    "file": "PALAFIN.png",
+    "width": 7600,
+    "height": 100,
+    "frameCount": 76
+  },
+  "PALAFIN_1": {
+    "file": "PALAFIN_1.png",
+    "width": 3400,
+    "height": 100,
+    "frameCount": 34
+  },
+  "PALKIA": {
+    "file": "PALKIA.png",
+    "width": 5568,
+    "height": 87,
+    "frameCount": 61
+  },
+  "PALKIA_1": {
+    "file": "PALKIA_1.png",
+    "width": 14400,
+    "height": 120,
+    "frameCount": 106
+  },
+  "PALOSSAND": {
+    "file": "PALOSSAND.png",
+    "width": 6144,
+    "height": 96,
+    "frameCount": 59
+  },
+  "PALPITOAD": {
+    "file": "PALPITOAD.png",
+    "width": 2793,
+    "height": 57,
+    "frameCount": 49
+  },
+  "PANCHAM": {
+    "file": "PANCHAM.png",
+    "width": 2750,
+    "height": 50,
+    "frameCount": 55
+  },
+  "PANGORO": {
+    "file": "PANGORO.png",
+    "width": 2304,
+    "height": 96,
+    "frameCount": 24
+  },
+  "PANPOUR": {
+    "file": "PANPOUR.png",
+    "width": 1739,
+    "height": 47,
+    "frameCount": 37
+  },
+  "PANSAGE": {
+    "file": "PANSAGE.png",
+    "width": 4350,
+    "height": 50,
+    "frameCount": 87
+  },
+  "PANSEAR": {
+    "file": "PANSEAR.png",
+    "width": 2352,
+    "height": 49,
+    "frameCount": 48
+  },
+  "PARAS": {
+    "file": "PARAS.png",
+    "width": 1728,
+    "height": 48,
+    "frameCount": 25
+  },
+  "PARASECT": {
+    "file": "PARASECT.png",
+    "width": 2268,
+    "height": 63,
+    "frameCount": 36
+  },
+  "PASSIMIAN": {
+    "file": "PASSIMIAN.png",
+    "width": 1248,
+    "height": 96,
+    "frameCount": 13
+  },
+  "PATRAT": {
+    "file": "PATRAT.png",
+    "width": 2809,
+    "height": 53,
+    "frameCount": 51
+  },
+  "PAWMI": {
+    "file": "PAWMI.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "PAWMO": {
+    "file": "PAWMO.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "PAWMOT": {
+    "file": "PAWMOT.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "PAWNIARD": {
+    "file": "PAWNIARD.png",
+    "width": 3350,
+    "height": 50,
+    "frameCount": 4
+  },
+  "PECHARUNT": {
+    "file": "PECHARUNT.png",
+    "width": 10549,
+    "height": 77,
+    "frameCount": 137
+  },
+  "PELIPPER": {
+    "file": "PELIPPER.png",
+    "width": 6816,
+    "height": 96,
+    "frameCount": 71
+  },
+  "PERRSERKER": {
+    "file": "PERRSERKER.png",
+    "width": 6592,
+    "height": 64,
+    "frameCount": 103
+  },
+  "PERSIAN": {
+    "file": "PERSIAN.png",
+    "width": 3942,
+    "height": 73,
+    "frameCount": 50
+  },
+  "PERSIAN_1": {
+    "file": "PERSIAN_1.png",
+    "width": 6290,
+    "height": 74,
+    "frameCount": 85
+  },
+  "PETILIL": {
+    "file": "PETILIL.png",
+    "width": 2754,
+    "height": 51,
+    "frameCount": 54
+  },
+  "PHANPY": {
+    "file": "PHANPY.png",
+    "width": 2484,
+    "height": 46,
+    "frameCount": 54
+  },
+  "PHANTUMP": {
+    "file": "PHANTUMP.png",
+    "width": 8400,
+    "height": 70,
+    "frameCount": 120
+  },
+  "PHEROMOSA": {
+    "file": "PHEROMOSA.png",
+    "width": 9021,
+    "height": 93,
+    "frameCount": 97
+  },
+  "PHIONE": {
+    "file": "PHIONE.png",
+    "width": 4544,
+    "height": 64,
+    "frameCount": 71
+  },
+  "PICHU": {
+    "file": "PICHU.png",
+    "width": 2793,
+    "height": 49,
+    "frameCount": 57
+  },
+  "PICHU_2": {
+    "file": "PICHU_2.png",
+    "width": 5537,
+    "height": 49,
+    "frameCount": 113
+  },
+  "PIDGEOT": {
+    "file": "PIDGEOT.png",
+    "width": 2380,
+    "height": 68,
+    "frameCount": 35
+  },
+  "PIDGEOTTO": {
+    "file": "PIDGEOTTO.png",
+    "width": 1972,
+    "height": 116,
+    "frameCount": 17
+  },
+  "PIDGEOT_1": {
+    "file": "PIDGEOT_1.png",
+    "width": 1920,
+    "height": 96,
+    "frameCount": 20
+  },
+  "PIDGEY": {
+    "file": "PIDGEY.png",
+    "width": 960,
+    "height": 48,
+    "frameCount": 20
+  },
+  "PIDOVE": {
+    "file": "PIDOVE.png",
+    "width": 1591,
+    "height": 37,
+    "frameCount": 43
+  },
+  "PIGNITE": {
+    "file": "PIGNITE.png",
+    "width": 4221,
+    "height": 67,
+    "frameCount": 63
+  },
+  "PIKACHU": {
+    "file": "PIKACHU.png",
+    "width": 2800,
+    "height": 50,
+    "frameCount": 56
+  },
+  "PIKACHU_10": {
+    "file": "PIKACHU_10.png",
+    "width": 5424,
+    "height": 48,
+    "frameCount": 107
+  },
+  "PIKACHU_11": {
+    "file": "PIKACHU_11.png",
+    "width": 5424,
+    "height": 48,
+    "frameCount": 107
+  },
+  "PIKACHU_12": {
+    "file": "PIKACHU_12.png",
+    "width": 5424,
+    "height": 48,
+    "frameCount": 107
+  },
+  "PIKACHU_13": {
+    "file": "PIKACHU_13.png",
+    "width": 5424,
+    "height": 48,
+    "frameCount": 107
+  },
+  "PIKACHU_14": {
+    "file": "PIKACHU_14.png",
+    "width": 5424,
+    "height": 48,
+    "frameCount": 107
+  },
+  "PIKACHU_15": {
+    "file": "PIKACHU_15.png",
+    "width": 5424,
+    "height": 48,
+    "frameCount": 107
+  },
+  "PIKACHU_16": {
+    "file": "PIKACHU_16.png",
+    "width": 192,
+    "height": 192,
+    "frameCount": 1
+  },
+  "PIKACHU_17": {
+    "file": "PIKACHU_17.png",
+    "width": 1728,
+    "height": 96,
+    "frameCount": 18
+  },
+  "PIKACHU_2": {
+    "file": "PIKACHU_2.png",
+    "width": 2850,
+    "height": 50,
+    "frameCount": 57
+  },
+  "PIKACHU_3": {
+    "file": "PIKACHU_3.png",
+    "width": 500,
+    "height": 50,
+    "frameCount": 10
+  },
+  "PIKACHU_3_female": {
+    "file": "PIKACHU_3_female.png",
+    "width": 192,
+    "height": 192,
+    "frameCount": 1
+  },
+  "PIKACHU_4": {
+    "file": "PIKACHU_4.png",
+    "width": 500,
+    "height": 50,
+    "frameCount": 7
+  },
+  "PIKACHU_5": {
+    "file": "PIKACHU_5.png",
+    "width": 500,
+    "height": 50,
+    "frameCount": 10
+  },
+  "PIKACHU_6": {
+    "file": "PIKACHU_6.png",
+    "width": 500,
+    "height": 50,
+    "frameCount": 7
+  },
+  "PIKACHU_7": {
+    "file": "PIKACHU_7.png",
+    "width": 1500,
+    "height": 50,
+    "frameCount": 30
+  },
+  "PIKACHU_8": {
+    "file": "PIKACHU_8.png",
+    "width": 5424,
+    "height": 48,
+    "frameCount": 107
+  },
+  "PIKACHU_9": {
+    "file": "PIKACHU_9.png",
+    "width": 5424,
+    "height": 48,
+    "frameCount": 107
+  },
+  "PIKACHU_female": {
+    "file": "PIKACHU_female.png",
+    "width": 2856,
+    "height": 51,
+    "frameCount": 56
+  },
+  "PIKIPEK": {
+    "file": "PIKIPEK.png",
+    "width": 3318,
+    "height": 42,
+    "frameCount": 79
+  },
+  "PILOSWINE": {
+    "file": "PILOSWINE.png",
+    "width": 1960,
+    "height": 56,
+    "frameCount": 35
+  },
+  "PILOSWINE_female": {
+    "file": "PILOSWINE_female.png",
+    "width": 1960,
+    "height": 56,
+    "frameCount": 35
+  },
+  "PINCURCHIN": {
+    "file": "PINCURCHIN.png",
+    "width": 4128,
+    "height": 96,
+    "frameCount": 43
+  },
+  "PINECO": {
+    "file": "PINECO.png",
+    "width": 2544,
+    "height": 53,
+    "frameCount": 48
+  },
+  "PINSIR": {
+    "file": "PINSIR.png",
+    "width": 5112,
+    "height": 72,
+    "frameCount": 53
+  },
+  "PINSIR_1": {
+    "file": "PINSIR_1.png",
+    "width": 11520,
+    "height": 96,
+    "frameCount": 120
+  },
+  "PIPLUP": {
+    "file": "PIPLUP.png",
+    "width": 3075,
+    "height": 41,
+    "frameCount": 75
+  },
+  "PLUSLE": {
+    "file": "PLUSLE.png",
+    "width": 3528,
+    "height": 49,
+    "frameCount": 72
+  },
+  "POIPOLE": {
+    "file": "POIPOLE.png",
+    "width": 2520,
+    "height": 63,
+    "frameCount": 40
+  },
+  "POLITOED": {
+    "file": "POLITOED.png",
+    "width": 3792,
+    "height": 79,
+    "frameCount": 48
+  },
+  "POLITOED_female": {
+    "file": "POLITOED_female.png",
+    "width": 3792,
+    "height": 79,
+    "frameCount": 48
+  },
+  "POLIWAG": {
+    "file": "POLIWAG.png",
+    "width": 2106,
+    "height": 54,
+    "frameCount": 39
+  },
+  "POLIWHIRL": {
+    "file": "POLIWHIRL.png",
+    "width": 3922,
+    "height": 74,
+    "frameCount": 53
+  },
+  "POLIWRATH": {
+    "file": "POLIWRATH.png",
+    "width": 3645,
+    "height": 81,
+    "frameCount": 10
+  },
+  "POLTCHAGEIST": {
+    "file": "POLTCHAGEIST.png",
+    "width": 8736,
+    "height": 96,
+    "frameCount": 167
+  },
+  "POLTEAGEIST": {
+    "file": "POLTEAGEIST.png",
+    "width": 1248,
+    "height": 96,
+    "frameCount": 13
+  },
+  "PONYTA": {
+    "file": "PONYTA.png",
+    "width": 2622,
+    "height": 57,
+    "frameCount": 36
+  },
+  "PONYTA_1": {
+    "file": "PONYTA_1.png",
+    "width": 3936,
+    "height": 96,
+    "frameCount": 41
+  },
+  "POOCHYENA": {
+    "file": "POOCHYENA.png",
+    "width": 2392,
+    "height": 52,
+    "frameCount": 45
+  },
+  "POPPLIO": {
+    "file": "POPPLIO.png",
+    "width": 4675,
+    "height": 55,
+    "frameCount": 87
+  },
+  "PORYGON": {
+    "file": "PORYGON.png",
+    "width": 1680,
+    "height": 56,
+    "frameCount": 30
+  },
+  "PORYGON2": {
+    "file": "PORYGON2.png",
+    "width": 2352,
+    "height": 49,
+    "frameCount": 48
+  },
+  "PORYGONZ": {
+    "file": "PORYGONZ.png",
+    "width": 2726,
+    "height": 58,
+    "frameCount": 47
+  },
+  "PRIMARINA": {
+    "file": "PRIMARINA.png",
+    "width": 8372,
+    "height": 91,
+    "frameCount": 92
+  },
+  "PRIMEAPE": {
+    "file": "PRIMEAPE.png",
+    "width": 1848,
+    "height": 66,
+    "frameCount": 28
+  },
+  "PRINPLUP": {
+    "file": "PRINPLUP.png",
+    "width": 3843,
+    "height": 61,
+    "frameCount": 63
+  },
+  "PROBOPASS": {
+    "file": "PROBOPASS.png",
+    "width": 9912,
+    "height": 84,
+    "frameCount": 118
+  },
+  "PSYDUCK": {
+    "file": "PSYDUCK.png",
+    "width": 1012,
+    "height": 46,
+    "frameCount": 22
+  },
+  "PUMPKABOO": {
+    "file": "PUMPKABOO.png",
+    "width": 6720,
+    "height": 96,
+    "frameCount": 70
+  },
+  "PUMPKABOO_1": {
+    "file": "PUMPKABOO_1.png",
+    "width": 6720,
+    "height": 96,
+    "frameCount": 70
+  },
+  "PUMPKABOO_2": {
+    "file": "PUMPKABOO_2.png",
+    "width": 6720,
+    "height": 96,
+    "frameCount": 70
+  },
+  "PUMPKABOO_3": {
+    "file": "PUMPKABOO_3.png",
+    "width": 6720,
+    "height": 96,
+    "frameCount": 70
+  },
+  "PUPITAR": {
+    "file": "PUPITAR.png",
+    "width": 1674,
+    "height": 54,
+    "frameCount": 31
+  },
+  "PURRLOIN": {
+    "file": "PURRLOIN.png",
+    "width": 1856,
+    "height": 58,
+    "frameCount": 31
+  },
+  "PURUGLY": {
+    "file": "PURUGLY.png",
+    "width": 4087,
+    "height": 67,
+    "frameCount": 61
+  },
+  "PYROAR": {
+    "file": "PYROAR.png",
+    "width": 7110,
+    "height": 79,
+    "frameCount": 90
+  },
+  "PYROAR_female": {
+    "file": "PYROAR_female.png",
+    "width": 7200,
+    "height": 80,
+    "frameCount": 90
+  },
+  "PYUKUMUKU": {
+    "file": "PYUKUMUKU.png",
+    "width": 9617,
+    "height": 59,
+    "frameCount": 163
+  },
+  "QUAGSIRE": {
+    "file": "QUAGSIRE.png",
+    "width": 2553,
+    "height": 69,
+    "frameCount": 37
+  },
+  "QUAGSIRE_female": {
+    "file": "QUAGSIRE_female.png",
+    "width": 2553,
+    "height": 69,
+    "frameCount": 37
+  },
+  "QUAQUAVAL": {
+    "file": "QUAQUAVAL.png",
+    "width": 5184,
+    "height": 96,
+    "frameCount": 54
+  },
+  "QUAXLY": {
+    "file": "QUAXLY.png",
+    "width": 5952,
+    "height": 96,
+    "frameCount": 62
+  },
+  "QUAXWELL": {
+    "file": "QUAXWELL.png",
+    "width": 6720,
+    "height": 96,
+    "frameCount": 70
+  },
+  "QUILAVA": {
+    "file": "QUILAVA.png",
+    "width": 5166,
+    "height": 63,
+    "frameCount": 82
+  },
+  "QUILLADIN": {
+    "file": "QUILLADIN.png",
+    "width": 4680,
+    "height": 60,
+    "frameCount": 77
+  },
+  "QWILFISH": {
+    "file": "QWILFISH.png",
+    "width": 1792,
+    "height": 56,
+    "frameCount": 32
+  },
+  "QWILFISH_1": {
+    "file": "QWILFISH_1.png",
+    "width": 10560,
+    "height": 96,
+    "frameCount": 110
+  },
+  "RABOOT": {
+    "file": "RABOOT.png",
+    "width": 3480,
+    "height": 58,
+    "frameCount": 60
+  },
+  "RABSCA": {
+    "file": "RABSCA.png",
+    "width": 3300,
+    "height": 100,
+    "frameCount": 33
+  },
+  "RAGINGBOLT": {
+    "file": "RAGINGBOLT.png",
+    "width": 7584,
+    "height": 96,
+    "frameCount": 79
+  },
+  "RAICHU": {
+    "file": "RAICHU.png",
+    "width": 6142,
+    "height": 74,
+    "frameCount": 77
+  },
+  "RAICHU_1": {
+    "file": "RAICHU_1.png",
+    "width": 11340,
+    "height": 105,
+    "frameCount": 108
+  },
+  "RAICHU_female": {
+    "file": "RAICHU_female.png",
+    "width": 6132,
+    "height": 73,
+    "frameCount": 84
+  },
+  "RAIKOU": {
+    "file": "RAIKOU.png",
+    "width": 7308,
+    "height": 84,
+    "frameCount": 81
+  },
+  "RALTS": {
+    "file": "RALTS.png",
+    "width": 2574,
+    "height": 39,
+    "frameCount": 66
+  },
+  "RAMPARDOS": {
+    "file": "RAMPARDOS.png",
+    "width": 6960,
+    "height": 80,
+    "frameCount": 87
+  },
+  "RAPIDASH": {
+    "file": "RAPIDASH.png",
+    "width": 1702,
+    "height": 74,
+    "frameCount": 23
+  },
+  "RAPIDASH_1": {
+    "file": "RAPIDASH_1.png",
+    "width": 1296,
+    "height": 81,
+    "frameCount": 12
+  },
+  "RATICATE": {
+    "file": "RATICATE.png",
+    "width": 3900,
+    "height": 65,
+    "frameCount": 50
+  },
+  "RATICATE_1": {
+    "file": "RATICATE_1.png",
+    "width": 3840,
+    "height": 96,
+    "frameCount": 40
+  },
+  "RATICATE_female": {
+    "file": "RATICATE_female.png",
+    "width": 3658,
+    "height": 62,
+    "frameCount": 49
+  },
+  "RATTATA": {
+    "file": "RATTATA.png",
+    "width": 2193,
+    "height": 43,
+    "frameCount": 51
+  },
+  "RATTATA_1": {
+    "file": "RATTATA_1.png",
+    "width": 5088,
+    "height": 96,
+    "frameCount": 53
+  },
+  "RATTATA_female": {
+    "file": "RATTATA_female.png",
+    "width": 2193,
+    "height": 43,
+    "frameCount": 51
+  },
+  "RAYQUAZA": {
+    "file": "RAYQUAZA.png",
+    "width": 6270,
+    "height": 110,
+    "frameCount": 57
+  },
+  "RAYQUAZA_1": {
+    "file": "RAYQUAZA_1.png",
+    "width": 1560,
+    "height": 130,
+    "frameCount": 12
+  },
+  "REGICE": {
+    "file": "REGICE.png",
+    "width": 3654,
+    "height": 87,
+    "frameCount": 42
+  },
+  "REGIDRAGO": {
+    "file": "REGIDRAGO.png",
+    "width": 12096,
+    "height": 84,
+    "frameCount": 144
+  },
+  "REGIELEKI": {
+    "file": "REGIELEKI.png",
+    "width": 1548,
+    "height": 129,
+    "frameCount": 12
+  },
+  "REGIGIGAS": {
+    "file": "REGIGIGAS.png",
+    "width": 6351,
+    "height": 87,
+    "frameCount": 71
+  },
+  "REGIROCK": {
+    "file": "REGIROCK.png",
+    "width": 3900,
+    "height": 78,
+    "frameCount": 50
+  },
+  "REGISTEEL": {
+    "file": "REGISTEEL.png",
+    "width": 2880,
+    "height": 72,
+    "frameCount": 38
+  },
+  "RELICANTH": {
+    "file": "RELICANTH.png",
+    "width": 3363,
+    "height": 59,
+    "frameCount": 57
+  },
+  "RELICANTH_female": {
+    "file": "RELICANTH_female.png",
+    "width": 3363,
+    "height": 59,
+    "frameCount": 57
+  },
+  "RELLOR": {
+    "file": "RELLOR.png",
+    "width": 850,
+    "height": 85,
+    "frameCount": 10
+  },
+  "REMORAID": {
+    "file": "REMORAID.png",
+    "width": 2162,
+    "height": 47,
+    "frameCount": 43
+  },
+  "RESHIRAM": {
+    "file": "RESHIRAM.png",
+    "width": 11988,
+    "height": 108,
+    "frameCount": 111
+  },
+  "REUNICLUS": {
+    "file": "REUNICLUS.png",
+    "width": 7128,
+    "height": 99,
+    "frameCount": 72
+  },
+  "REVAVROOM": {
+    "file": "REVAVROOM.png",
+    "width": 9638,
+    "height": 122,
+    "frameCount": 88
+  },
+  "RHYDON": {
+    "file": "RHYDON.png",
+    "width": 7488,
+    "height": 78,
+    "frameCount": 95
+  },
+  "RHYDON_female": {
+    "file": "RHYDON_female.png",
+    "width": 7488,
+    "height": 78,
+    "frameCount": 95
+  },
+  "RHYHORN": {
+    "file": "RHYHORN.png",
+    "width": 5304,
+    "height": 68,
+    "frameCount": 78
+  },
+  "RHYHORN_female": {
+    "file": "RHYHORN_female.png",
+    "width": 5016,
+    "height": 66,
+    "frameCount": 76
+  },
+  "RHYPERIOR": {
+    "file": "RHYPERIOR.png",
+    "width": 10458,
+    "height": 83,
+    "frameCount": 122
+  },
+  "RHYPERIOR_female": {
+    "file": "RHYPERIOR_female.png",
+    "width": 10458,
+    "height": 83,
+    "frameCount": 122
+  },
+  "RIBOMBEE": {
+    "file": "RIBOMBEE.png",
+    "width": 6912,
+    "height": 96,
+    "frameCount": 74
+  },
+  "RILLABOOM": {
+    "file": "RILLABOOM.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "RILLABOOM_1": {
+    "file": "RILLABOOM_1.png",
+    "width": 2968,
+    "height": 106,
+    "frameCount": 23
+  },
+  "RIOLU": {
+    "file": "RIOLU.png",
+    "width": 3087,
+    "height": 49,
+    "frameCount": 63
+  },
+  "ROARINGMOON": {
+    "file": "ROARINGMOON.png",
+    "width": 2048,
+    "height": 128,
+    "frameCount": 16
+  },
+  "ROCKRUFF": {
+    "file": "ROCKRUFF.png",
+    "width": 5952,
+    "height": 96,
+    "frameCount": 62
+  },
+  "ROGGENROLA": {
+    "file": "ROGGENROLA.png",
+    "width": 2432,
+    "height": 38,
+    "frameCount": 64
+  },
+  "ROLYCOLY": {
+    "file": "ROLYCOLY.png",
+    "width": 3936,
+    "height": 96,
+    "frameCount": 41
+  },
+  "ROOKIDEE": {
+    "file": "ROOKIDEE.png",
+    "width": 8064,
+    "height": 96,
+    "frameCount": 84
+  },
+  "ROSELIA": {
+    "file": "ROSELIA.png",
+    "width": 3782,
+    "height": 62,
+    "frameCount": 61
+  },
+  "ROSELIA_female": {
+    "file": "ROSELIA_female.png",
+    "width": 3782,
+    "height": 62,
+    "frameCount": 61
+  },
+  "ROSERADE": {
+    "file": "ROSERADE.png",
+    "width": 7242,
+    "height": 71,
+    "frameCount": 102
+  },
+  "ROSERADE_female": {
+    "file": "ROSERADE_female.png",
+    "width": 7242,
+    "height": 71,
+    "frameCount": 102
+  },
+  "ROTOM": {
+    "file": "ROTOM.png",
+    "width": 8448,
+    "height": 88,
+    "frameCount": 96
+  },
+  "ROTOM_1": {
+    "file": "ROTOM_1.png",
+    "width": 6320,
+    "height": 79,
+    "frameCount": 80
+  },
+  "ROTOM_2": {
+    "file": "ROTOM_2.png",
+    "width": 10388,
+    "height": 98,
+    "frameCount": 106
+  },
+  "ROTOM_3": {
+    "file": "ROTOM_3.png",
+    "width": 9718,
+    "height": 113,
+    "frameCount": 86
+  },
+  "ROTOM_4": {
+    "file": "ROTOM_4.png",
+    "width": 7990,
+    "height": 94,
+    "frameCount": 85
+  },
+  "ROTOM_5": {
+    "file": "ROTOM_5.png",
+    "width": 6318,
+    "height": 78,
+    "frameCount": 81
+  },
+  "ROWLET": {
+    "file": "ROWLET.png",
+    "width": 8064,
+    "height": 96,
+    "frameCount": 84
+  },
+  "RUFFLET": {
+    "file": "RUFFLET.png",
+    "width": 3834,
+    "height": 54,
+    "frameCount": 71
+  },
+  "RUNERIGUS": {
+    "file": "RUNERIGUS.png",
+    "width": 7930,
+    "height": 122,
+    "frameCount": 65
+  },
+  "SABLEYE": {
+    "file": "SABLEYE.png",
+    "width": 2254,
+    "height": 49,
+    "frameCount": 46
+  },
+  "SABLEYE_1": {
+    "file": "SABLEYE_1.png",
+    "width": 3360,
+    "height": 96,
+    "frameCount": 35
+  },
+  "SALAMENCE": {
+    "file": "SALAMENCE.png",
+    "width": 5332,
+    "height": 86,
+    "frameCount": 62
+  },
+  "SALAMENCE_1": {
+    "file": "SALAMENCE_1.png",
+    "width": 11124,
+    "height": 108,
+    "frameCount": 103
+  },
+  "SALANDIT": {
+    "file": "SALANDIT.png",
+    "width": 5376,
+    "height": 96,
+    "frameCount": 56
+  },
+  "SALAZZLE": {
+    "file": "SALAZZLE.png",
+    "width": 2700,
+    "height": 150,
+    "frameCount": 18
+  },
+  "SAMUROTT": {
+    "file": "SAMUROTT.png",
+    "width": 9792,
+    "height": 102,
+    "frameCount": 96
+  },
+  "SAMUROTT_1": {
+    "file": "SAMUROTT_1.png",
+    "width": 7990,
+    "height": 94,
+    "frameCount": 85
+  },
+  "SANDACONDA": {
+    "file": "SANDACONDA.png",
+    "width": 11484,
+    "height": 87,
+    "frameCount": 132
+  },
+  "SANDACONDA_1": {
+    "file": "SANDACONDA_1.png",
+    "width": 2688,
+    "height": 96,
+    "frameCount": 28
+  },
+  "SANDILE": {
+    "file": "SANDILE.png",
+    "width": 2704,
+    "height": 52,
+    "frameCount": 52
+  },
+  "SANDSHREW": {
+    "file": "SANDSHREW.png",
+    "width": 2418,
+    "height": 39,
+    "frameCount": 62
+  },
+  "SANDSHREW_1": {
+    "file": "SANDSHREW_1.png",
+    "width": 2520,
+    "height": 40,
+    "frameCount": 63
+  },
+  "SANDSLASH": {
+    "file": "SANDSLASH.png",
+    "width": 3304,
+    "height": 59,
+    "frameCount": 56
+  },
+  "SANDSLASH_1": {
+    "file": "SANDSLASH_1.png",
+    "width": 6100,
+    "height": 61,
+    "frameCount": 100
+  },
+  "SANDYGAST": {
+    "file": "SANDYGAST.png",
+    "width": 2925,
+    "height": 65,
+    "frameCount": 44
+  },
+  "SANDYSHOCKS": {
+    "file": "SANDYSHOCKS.png",
+    "width": 5904,
+    "height": 123,
+    "frameCount": 48
+  },
+  "SAWK": {
+    "file": "SAWK.png",
+    "width": 4158,
+    "height": 66,
+    "frameCount": 63
+  },
+  "SAWSBUCK": {
+    "file": "SAWSBUCK.png",
+    "width": 5390,
+    "height": 77,
+    "frameCount": 70
+  },
+  "SAWSBUCK_1": {
+    "file": "SAWSBUCK_1.png",
+    "width": 5796,
+    "height": 84,
+    "frameCount": 69
+  },
+  "SAWSBUCK_2": {
+    "file": "SAWSBUCK_2.png",
+    "width": 5796,
+    "height": 84,
+    "frameCount": 69
+  },
+  "SAWSBUCK_3": {
+    "file": "SAWSBUCK_3.png",
+    "width": 5390,
+    "height": 77,
+    "frameCount": 70
+  },
+  "SCATTERBUG": {
+    "file": "SCATTERBUG.png",
+    "width": 506,
+    "height": 46,
+    "frameCount": 11
+  },
+  "SCEPTILE": {
+    "file": "SCEPTILE.png",
+    "width": 4599,
+    "height": 73,
+    "frameCount": 63
+  },
+  "SCEPTILE_1": {
+    "file": "SCEPTILE_1.png",
+    "width": 1224,
+    "height": 102,
+    "frameCount": 10
+  },
+  "SCIZOR": {
+    "file": "SCIZOR.png",
+    "width": 3975,
+    "height": 75,
+    "frameCount": 52
+  },
+  "SCIZOR_1": {
+    "file": "SCIZOR_1.png",
+    "width": 7728,
+    "height": 92,
+    "frameCount": 84
+  },
+  "SCIZOR_female": {
+    "file": "SCIZOR_female.png",
+    "width": 3975,
+    "height": 75,
+    "frameCount": 52
+  },
+  "SCOLIPEDE": {
+    "file": "SCOLIPEDE.png",
+    "width": 12064,
+    "height": 104,
+    "frameCount": 116
+  },
+  "SCORBUNNY": {
+    "file": "SCORBUNNY.png",
+    "width": 7008,
+    "height": 96,
+    "frameCount": 73
+  },
+  "SCOVILLAIN": {
+    "file": "SCOVILLAIN.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "SCRAFTY": {
+    "file": "SCRAFTY.png",
+    "width": 6468,
+    "height": 77,
+    "frameCount": 84
+  },
+  "SCRAGGY": {
+    "file": "SCRAGGY.png",
+    "width": 2952,
+    "height": 41,
+    "frameCount": 72
+  },
+  "SCREAMTAIL": {
+    "file": "SCREAMTAIL.png",
+    "width": 5658,
+    "height": 69,
+    "frameCount": 82
+  },
+  "SCYTHER": {
+    "file": "SCYTHER.png",
+    "width": 4209,
+    "height": 61,
+    "frameCount": 69
+  },
+  "SCYTHER_female": {
+    "file": "SCYTHER_female.png",
+    "width": 4209,
+    "height": 61,
+    "frameCount": 69
+  },
+  "SEADRA": {
+    "file": "SEADRA.png",
+    "width": 1856,
+    "height": 58,
+    "frameCount": 32
+  },
+  "SEAKING": {
+    "file": "SEAKING.png",
+    "width": 3552,
+    "height": 74,
+    "frameCount": 48
+  },
+  "SEAKING_female": {
+    "file": "SEAKING_female.png",
+    "width": 3456,
+    "height": 72,
+    "frameCount": 48
+  },
+  "SEALEO": {
+    "file": "SEALEO.png",
+    "width": 3752,
+    "height": 67,
+    "frameCount": 56
+  },
+  "SEEDOT": {
+    "file": "SEEDOT.png",
+    "width": 4902,
+    "height": 38,
+    "frameCount": 129
+  },
+  "SEEL": {
+    "file": "SEEL.png",
+    "width": 1488,
+    "height": 62,
+    "frameCount": 21
+  },
+  "SEISMITOAD": {
+    "file": "SEISMITOAD.png",
+    "width": 9408,
+    "height": 98,
+    "frameCount": 96
+  },
+  "SENTRET": {
+    "file": "SENTRET.png",
+    "width": 2412,
+    "height": 67,
+    "frameCount": 36
+  },
+  "SERPERIOR": {
+    "file": "SERPERIOR.png",
+    "width": 6570,
+    "height": 90,
+    "frameCount": 65
+  },
+  "SERVINE": {
+    "file": "SERVINE.png",
+    "width": 3168,
+    "height": 66,
+    "frameCount": 48
+  },
+  "SEVIPER": {
+    "file": "SEVIPER.png",
+    "width": 4429,
+    "height": 103,
+    "frameCount": 43
+  },
+  "SEWADDLE": {
+    "file": "SEWADDLE.png",
+    "width": 2808,
+    "height": 36,
+    "frameCount": 78
+  },
+  "SHARPEDO": {
+    "file": "SHARPEDO.png",
+    "width": 4536,
+    "height": 72,
+    "frameCount": 63
+  },
+  "SHARPEDO_1": {
+    "file": "SHARPEDO_1.png",
+    "width": 3784,
+    "height": 86,
+    "frameCount": 44
+  },
+  "SHAYMIN": {
+    "file": "SHAYMIN.png",
+    "width": 2109,
+    "height": 37,
+    "frameCount": 57
+  },
+  "SHAYMIN_1": {
+    "file": "SHAYMIN_1.png",
+    "width": 6003,
+    "height": 69,
+    "frameCount": 87
+  },
+  "SHEDINJA": {
+    "file": "SHEDINJA.png",
+    "width": 384,
+    "height": 48,
+    "frameCount": 8
+  },
+  "SHELGON": {
+    "file": "SHELGON.png",
+    "width": 2352,
+    "height": 49,
+    "frameCount": 48
+  },
+  "SHELLDER": {
+    "file": "SHELLDER.png",
+    "width": 1806,
+    "height": 42,
+    "frameCount": 43
+  },
+  "SHELLOS": {
+    "file": "SHELLOS.png",
+    "width": 2028,
+    "height": 39,
+    "frameCount": 52
+  },
+  "SHELLOS_1": {
+    "file": "SHELLOS_1.png",
+    "width": 2028,
+    "height": 39,
+    "frameCount": 52
+  },
+  "SHELMET": {
+    "file": "SHELMET.png",
+    "width": 3038,
+    "height": 49,
+    "frameCount": 62
+  },
+  "SHIELDON": {
+    "file": "SHIELDON.png",
+    "width": 2842,
+    "height": 49,
+    "frameCount": 58
+  },
+  "SHIFTRY": {
+    "file": "SHIFTRY.png",
+    "width": 5454,
+    "height": 101,
+    "frameCount": 54
+  },
+  "SHIFTRY_female": {
+    "file": "SHIFTRY_female.png",
+    "width": 5346,
+    "height": 99,
+    "frameCount": 54
+  },
+  "SHIINOTIC": {
+    "file": "SHIINOTIC.png",
+    "width": 7220,
+    "height": 95,
+    "frameCount": 76
+  },
+  "SHINX": {
+    "file": "SHINX.png",
+    "width": 3264,
+    "height": 51,
+    "frameCount": 64
+  },
+  "SHINX_female": {
+    "file": "SHINX_female.png",
+    "width": 3264,
+    "height": 51,
+    "frameCount": 64
+  },
+  "SHROODLE": {
+    "file": "SHROODLE.png",
+    "width": 1216,
+    "height": 76,
+    "frameCount": 16
+  },
+  "SHROOMISH": {
+    "file": "SHROOMISH.png",
+    "width": 1269,
+    "height": 47,
+    "frameCount": 27
+  },
+  "SHUCKLE": {
+    "file": "SHUCKLE.png",
+    "width": 2754,
+    "height": 54,
+    "frameCount": 47
+  },
+  "SHUPPET": {
+    "file": "SHUPPET.png",
+    "width": 2436,
+    "height": 58,
+    "frameCount": 42
+  },
+  "SIGILYPH": {
+    "file": "SIGILYPH.png",
+    "width": 6960,
+    "height": 120,
+    "frameCount": 58
+  },
+  "SILCOON": {
+    "file": "SILCOON.png",
+    "width": 2295,
+    "height": 51,
+    "frameCount": 44
+  },
+  "SILICOBRA": {
+    "file": "SILICOBRA.png",
+    "width": 3500,
+    "height": 50,
+    "frameCount": 69
+  },
+  "SILVALLY": {
+    "file": "SILVALLY.png",
+    "width": 11524,
+    "height": 86,
+    "frameCount": 134
+  },
+  "SILVALLY_1": {
+    "file": "SILVALLY_1.png",
+    "width": 11524,
+    "height": 86,
+    "frameCount": 134
+  },
+  "SILVALLY_10": {
+    "file": "SILVALLY_10.png",
+    "width": 11524,
+    "height": 86,
+    "frameCount": 134
+  },
+  "SILVALLY_11": {
+    "file": "SILVALLY_11.png",
+    "width": 11524,
+    "height": 86,
+    "frameCount": 134
+  },
+  "SILVALLY_12": {
+    "file": "SILVALLY_12.png",
+    "width": 11524,
+    "height": 86,
+    "frameCount": 134
+  },
+  "SILVALLY_13": {
+    "file": "SILVALLY_13.png",
+    "width": 11524,
+    "height": 86,
+    "frameCount": 134
+  },
+  "SILVALLY_14": {
+    "file": "SILVALLY_14.png",
+    "width": 11524,
+    "height": 86,
+    "frameCount": 134
+  },
+  "SILVALLY_15": {
+    "file": "SILVALLY_15.png",
+    "width": 11524,
+    "height": 86,
+    "frameCount": 134
+  },
+  "SILVALLY_16": {
+    "file": "SILVALLY_16.png",
+    "width": 11524,
+    "height": 86,
+    "frameCount": 134
+  },
+  "SILVALLY_17": {
+    "file": "SILVALLY_17.png",
+    "width": 11524,
+    "height": 86,
+    "frameCount": 134
+  },
+  "SILVALLY_18": {
+    "file": "SILVALLY_18.png",
+    "width": 11524,
+    "height": 86,
+    "frameCount": 134
+  },
+  "SILVALLY_2": {
+    "file": "SILVALLY_2.png",
+    "width": 11524,
+    "height": 86,
+    "frameCount": 134
+  },
+  "SILVALLY_3": {
+    "file": "SILVALLY_3.png",
+    "width": 11524,
+    "height": 86,
+    "frameCount": 134
+  },
+  "SILVALLY_4": {
+    "file": "SILVALLY_4.png",
+    "width": 11524,
+    "height": 86,
+    "frameCount": 134
+  },
+  "SILVALLY_5": {
+    "file": "SILVALLY_5.png",
+    "width": 11524,
+    "height": 86,
+    "frameCount": 134
+  },
+  "SILVALLY_6": {
+    "file": "SILVALLY_6.png",
+    "width": 11524,
+    "height": 86,
+    "frameCount": 134
+  },
+  "SILVALLY_7": {
+    "file": "SILVALLY_7.png",
+    "width": 11524,
+    "height": 86,
+    "frameCount": 134
+  },
+  "SILVALLY_8": {
+    "file": "SILVALLY_8.png",
+    "width": 11524,
+    "height": 86,
+    "frameCount": 134
+  },
+  "SIMIPOUR": {
+    "file": "SIMIPOUR.png",
+    "width": 3111,
+    "height": 61,
+    "frameCount": 51
+  },
+  "SIMISAGE": {
+    "file": "SIMISAGE.png",
+    "width": 5850,
+    "height": 75,
+    "frameCount": 78
+  },
+  "SIMISEAR": {
+    "file": "SIMISEAR.png",
+    "width": 3290,
+    "height": 70,
+    "frameCount": 47
+  },
+  "SINISTCHA": {
+    "file": "SINISTCHA.png",
+    "width": 1680,
+    "height": 70,
+    "frameCount": 24
+  },
+  "SINISTEA": {
+    "file": "SINISTEA.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "SIRFETCHD": {
+    "file": "SIRFETCHD.png",
+    "width": 5184,
+    "height": 96,
+    "frameCount": 54
+  },
+  "SIZZLIPEDE": {
+    "file": "SIZZLIPEDE.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "SKARMORY": {
+    "file": "SKARMORY.png",
+    "width": 3360,
+    "height": 70,
+    "frameCount": 42
+  },
+  "SKELEDIRGE": {
+    "file": "SKELEDIRGE.png",
+    "width": 9680,
+    "height": 110,
+    "frameCount": 93
+  },
+  "SKIDDO": {
+    "file": "SKIDDO.png",
+    "width": 3016,
+    "height": 58,
+    "frameCount": 52
+  },
+  "SKIPLOOM": {
+    "file": "SKIPLOOM.png",
+    "width": 2544,
+    "height": 53,
+    "frameCount": 48
+  },
+  "SKITTY": {
+    "file": "SKITTY.png",
+    "width": 4235,
+    "height": 55,
+    "frameCount": 77
+  },
+  "SKORUPI": {
+    "file": "SKORUPI.png",
+    "width": 3763,
+    "height": 71,
+    "frameCount": 53
+  },
+  "SKRELP": {
+    "file": "SKRELP.png",
+    "width": 560,
+    "height": 56,
+    "frameCount": 10
+  },
+  "SKUNTANK": {
+    "file": "SKUNTANK.png",
+    "width": 3600,
+    "height": 75,
+    "frameCount": 20
+  },
+  "SKWOVET": {
+    "file": "SKWOVET.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "SLAKING": {
+    "file": "SLAKING.png",
+    "width": 4125,
+    "height": 75,
+    "frameCount": 55
+  },
+  "SLAKOTH": {
+    "file": "SLAKOTH.png",
+    "width": 1248,
+    "height": 52,
+    "frameCount": 20
+  },
+  "SLIGGOO": {
+    "file": "SLIGGOO.png",
+    "width": 4160,
+    "height": 64,
+    "frameCount": 65
+  },
+  "SLIGGOO_1": {
+    "file": "SLIGGOO_1.png",
+    "width": 5850,
+    "height": 65,
+    "frameCount": 90
+  },
+  "SLITHERWING": {
+    "file": "SLITHERWING.png",
+    "width": 7084,
+    "height": 77,
+    "frameCount": 91
+  },
+  "SLOWBRO": {
+    "file": "SLOWBRO.png",
+    "width": 3591,
+    "height": 63,
+    "frameCount": 57
+  },
+  "SLOWBRO_1": {
+    "file": "SLOWBRO_1.png",
+    "width": 8352,
+    "height": 96,
+    "frameCount": 87
+  },
+  "SLOWBRO_2": {
+    "file": "SLOWBRO_2.png",
+    "width": 4992,
+    "height": 96,
+    "frameCount": 52
+  },
+  "SLOWKING": {
+    "file": "SLOWKING.png",
+    "width": 3519,
+    "height": 69,
+    "frameCount": 51
+  },
+  "SLOWKING_1": {
+    "file": "SLOWKING_1.png",
+    "width": 6432,
+    "height": 96,
+    "frameCount": 67
+  },
+  "SLOWPOKE": {
+    "file": "SLOWPOKE.png",
+    "width": 2816,
+    "height": 64,
+    "frameCount": 41
+  },
+  "SLOWPOKE_1": {
+    "file": "SLOWPOKE_1.png",
+    "width": 8544,
+    "height": 96,
+    "frameCount": 89
+  },
+  "SLUGMA": {
+    "file": "SLUGMA.png",
+    "width": 1280,
+    "height": 40,
+    "frameCount": 32
+  },
+  "SLURPUFF": {
+    "file": "SLURPUFF.png",
+    "width": 2304,
+    "height": 96,
+    "frameCount": 24
+  },
+  "SMEARGLE": {
+    "file": "SMEARGLE.png",
+    "width": 2832,
+    "height": 59,
+    "frameCount": 48
+  },
+  "SMOLIV": {
+    "file": "SMOLIV.png",
+    "width": 3200,
+    "height": 100,
+    "frameCount": 32
+  },
+  "SMOOCHUM": {
+    "file": "SMOOCHUM.png",
+    "width": 2256,
+    "height": 47,
+    "frameCount": 48
+  },
+  "SNEASEL": {
+    "file": "SNEASEL.png",
+    "width": 3363,
+    "height": 59,
+    "frameCount": 57
+  },
+  "SNEASEL_1": {
+    "file": "SNEASEL_1.png",
+    "width": 9408,
+    "height": 96,
+    "frameCount": 98
+  },
+  "SNEASEL_1_female": {
+    "file": "SNEASEL_1_female.png",
+    "width": 2597,
+    "height": 53,
+    "frameCount": 49
+  },
+  "SNEASEL_female": {
+    "file": "SNEASEL_female.png",
+    "width": 3136,
+    "height": 56,
+    "frameCount": 56
+  },
+  "SNEASLER": {
+    "file": "SNEASLER.png",
+    "width": 5856,
+    "height": 96,
+    "frameCount": 61
+  },
+  "SNIVY": {
+    "file": "SNIVY.png",
+    "width": 3456,
+    "height": 48,
+    "frameCount": 69
+  },
+  "SNOM": {
+    "file": "SNOM.png",
+    "width": 3840,
+    "height": 96,
+    "frameCount": 40
+  },
+  "SNORLAX": {
+    "file": "SNORLAX.png",
+    "width": 6525,
+    "height": 75,
+    "frameCount": 86
+  },
+  "SNORLAX_1": {
+    "file": "SNORLAX_1.png",
+    "width": 960,
+    "height": 96,
+    "frameCount": 10
+  },
+  "SNORUNT": {
+    "file": "SNORUNT.png",
+    "width": 1053,
+    "height": 39,
+    "frameCount": 27
+  },
+  "SNOVER": {
+    "file": "SNOVER.png",
+    "width": 3976,
+    "height": 71,
+    "frameCount": 56
+  },
+  "SNOVER_female": {
+    "file": "SNOVER_female.png",
+    "width": 3976,
+    "height": 71,
+    "frameCount": 56
+  },
+  "SNUBBULL": {
+    "file": "SNUBBULL.png",
+    "width": 2184,
+    "height": 42,
+    "frameCount": 52
+  },
+  "SOBBLE": {
+    "file": "SOBBLE.png",
+    "width": 4320,
+    "height": 96,
+    "frameCount": 45
+  },
+  "SOLGALEO": {
+    "file": "SOLGALEO.png",
+    "width": 7524,
+    "height": 99,
+    "frameCount": 76
+  },
+  "SOLGALEO_1": {
+    "file": "SOLGALEO_1.png",
+    "width": 192,
+    "height": 192,
+    "frameCount": 1
+  },
+  "SOLOSIS": {
+    "file": "SOLOSIS.png",
+    "width": 2257,
+    "height": 37,
+    "frameCount": 61
+  },
+  "SOLROCK": {
+    "file": "SOLROCK.png",
+    "width": 9768,
+    "height": 88,
+    "frameCount": 111
+  },
+  "SPEAROW": {
+    "file": "SPEAROW.png",
+    "width": 1209,
+    "height": 39,
+    "frameCount": 31
+  },
+  "SPECTRIER": {
+    "file": "SPECTRIER.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "SPEWPA": {
+    "file": "SPEWPA.png",
+    "width": 5265,
+    "height": 81,
+    "frameCount": 82
+  },
+  "SPHEAL": {
+    "file": "SPHEAL.png",
+    "width": 1849,
+    "height": 43,
+    "frameCount": 43
+  },
+  "SPIDOPS": {
+    "file": "SPIDOPS.png",
+    "width": 8700,
+    "height": 100,
+    "frameCount": 87
+  },
+  "SPINARAK": {
+    "file": "SPINARAK.png",
+    "width": 1419,
+    "height": 43,
+    "frameCount": 31
+  },
+  "SPINDA": {
+    "file": "SPINDA.png",
+    "width": 2652,
+    "height": 51,
+    "frameCount": 52
+  },
+  "SPIRITOMB": {
+    "file": "SPIRITOMB.png",
+    "width": 7504,
+    "height": 67,
+    "frameCount": 98
+  },
+  "SPOINK": {
+    "file": "SPOINK.png",
+    "width": 4092,
+    "height": 66,
+    "frameCount": 62
+  },
+  "SPRIGATITO": {
+    "file": "SPRIGATITO.png",
+    "width": 5088,
+    "height": 96,
+    "frameCount": 53
+  },
+  "SPRITZEE": {
+    "file": "SPRITZEE.png",
+    "width": 3456,
+    "height": 96,
+    "frameCount": 36
+  },
+  "SQUAWKABILLY": {
+    "file": "SQUAWKABILLY.png",
+    "width": 6912,
+    "height": 96,
+    "frameCount": 72
+  },
+  "SQUAWKABILLY_1": {
+    "file": "SQUAWKABILLY_1.png",
+    "width": 6912,
+    "height": 96,
+    "frameCount": 72
+  },
+  "SQUAWKABILLY_2": {
+    "file": "SQUAWKABILLY_2.png",
+    "width": 6912,
+    "height": 96,
+    "frameCount": 72
+  },
+  "SQUAWKABILLY_3": {
+    "file": "SQUAWKABILLY_3.png",
+    "width": 6912,
+    "height": 96,
+    "frameCount": 72
+  },
+  "SQUIRTLE": {
+    "file": "SQUIRTLE.png",
+    "width": 1118,
+    "height": 43,
+    "frameCount": 26
+  },
+  "STAKATAKA": {
+    "file": "STAKATAKA.png",
+    "width": 9200,
+    "height": 100,
+    "frameCount": 92
+  },
+  "STANTLER": {
+    "file": "STANTLER.png",
+    "width": 3311,
+    "height": 77,
+    "frameCount": 43
+  },
+  "STARAPTOR": {
+    "file": "STARAPTOR.png",
+    "width": 3243,
+    "height": 69,
+    "frameCount": 47
+  },
+  "STARAPTOR_female": {
+    "file": "STARAPTOR_female.png",
+    "width": 3243,
+    "height": 69,
+    "frameCount": 47
+  },
+  "STARAVIA": {
+    "file": "STARAVIA.png",
+    "width": 3021,
+    "height": 53,
+    "frameCount": 57
+  },
+  "STARAVIA_female": {
+    "file": "STARAVIA_female.png",
+    "width": 3021,
+    "height": 53,
+    "frameCount": 57
+  },
+  "STARLY": {
+    "file": "STARLY.png",
+    "width": 1960,
+    "height": 40,
+    "frameCount": 49
+  },
+  "STARLY_female": {
+    "file": "STARLY_female.png",
+    "width": 1960,
+    "height": 40,
+    "frameCount": 49
+  },
+  "STARMIE": {
+    "file": "STARMIE.png",
+    "width": 5200,
+    "height": 65,
+    "frameCount": 72
+  },
+  "STARYU": {
+    "file": "STARYU.png",
+    "width": 2280,
+    "height": 57,
+    "frameCount": 40
+  },
+  "STEELIX": {
+    "file": "STEELIX.png",
+    "width": 4464,
+    "height": 93,
+    "frameCount": 48
+  },
+  "STEELIX_1": {
+    "file": "STEELIX_1.png",
+    "width": 1224,
+    "height": 102,
+    "frameCount": 12
+  },
+  "STEELIX_female": {
+    "file": "STEELIX_female.png",
+    "width": 4464,
+    "height": 93,
+    "frameCount": 48
+  },
+  "STEENEE": {
+    "file": "STEENEE.png",
+    "width": 4992,
+    "height": 96,
+    "frameCount": 52
+  },
+  "STONJOURNER": {
+    "file": "STONJOURNER.png",
+    "width": 10956,
+    "height": 83,
+    "frameCount": 132
+  },
+  "STOUTLAND": {
+    "file": "STOUTLAND.png",
+    "width": 5550,
+    "height": 74,
+    "frameCount": 75
+  },
+  "STUDIOPROP": {
+    "file": "STUDIOPROP.png",
+    "width": 96,
+    "height": 96,
+    "frameCount": 1
+  },
+  "STUDIOPROP_1": {
+    "file": "STUDIOPROP_1.png",
+    "width": 96,
+    "height": 96,
+    "frameCount": 1
+  },
+  "STUDIOPROP_10": {
+    "file": "STUDIOPROP_10.png",
+    "width": 4992,
+    "height": 128,
+    "frameCount": 39
+  },
+  "STUDIOPROP_11": {
+    "file": "STUDIOPROP_11.png",
+    "width": 5504,
+    "height": 128,
+    "frameCount": 43
+  },
+  "STUDIOPROP_12": {
+    "file": "STUDIOPROP_12.png",
+    "width": 12462,
+    "height": 186,
+    "frameCount": 67
+  },
+  "STUDIOPROP_13": {
+    "file": "STUDIOPROP_13.png",
+    "width": 4620,
+    "height": 105,
+    "frameCount": 44
+  },
+  "STUDIOPROP_14": {
+    "file": "STUDIOPROP_14.png",
+    "width": 4160,
+    "height": 80,
+    "frameCount": 52
+  },
+  "STUDIOPROP_15": {
+    "file": "STUDIOPROP_15.png",
+    "width": 10443,
+    "height": 177,
+    "frameCount": 241
+  },
+  "STUDIOPROP_16": {
+    "file": "STUDIOPROP_16.png",
+    "width": 7680,
+    "height": 96,
+    "frameCount": 80
+  },
+  "STUDIOPROP_17": {
+    "file": "STUDIOPROP_17.png",
+    "width": 3264,
+    "height": 96,
+    "frameCount": 34
+  },
+  "STUDIOPROP_18": {
+    "file": "STUDIOPROP_18.png",
+    "width": 6656,
+    "height": 128,
+    "frameCount": 47
+  },
+  "STUDIOPROP_19": {
+    "file": "STUDIOPROP_19.png",
+    "width": 6656,
+    "height": 128,
+    "frameCount": 47
+  },
+  "STUDIOPROP_2": {
+    "file": "STUDIOPROP_2.png",
+    "width": 2688,
+    "height": 96,
+    "frameCount": 28
+  },
+  "STUDIOPROP_20": {
+    "file": "STUDIOPROP_20.png",
+    "width": 6322,
+    "height": 109,
+    "frameCount": 51
+  },
+  "STUDIOPROP_21": {
+    "file": "STUDIOPROP_21.png",
+    "width": 6493,
+    "height": 151,
+    "frameCount": 43
+  },
+  "STUDIOPROP_22": {
+    "file": "STUDIOPROP_22.png",
+    "width": 6493,
+    "height": 151,
+    "frameCount": 43
+  },
+  "STUDIOPROP_23": {
+    "file": "STUDIOPROP_23.png",
+    "width": 5580,
+    "height": 186,
+    "frameCount": 30
+  },
+  "STUDIOPROP_24": {
+    "file": "STUDIOPROP_24.png",
+    "width": 7518,
+    "height": 179,
+    "frameCount": 39
+  },
+  "STUDIOPROP_25": {
+    "file": "STUDIOPROP_25.png",
+    "width": 910,
+    "height": 91,
+    "frameCount": 10
+  },
+  "STUDIOPROP_26": {
+    "file": "STUDIOPROP_26.png",
+    "width": 8640,
+    "height": 240,
+    "frameCount": 64
+  },
+  "STUDIOPROP_27": {
+    "file": "STUDIOPROP_27.png",
+    "width": 5180,
+    "height": 148,
+    "frameCount": 35
+  },
+  "STUDIOPROP_3": {
+    "file": "STUDIOPROP_3.png",
+    "width": 9120,
+    "height": 96,
+    "frameCount": 95
+  },
+  "STUDIOPROP_4": {
+    "file": "STUDIOPROP_4.png",
+    "width": 2208,
+    "height": 96,
+    "frameCount": 23
+  },
+  "STUDIOPROP_5": {
+    "file": "STUDIOPROP_5.png",
+    "width": 7488,
+    "height": 96,
+    "frameCount": 78
+  },
+  "STUDIOPROP_6": {
+    "file": "STUDIOPROP_6.png",
+    "width": 3094,
+    "height": 91,
+    "frameCount": 34
+  },
+  "STUDIOPROP_7": {
+    "file": "STUDIOPROP_7.png",
+    "width": 800,
+    "height": 80,
+    "frameCount": 16
+  },
+  "STUDIOPROP_8": {
+    "file": "STUDIOPROP_8.png",
+    "width": 1308,
+    "height": 109,
+    "frameCount": 12
+  },
+  "STUDIOPROP_9": {
+    "file": "STUDIOPROP_9.png",
+    "width": 3072,
+    "height": 128,
+    "frameCount": 24
+  },
+  "STUFFUL": {
+    "file": "STUFFUL.png",
+    "width": 3135,
+    "height": 55,
+    "frameCount": 57
+  },
+  "STUNFISK": {
+    "file": "STUNFISK.png",
+    "width": 3782,
+    "height": 61,
+    "frameCount": 62
+  },
+  "STUNFISK_1": {
+    "file": "STUNFISK_1.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "STUNKY": {
+    "file": "STUNKY.png",
+    "width": 2632,
+    "height": 56,
+    "frameCount": 47
+  },
+  "SUDOWOODO": {
+    "file": "SUDOWOODO.png",
+    "width": 2178,
+    "height": 66,
+    "frameCount": 33
+  },
+  "SUDOWOODO_female": {
+    "file": "SUDOWOODO_female.png",
+    "width": 2178,
+    "height": 66,
+    "frameCount": 33
+  },
+  "SUICUNE": {
+    "file": "SUICUNE.png",
+    "width": 3854,
+    "height": 82,
+    "frameCount": 47
+  },
+  "SUNFLORA": {
+    "file": "SUNFLORA.png",
+    "width": 2295,
+    "height": 51,
+    "frameCount": 45
+  },
+  "SUNKERN": {
+    "file": "SUNKERN.png",
+    "width": 1280,
+    "height": 40,
+    "frameCount": 32
+  },
+  "SURSKIT": {
+    "file": "SURSKIT.png",
+    "width": 4080,
+    "height": 68,
+    "frameCount": 60
+  },
+  "SWABLU": {
+    "file": "SWABLU.png",
+    "width": 814,
+    "height": 74,
+    "frameCount": 10
+  },
+  "SWADLOON": {
+    "file": "SWADLOON.png",
+    "width": 3150,
+    "height": 50,
+    "frameCount": 57
+  },
+  "SWALOT": {
+    "file": "SWALOT.png",
+    "width": 3136,
+    "height": 64,
+    "frameCount": 49
+  },
+  "SWALOT_female": {
+    "file": "SWALOT_female.png",
+    "width": 3150,
+    "height": 63,
+    "frameCount": 50
+  },
+  "SWAMPERT": {
+    "file": "SWAMPERT.png",
+    "width": 3496,
+    "height": 76,
+    "frameCount": 40
+  },
+  "SWAMPERT_1": {
+    "file": "SWAMPERT_1.png",
+    "width": 12090,
+    "height": 130,
+    "frameCount": 93
+  },
+  "SWANNA": {
+    "file": "SWANNA.png",
+    "width": 8556,
+    "height": 138,
+    "frameCount": 62
+  },
+  "SWELLOW": {
+    "file": "SWELLOW.png",
+    "width": 4964,
+    "height": 73,
+    "frameCount": 66
+  },
+  "SWINUB": {
+    "file": "SWINUB.png",
+    "width": 1120,
+    "height": 35,
+    "frameCount": 28
+  },
+  "SWIRLIX": {
+    "file": "SWIRLIX.png",
+    "width": 4770,
+    "height": 53,
+    "frameCount": 90
+  },
+  "SWOOBAT": {
+    "file": "SWOOBAT.png",
+    "width": 5775,
+    "height": 105,
+    "frameCount": 54
+  },
+  "SYLVEON": {
+    "file": "SYLVEON.png",
+    "width": 6144,
+    "height": 96,
+    "frameCount": 64
+  },
+  "TADBULB": {
+    "file": "TADBULB.png",
+    "width": 6035,
+    "height": 71,
+    "frameCount": 85
+  },
+  "TAILLOW": {
+    "file": "TAILLOW.png",
+    "width": 1408,
+    "height": 44,
+    "frameCount": 32
+  },
+  "TALONFLAME": {
+    "file": "TALONFLAME.png",
+    "width": 10240,
+    "height": 128,
+    "frameCount": 80
+  },
+  "TANDEMAUS": {
+    "file": "TANDEMAUS.png",
+    "width": 6160,
+    "height": 77,
+    "frameCount": 80
+  },
+  "TANGELA": {
+    "file": "TANGELA.png",
+    "width": 1568,
+    "height": 49,
+    "frameCount": 28
+  },
+  "TANGROWTH": {
+    "file": "TANGROWTH.png",
+    "width": 9310,
+    "height": 98,
+    "frameCount": 95
+  },
+  "TANGROWTH_female": {
+    "file": "TANGROWTH_female.png",
+    "width": 9310,
+    "height": 98,
+    "frameCount": 95
+  },
+  "TAPUBULU": {
+    "file": "TAPUBULU.png",
+    "width": 7820,
+    "height": 92,
+    "frameCount": 85
+  },
+  "TAPUFINI": {
+    "file": "TAPUFINI.png",
+    "width": 1764,
+    "height": 126,
+    "frameCount": 14
+  },
+  "TAPUKOKO": {
+    "file": "TAPUKOKO.png",
+    "width": 5600,
+    "height": 100,
+    "frameCount": 56
+  },
+  "TAPULELE": {
+    "file": "TAPULELE.png",
+    "width": 1890,
+    "height": 126,
+    "frameCount": 15
+  },
+  "TAROUNTULA": {
+    "file": "TAROUNTULA.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "TATSUGIRI": {
+    "file": "TATSUGIRI.png",
+    "width": 1224,
+    "height": 34,
+    "frameCount": 32
+  },
+  "TATSUGIRI_1": {
+    "file": "TATSUGIRI_1.png",
+    "width": 1224,
+    "height": 34,
+    "frameCount": 32
+  },
+  "TATSUGIRI_2": {
+    "file": "TATSUGIRI_2.png",
+    "width": 1224,
+    "height": 34,
+    "frameCount": 32
+  },
+  "TAUROS": {
+    "file": "TAUROS.png",
+    "width": 2964,
+    "height": 76,
+    "frameCount": 37
+  },
+  "TAUROS_1": {
+    "file": "TAUROS_1.png",
+    "width": 6624,
+    "height": 96,
+    "frameCount": 69
+  },
+  "TAUROS_2": {
+    "file": "TAUROS_2.png",
+    "width": 3456,
+    "height": 96,
+    "frameCount": 36
+  },
+  "TAUROS_3": {
+    "file": "TAUROS_3.png",
+    "width": 3456,
+    "height": 96,
+    "frameCount": 36
+  },
+  "TEDDIURSA": {
+    "file": "TEDDIURSA.png",
+    "width": 1404,
+    "height": 36,
+    "frameCount": 39
+  },
+  "TENTACOOL": {
+    "file": "TENTACOOL.png",
+    "width": 3408,
+    "height": 71,
+    "frameCount": 48
+  },
+  "TENTACRUEL": {
+    "file": "TENTACRUEL.png",
+    "width": 3360,
+    "height": 84,
+    "frameCount": 39
+  },
+  "TEPIG": {
+    "file": "TEPIG.png",
+    "width": 2773,
+    "height": 47,
+    "frameCount": 59
+  },
+  "TERAPAGOS": {
+    "file": "TERAPAGOS.png",
+    "width": 4485,
+    "height": 65,
+    "frameCount": 69
+  },
+  "TERAPAGOS_1": {
+    "file": "TERAPAGOS_1.png",
+    "width": 7872,
+    "height": 82,
+    "frameCount": 96
+  },
+  "TERAPAGOS_2": {
+    "file": "TERAPAGOS_2.png",
+    "width": 3456,
+    "height": 96,
+    "frameCount": 36
+  },
+  "TERRAKION": {
+    "file": "TERRAKION.png",
+    "width": 6561,
+    "height": 81,
+    "frameCount": 73
+  },
+  "THIEVUL": {
+    "file": "THIEVUL.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "THROH": {
+    "file": "THROH.png",
+    "width": 4200,
+    "height": 75,
+    "frameCount": 56
+  },
+  "THUNDURUS": {
+    "file": "THUNDURUS.png",
+    "width": 10780,
+    "height": 110,
+    "frameCount": 98
+  },
+  "THUNDURUS_1": {
+    "file": "THUNDURUS_1.png",
+    "width": 12126,
+    "height": 129,
+    "frameCount": 94
+  },
+  "THWACKEY": {
+    "file": "THWACKEY.png",
+    "width": 4814,
+    "height": 58,
+    "frameCount": 83
+  },
+  "TIMBURR": {
+    "file": "TIMBURR.png",
+    "width": 4623,
+    "height": 69,
+    "frameCount": 67
+  },
+  "TINGLU": {
+    "file": "TINGLU.png",
+    "width": 7760,
+    "height": 97,
+    "frameCount": 78
+  },
+  "TINKATINK": {
+    "file": "TINKATINK.png",
+    "width": 3600,
+    "height": 100,
+    "frameCount": 36
+  },
+  "TINKATON": {
+    "file": "TINKATON.png",
+    "width": 2400,
+    "height": 150,
+    "frameCount": 16
+  },
+  "TINKATUFF": {
+    "file": "TINKATUFF.png",
+    "width": 10700,
+    "height": 100,
+    "frameCount": 107
+  },
+  "TIRTOUGA": {
+    "file": "TIRTOUGA.png",
+    "width": 3776,
+    "height": 59,
+    "frameCount": 51
+  },
+  "TOEDSCOOL": {
+    "file": "TOEDSCOOL.png",
+    "width": 5904,
+    "height": 123,
+    "frameCount": 48
+  },
+  "TOEDSCRUEL": {
+    "file": "TOEDSCRUEL.png",
+    "width": 768,
+    "height": 96,
+    "frameCount": 8
+  },
+  "TOGEDEMARU": {
+    "file": "TOGEDEMARU.png",
+    "width": 4320,
+    "height": 96,
+    "frameCount": 45
+  },
+  "TOGEKISS": {
+    "file": "TOGEKISS.png",
+    "width": 4176,
+    "height": 87,
+    "frameCount": 48
+  },
+  "TOGEPI": {
+    "file": "TOGEPI.png",
+    "width": 1989,
+    "height": 39,
+    "frameCount": 51
+  },
+  "TOGETIC": {
+    "file": "TOGETIC.png",
+    "width": 3640,
+    "height": 70,
+    "frameCount": 52
+  },
+  "TORCHIC": {
+    "file": "TORCHIC.png",
+    "width": 3404,
+    "height": 46,
+    "frameCount": 74
+  },
+  "TORCHIC_female": {
+    "file": "TORCHIC_female.png",
+    "width": 3404,
+    "height": 46,
+    "frameCount": 74
+  },
+  "TORKOAL": {
+    "file": "TORKOAL.png",
+    "width": 4225,
+    "height": 65,
+    "frameCount": 65
+  },
+  "TORNADUS": {
+    "file": "TORNADUS.png",
+    "width": 11918,
+    "height": 101,
+    "frameCount": 118
+  },
+  "TORNADUS_1": {
+    "file": "TORNADUS_1.png",
+    "width": 13112,
+    "height": 149,
+    "frameCount": 88
+  },
+  "TORRACAT": {
+    "file": "TORRACAT.png",
+    "width": 960,
+    "height": 80,
+    "frameCount": 12
+  },
+  "TORTERRA": {
+    "file": "TORTERRA.png",
+    "width": 4560,
+    "height": 80,
+    "frameCount": 57
+  },
+  "TOTODILE": {
+    "file": "TOTODILE.png",
+    "width": 2596,
+    "height": 59,
+    "frameCount": 44
+  },
+  "TOUCANNON": {
+    "file": "TOUCANNON.png",
+    "width": 11570,
+    "height": 89,
+    "frameCount": 130
+  },
+  "TOXAPEX": {
+    "file": "TOXAPEX.png",
+    "width": 7830,
+    "height": 90,
+    "frameCount": 57
+  },
+  "TOXEL": {
+    "file": "TOXEL.png",
+    "width": 1344,
+    "height": 96,
+    "frameCount": 14
+  },
+  "TOXICROAK": {
+    "file": "TOXICROAK.png",
+    "width": 4288,
+    "height": 67,
+    "frameCount": 64
+  },
+  "TOXICROAK_female": {
+    "file": "TOXICROAK_female.png",
+    "width": 4288,
+    "height": 67,
+    "frameCount": 64
+  },
+  "TOXTRICITY": {
+    "file": "TOXTRICITY.png",
+    "width": 5100,
+    "height": 85,
+    "frameCount": 60
+  },
+  "TOXTRICITY_1": {
+    "file": "TOXTRICITY_1.png",
+    "width": 609,
+    "height": 87,
+    "frameCount": 7
+  },
+  "TOXTRICITY_2": {
+    "file": "TOXTRICITY_2.png",
+    "width": 1953,
+    "height": 93,
+    "frameCount": 21
+  },
+  "TOXTRICITY_3": {
+    "file": "TOXTRICITY_3.png",
+    "width": 1953,
+    "height": 93,
+    "frameCount": 21
+  },
+  "TRANQUILL": {
+    "file": "TRANQUILL.png",
+    "width": 4425,
+    "height": 59,
+    "frameCount": 75
+  },
+  "TRAPINCH": {
+    "file": "TRAPINCH.png",
+    "width": 672,
+    "height": 42,
+    "frameCount": 16
+  },
+  "TREECKO": {
+    "file": "TREECKO.png",
+    "width": 3402,
+    "height": 63,
+    "frameCount": 54
+  },
+  "TREVENANT": {
+    "file": "TREVENANT.png",
+    "width": 7680,
+    "height": 96,
+    "frameCount": 80
+  },
+  "TROPIUS": {
+    "file": "TROPIUS.png",
+    "width": 4136,
+    "height": 94,
+    "frameCount": 38
+  },
+  "TRUBBISH": {
+    "file": "TRUBBISH.png",
+    "width": 5406,
+    "height": 53,
+    "frameCount": 102
+  },
+  "TRUMBEAK": {
+    "file": "TRUMBEAK.png",
+    "width": 13152,
+    "height": 96,
+    "frameCount": 137
+  },
+  "TSAREENA": {
+    "file": "TSAREENA.png",
+    "width": 6528,
+    "height": 96,
+    "frameCount": 68
+  },
+  "TURTONATOR": {
+    "file": "TURTONATOR.png",
+    "width": 6930,
+    "height": 77,
+    "frameCount": 90
+  },
+  "TURTWIG": {
+    "file": "TURTWIG.png",
+    "width": 3400,
+    "height": 68,
+    "frameCount": 50
+  },
+  "TYMPOLE": {
+    "file": "TYMPOLE.png",
+    "width": 4048,
+    "height": 44,
+    "frameCount": 92
+  },
+  "TYNAMO": {
+    "file": "TYNAMO.png",
+    "width": 5985,
+    "height": 57,
+    "frameCount": 105
+  },
+  "TYPENULL": {
+    "file": "TYPENULL.png",
+    "width": 6624,
+    "height": 96,
+    "frameCount": 69
+  },
+  "TYPHLOSION": {
+    "file": "TYPHLOSION.png",
+    "width": 8064,
+    "height": 72,
+    "frameCount": 112
+  },
+  "TYPHLOSION_1": {
+    "file": "TYPHLOSION_1.png",
+    "width": 10944,
+    "height": 96,
+    "frameCount": 114
+  },
+  "TYRANITAR": {
+    "file": "TYRANITAR.png",
+    "width": 3696,
+    "height": 88,
+    "frameCount": 40
+  },
+  "TYRANITAR_1": {
+    "file": "TYRANITAR_1.png",
+    "width": 9588,
+    "height": 94,
+    "frameCount": 102
+  },
+  "TYRANTRUM": {
+    "file": "TYRANTRUM.png",
+    "width": 10800,
+    "height": 100,
+    "frameCount": 108
+  },
+  "TYROGUE": {
+    "file": "TYROGUE.png",
+    "width": 1665,
+    "height": 45,
+    "frameCount": 37
+  },
+  "TYRUNT": {
+    "file": "TYRUNT.png",
+    "width": 11136,
+    "height": 96,
+    "frameCount": 116
+  },
+  "UMBREON": {
+    "file": "UMBREON.png",
+    "width": 1683,
+    "height": 51,
+    "frameCount": 33
+  },
+  "UNFEZANT": {
+    "file": "UNFEZANT.png",
+    "width": 5625,
+    "height": 75,
+    "frameCount": 75
+  },
+  "UNFEZANT_female": {
+    "file": "UNFEZANT_female.png",
+    "width": 5400,
+    "height": 72,
+    "frameCount": 75
+  },
+  "UNOWN": {
+    "file": "UNOWN.png",
+    "width": 2160,
+    "height": 45,
+    "frameCount": 48
+  },
+  "UNOWN_1": {
+    "file": "UNOWN_1.png",
+    "width": 2064,
+    "height": 43,
+    "frameCount": 48
+  },
+  "UNOWN_10": {
+    "file": "UNOWN_10.png",
+    "width": 1968,
+    "height": 41,
+    "frameCount": 48
+  },
+  "UNOWN_11": {
+    "file": "UNOWN_11.png",
+    "width": 1776,
+    "height": 37,
+    "frameCount": 48
+  },
+  "UNOWN_12": {
+    "file": "UNOWN_12.png",
+    "width": 1692,
+    "height": 36,
+    "frameCount": 47
+  },
+  "UNOWN_13": {
+    "file": "UNOWN_13.png",
+    "width": 1692,
+    "height": 36,
+    "frameCount": 47
+  },
+  "UNOWN_14": {
+    "file": "UNOWN_14.png",
+    "width": 2300,
+    "height": 50,
+    "frameCount": 46
+  },
+  "UNOWN_15": {
+    "file": "UNOWN_15.png",
+    "width": 1776,
+    "height": 37,
+    "frameCount": 48
+  },
+  "UNOWN_16": {
+    "file": "UNOWN_16.png",
+    "width": 1584,
+    "height": 33,
+    "frameCount": 48
+  },
+  "UNOWN_17": {
+    "file": "UNOWN_17.png",
+    "width": 1776,
+    "height": 37,
+    "frameCount": 48
+  },
+  "UNOWN_18": {
+    "file": "UNOWN_18.png",
+    "width": 2448,
+    "height": 51,
+    "frameCount": 48
+  },
+  "UNOWN_19": {
+    "file": "UNOWN_19.png",
+    "width": 1872,
+    "height": 39,
+    "frameCount": 48
+  },
+  "UNOWN_2": {
+    "file": "UNOWN_2.png",
+    "width": 2115,
+    "height": 47,
+    "frameCount": 45
+  },
+  "UNOWN_20": {
+    "file": "UNOWN_20.png",
+    "width": 1872,
+    "height": 39,
+    "frameCount": 48
+  },
+  "UNOWN_21": {
+    "file": "UNOWN_21.png",
+    "width": 1968,
+    "height": 41,
+    "frameCount": 48
+  },
+  "UNOWN_22": {
+    "file": "UNOWN_22.png",
+    "width": 1786,
+    "height": 38,
+    "frameCount": 47
+  },
+  "UNOWN_23": {
+    "file": "UNOWN_23.png",
+    "width": 1598,
+    "height": 34,
+    "frameCount": 47
+  },
+  "UNOWN_24": {
+    "file": "UNOWN_24.png",
+    "width": 1880,
+    "height": 40,
+    "frameCount": 47
+  },
+  "UNOWN_25": {
+    "file": "UNOWN_25.png",
+    "width": 2068,
+    "height": 44,
+    "frameCount": 47
+  },
+  "UNOWN_26": {
+    "file": "UNOWN_26.png",
+    "width": 2256,
+    "height": 47,
+    "frameCount": 48
+  },
+  "UNOWN_27": {
+    "file": "UNOWN_27.png",
+    "width": 2160,
+    "height": 45,
+    "frameCount": 48
+  },
+  "UNOWN_3": {
+    "file": "UNOWN_3.png",
+    "width": 2068,
+    "height": 44,
+    "frameCount": 47
+  },
+  "UNOWN_4": {
+    "file": "UNOWN_4.png",
+    "width": 1968,
+    "height": 41,
+    "frameCount": 48
+  },
+  "UNOWN_5": {
+    "file": "UNOWN_5.png",
+    "width": 1968,
+    "height": 41,
+    "frameCount": 48
+  },
+  "UNOWN_6": {
+    "file": "UNOWN_6.png",
+    "width": 2256,
+    "height": 47,
+    "frameCount": 48
+  },
+  "UNOWN_7": {
+    "file": "UNOWN_7.png",
+    "width": 1974,
+    "height": 42,
+    "frameCount": 47
+  },
+  "UNOWN_8": {
+    "file": "UNOWN_8.png",
+    "width": 2064,
+    "height": 43,
+    "frameCount": 48
+  },
+  "UNOWN_9": {
+    "file": "UNOWN_9.png",
+    "width": 1880,
+    "height": 40,
+    "frameCount": 47
+  },
+  "URSALUNA": {
+    "file": "URSALUNA.png",
+    "width": 5850,
+    "height": 78,
+    "frameCount": 74
+  },
+  "URSALUNA_1": {
+    "file": "URSALUNA_1.png",
+    "width": 10549,
+    "height": 77,
+    "frameCount": 137
+  },
+  "URSARING": {
+    "file": "URSARING.png",
+    "width": 4960,
+    "height": 80,
+    "frameCount": 62
+  },
+  "URSARING_female": {
+    "file": "URSARING_female.png",
+    "width": 4960,
+    "height": 80,
+    "frameCount": 62
+  },
+  "URSHIFU": {
+    "file": "URSHIFU.png",
+    "width": 3072,
+    "height": 96,
+    "frameCount": 32
+  },
+  "URSHIFU_1": {
+    "file": "URSHIFU_1.png",
+    "width": 3072,
+    "height": 96,
+    "frameCount": 32
+  },
+  "URSHIFU_2": {
+    "file": "URSHIFU_2.png",
+    "width": 5304,
+    "height": 102,
+    "frameCount": 52
+  },
+  "URSHIFU_3": {
+    "file": "URSHIFU_3.png",
+    "width": 4224,
+    "height": 96,
+    "frameCount": 44
+  },
+  "UXIE": {
+    "file": "UXIE.png",
+    "width": 5088,
+    "height": 53,
+    "frameCount": 96
+  },
+  "VANILLISH": {
+    "file": "VANILLISH.png",
+    "width": 4608,
+    "height": 64,
+    "frameCount": 72
+  },
+  "VANILLITE": {
+    "file": "VANILLITE.png",
+    "width": 2968,
+    "height": 56,
+    "frameCount": 63
+  },
+  "VANILLUXE": {
+    "file": "VANILLUXE.png",
+    "width": 7704,
+    "height": 72,
+    "frameCount": 107
+  },
+  "VAPOREON": {
+    "file": "VAPOREON.png",
+    "width": 3009,
+    "height": 59,
+    "frameCount": 51
+  },
+  "VAROOM": {
+    "file": "VAROOM.png",
+    "width": 4590,
+    "height": 85,
+    "frameCount": 77
+  },
+  "VELUZA": {
+    "file": "VELUZA.png",
+    "width": 4992,
+    "height": 96,
+    "frameCount": 52
+  },
+  "VENIPEDE": {
+    "file": "VENIPEDE.png",
+    "width": 4590,
+    "height": 51,
+    "frameCount": 90
+  },
+  "VENOMOTH": {
+    "file": "VENOMOTH.png",
+    "width": 825,
+    "height": 75,
+    "frameCount": 11
+  },
+  "VENONAT": {
+    "file": "VENONAT.png",
+    "width": 2544,
+    "height": 53,
+    "frameCount": 48
+  },
+  "VENUSAUR": {
+    "file": "VENUSAUR.png",
+    "width": 7138,
+    "height": 86,
+    "frameCount": 83
+  },
+  "VENUSAUR_1": {
+    "file": "VENUSAUR_1.png",
+    "width": 3840,
+    "height": 96,
+    "frameCount": 40
+  },
+  "VENUSAUR_2": {
+    "file": "VENUSAUR_2.png",
+    "width": 960,
+    "height": 96,
+    "frameCount": 10
+  },
+  "VENUSAUR_female": {
+    "file": "VENUSAUR_female.png",
+    "width": 7138,
+    "height": 86,
+    "frameCount": 83
+  },
+  "VESPIQUEN": {
+    "file": "VESPIQUEN.png",
+    "width": 8848,
+    "height": 79,
+    "frameCount": 112
+  },
+  "VIBRAVA": {
+    "file": "VIBRAVA.png",
+    "width": 2604,
+    "height": 62,
+    "frameCount": 15
+  },
+  "VICTINI": {
+    "file": "VICTINI.png",
+    "width": 3038,
+    "height": 62,
+    "frameCount": 49
+  },
+  "VICTREEBEL": {
+    "file": "VICTREEBEL.png",
+    "width": 2556,
+    "height": 71,
+    "frameCount": 36
+  },
+  "VIGOROTH": {
+    "file": "VIGOROTH.png",
+    "width": 2948,
+    "height": 67,
+    "frameCount": 25
+  },
+  "VIKAVOLT": {
+    "file": "VIKAVOLT.png",
+    "width": 12672,
+    "height": 96,
+    "frameCount": 132
+  },
+  "VILEPLUME": {
+    "file": "VILEPLUME.png",
+    "width": 1960,
+    "height": 56,
+    "frameCount": 35
+  },
+  "VILEPLUME_female": {
+    "file": "VILEPLUME_female.png",
+    "width": 1960,
+    "height": 56,
+    "frameCount": 35
+  },
+  "VIRIZION": {
+    "file": "VIRIZION.png",
+    "width": 6552,
+    "height": 72,
+    "frameCount": 91
+  },
+  "VIVILLON": {
+    "file": "VIVILLON.png",
+    "width": 5760,
+    "height": 96,
+    "frameCount": 60
+  },
+  "VIVILLON_1": {
+    "file": "VIVILLON_1.png",
+    "width": 5760,
+    "height": 96,
+    "frameCount": 60
+  },
+  "VIVILLON_10": {
+    "file": "VIVILLON_10.png",
+    "width": 5760,
+    "height": 96,
+    "frameCount": 60
+  },
+  "VIVILLON_11": {
+    "file": "VIVILLON_11.png",
+    "width": 5760,
+    "height": 96,
+    "frameCount": 60
+  },
+  "VIVILLON_12": {
+    "file": "VIVILLON_12.png",
+    "width": 5760,
+    "height": 96,
+    "frameCount": 60
+  },
+  "VIVILLON_13": {
+    "file": "VIVILLON_13.png",
+    "width": 5760,
+    "height": 96,
+    "frameCount": 60
+  },
+  "VIVILLON_14": {
+    "file": "VIVILLON_14.png",
+    "width": 5760,
+    "height": 96,
+    "frameCount": 60
+  },
+  "VIVILLON_15": {
+    "file": "VIVILLON_15.png",
+    "width": 5760,
+    "height": 96,
+    "frameCount": 60
+  },
+  "VIVILLON_16": {
+    "file": "VIVILLON_16.png",
+    "width": 5760,
+    "height": 96,
+    "frameCount": 60
+  },
+  "VIVILLON_17": {
+    "file": "VIVILLON_17.png",
+    "width": 5760,
+    "height": 96,
+    "frameCount": 60
+  },
+  "VIVILLON_18": {
+    "file": "VIVILLON_18.png",
+    "width": 5760,
+    "height": 96,
+    "frameCount": 60
+  },
+  "VIVILLON_19": {
+    "file": "VIVILLON_19.png",
+    "width": 5760,
+    "height": 96,
+    "frameCount": 60
+  },
+  "VIVILLON_2": {
+    "file": "VIVILLON_2.png",
+    "width": 5760,
+    "height": 96,
+    "frameCount": 60
+  },
+  "VIVILLON_3": {
+    "file": "VIVILLON_3.png",
+    "width": 5760,
+    "height": 96,
+    "frameCount": 60
+  },
+  "VIVILLON_4": {
+    "file": "VIVILLON_4.png",
+    "width": 5760,
+    "height": 96,
+    "frameCount": 60
+  },
+  "VIVILLON_5": {
+    "file": "VIVILLON_5.png",
+    "width": 5760,
+    "height": 96,
+    "frameCount": 60
+  },
+  "VIVILLON_6": {
+    "file": "VIVILLON_6.png",
+    "width": 5760,
+    "height": 96,
+    "frameCount": 60
+  },
+  "VIVILLON_7": {
+    "file": "VIVILLON_7.png",
+    "width": 5760,
+    "height": 96,
+    "frameCount": 60
+  },
+  "VIVILLON_8": {
+    "file": "VIVILLON_8.png",
+    "width": 5760,
+    "height": 96,
+    "frameCount": 60
+  },
+  "VIVILLON_9": {
+    "file": "VIVILLON_9.png",
+    "width": 5760,
+    "height": 96,
+    "frameCount": 60
+  },
+  "VOLBEAT": {
+    "file": "VOLBEAT.png",
+    "width": 1728,
+    "height": 64,
+    "frameCount": 27
+  },
+  "VOLCANION": {
+    "file": "VOLCANION.png",
+    "width": 10591,
+    "height": 89,
+    "frameCount": 119
+  },
+  "VOLCARONA": {
+    "file": "VOLCARONA.png",
+    "width": 2232,
+    "height": 93,
+    "frameCount": 24
+  },
+  "VOLTORB": {
+    "file": "VOLTORB.png",
+    "width": 1610,
+    "height": 46,
+    "frameCount": 35
+  },
+  "VOLTORB_1": {
+    "file": "VOLTORB_1.png",
+    "width": 2295,
+    "height": 51,
+    "frameCount": 45
+  },
+  "VULLABY": {
+    "file": "VULLABY.png",
+    "width": 4278,
+    "height": 62,
+    "frameCount": 69
+  },
+  "VULPIX": {
+    "file": "VULPIX.png",
+    "width": 2124,
+    "height": 59,
+    "frameCount": 36
+  },
+  "VULPIX_1": {
+    "file": "VULPIX_1.png",
+    "width": 590,
+    "height": 59,
+    "frameCount": 9
+  },
+  "WAILMER": {
+    "file": "WAILMER.png",
+    "width": 4590,
+    "height": 85,
+    "frameCount": 54
+  },
+  "WAILORD": {
+    "file": "WAILORD.png",
+    "width": 5768,
+    "height": 103,
+    "frameCount": 56
+  },
+  "WALKINGWAKE": {
+    "file": "WALKINGWAKE.png",
+    "width": 13230,
+    "height": 147,
+    "frameCount": 90
+  },
+  "WALREIN": {
+    "file": "WALREIN.png",
+    "width": 4212,
+    "height": 78,
+    "frameCount": 54
+  },
+  "WARTORTLE": {
+    "file": "WARTORTLE.png",
+    "width": 2684,
+    "height": 61,
+    "frameCount": 44
+  },
+  "WATCHOG": {
+    "file": "WATCHOG.png",
+    "width": 5796,
+    "height": 69,
+    "frameCount": 84
+  },
+  "WATTREL": {
+    "file": "WATTREL.png",
+    "width": 1600,
+    "height": 100,
+    "frameCount": 16
+  },
+  "WEAVILE": {
+    "file": "WEAVILE.png",
+    "width": 7938,
+    "height": 81,
+    "frameCount": 98
+  },
+  "WEAVILE_female": {
+    "file": "WEAVILE_female.png",
+    "width": 10530,
+    "height": 81,
+    "frameCount": 130
+  },
+  "WEEDLE": {
+    "file": "WEEDLE.png",
+    "width": 2806,
+    "height": 46,
+    "frameCount": 61
+  },
+  "WEEPINBELL": {
+    "file": "WEEPINBELL.png",
+    "width": 3381,
+    "height": 69,
+    "frameCount": 49
+  },
+  "WEEPINBELL_shadow": {
+    "file": "WEEPINBELL_shadow.png",
+    "width": 160,
+    "height": 160,
+    "frameCount": 1
+  },
+  "WEEZING": {
+    "file": "WEEZING.png",
+    "width": 4214,
+    "height": 86,
+    "frameCount": 49
+  },
+  "WEEZING_1": {
+    "file": "WEEZING_1.png",
+    "width": 4128,
+    "height": 96,
+    "frameCount": 44
+  },
+  "WHIMSICOTT": {
+    "file": "WHIMSICOTT.png",
+    "width": 4189,
+    "height": 71,
+    "frameCount": 59
+  },
+  "WHIRLIPEDE": {
+    "file": "WHIRLIPEDE.png",
+    "width": 4761,
+    "height": 69,
+    "frameCount": 69
+  },
+  "WHISCASH": {
+    "file": "WHISCASH.png",
+    "width": 7200,
+    "height": 75,
+    "frameCount": 76
+  },
+  "WHISMUR": {
+    "file": "WHISMUR.png",
+    "width": 1290,
+    "height": 43,
+    "frameCount": 30
+  },
+  "WIGGLYTUFF": {
+    "file": "WIGGLYTUFF.png",
+    "width": 4428,
+    "height": 82,
+    "frameCount": 54
+  },
+  "WIGLETT": {
+    "file": "WIGLETT.png",
+    "width": 4992,
+    "height": 96,
+    "frameCount": 52
+  },
+  "WIMPOD": {
+    "file": "WIMPOD.png",
+    "width": 4293,
+    "height": 53,
+    "frameCount": 81
+  },
+  "WINGULL": {
+    "file": "WINGULL.png",
+    "width": 4800,
+    "height": 64,
+    "frameCount": 75
+  },
+  "WISHIWASHI": {
+    "file": "WISHIWASHI.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "WISHIWASHI_1": {
+    "file": "WISHIWASHI_1.png",
+    "width": 2080,
+    "height": 104,
+    "frameCount": 18
+  },
+  "WOBBUFFET": {
+    "file": "WOBBUFFET.png",
+    "width": 3477,
+    "height": 57,
+    "frameCount": 61
+  },
+  "WOBBUFFET_female": {
+    "file": "WOBBUFFET_female.png",
+    "width": 3477,
+    "height": 57,
+    "frameCount": 61
+  },
+  "WOCHIEN": {
+    "file": "WOCHIEN.png",
+    "width": 9690,
+    "height": 95,
+    "frameCount": 102
+  },
+  "WOOBAT": {
+    "file": "WOOBAT.png",
+    "width": 7360,
+    "height": 92,
+    "frameCount": 80
+  },
+  "WOOLOO": {
+    "file": "WOOLOO.png",
+    "width": 4992,
+    "height": 96,
+    "frameCount": 52
+  },
+  "WOOPER": {
+    "file": "WOOPER.png",
+    "width": 2112,
+    "height": 44,
+    "frameCount": 48
+  },
+  "WOOPER_1": {
+    "file": "WOOPER_1.png",
+    "width": 2880,
+    "height": 90,
+    "frameCount": 32
+  },
+  "WOOPER_female": {
+    "file": "WOOPER_female.png",
+    "width": 1920,
+    "height": 40,
+    "frameCount": 48
+  },
+  "WORMADAM": {
+    "file": "WORMADAM.png",
+    "width": 6944,
+    "height": 62,
+    "frameCount": 112
+  },
+  "WORMADAM_1": {
+    "file": "WORMADAM_1.png",
+    "width": 6944,
+    "height": 62,
+    "frameCount": 112
+  },
+  "WORMADAM_2": {
+    "file": "WORMADAM_2.png",
+    "width": 6944,
+    "height": 62,
+    "frameCount": 112
+  },
+  "WUGTRIO": {
+    "file": "WUGTRIO.png",
+    "width": 9312,
+    "height": 96,
+    "frameCount": 97
+  },
+  "WURMPLE": {
+    "file": "WURMPLE.png",
+    "width": 1610,
+    "height": 46,
+    "frameCount": 35
+  },
+  "WYNAUT": {
+    "file": "WYNAUT.png",
+    "width": 3074,
+    "height": 58,
+    "frameCount": 53
+  },
+  "WYRDEER": {
+    "file": "WYRDEER.png",
+    "width": 12000,
+    "height": 120,
+    "frameCount": 100
+  },
+  "XATU": {
+    "file": "XATU.png",
+    "width": 2880,
+    "height": 60,
+    "frameCount": 48
+  },
+  "XATU_female": {
+    "file": "XATU_female.png",
+    "width": 2880,
+    "height": 60,
+    "frameCount": 48
+  },
+  "XERNEAS": {
+    "file": "XERNEAS.png",
+    "width": 96,
+    "height": 96,
+    "frameCount": 1
+  },
+  "XERNEAS_1": {
+    "file": "XERNEAS_1.png",
+    "width": 4608,
+    "height": 96,
+    "frameCount": 48
+  },
+  "XURKITREE": {
+    "file": "XURKITREE.png",
+    "width": 12648,
+    "height": 102,
+    "frameCount": 124
+  },
+  "YAMASK": {
+    "file": "YAMASK.png",
+    "width": 4752,
+    "height": 66,
+    "frameCount": 72
+  },
+  "YAMASK_1": {
+    "file": "YAMASK_1.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "YAMPER": {
+    "file": "YAMPER.png",
+    "width": 4512,
+    "height": 96,
+    "frameCount": 47
+  },
+  "YANMA": {
+    "file": "YANMA.png",
+    "width": 1911,
+    "height": 91,
+    "frameCount": 21
+  },
+  "YANMEGA": {
+    "file": "YANMEGA.png",
+    "width": 5264,
+    "height": 94,
+    "frameCount": 56
+  },
+  "YUNGOOS": {
+    "file": "YUNGOOS.png",
+    "width": 3904,
+    "height": 61,
+    "frameCount": 28
+  },
+  "YVELTAL": {
+    "file": "YVELTAL.png",
+    "width": 1260,
+    "height": 126,
+    "frameCount": 10
+  },
+  "ZACIAN": {
+    "file": "ZACIAN.png",
+    "width": 6942,
+    "height": 89,
+    "frameCount": 78
+  },
+  "ZACIAN_1": {
+    "file": "ZACIAN_1.png",
+    "width": 7392,
+    "height": 96,
+    "frameCount": 77
+  },
+  "ZACIAN_2": {
+    "file": "ZACIAN_2.png",
+    "width": 192,
+    "height": 192,
+    "frameCount": 1
+  },
+  "ZAMAZENTA": {
+    "file": "ZAMAZENTA.png",
+    "width": 6528,
+    "height": 96,
+    "frameCount": 68
+  },
+  "ZAMAZENTA_1": {
+    "file": "ZAMAZENTA_1.png",
+    "width": 11532,
+    "height": 93,
+    "frameCount": 124
+  },
+  "ZAMAZENTA_2": {
+    "file": "ZAMAZENTA_2.png",
+    "width": 192,
+    "height": 192,
+    "frameCount": 1
+  },
+  "ZANGOOSE": {
+    "file": "ZANGOOSE.png",
+    "width": 4032,
+    "height": 72,
+    "frameCount": 56
+  },
+  "ZAPDOS": {
+    "file": "ZAPDOS.png",
+    "width": 873,
+    "height": 97,
+    "frameCount": 9
+  },
+  "ZAPDOS_1": {
+    "file": "ZAPDOS_1.png",
+    "width": 12384,
+    "height": 72,
+    "frameCount": 208
+  },
+  "ZARUDE": {
+    "file": "ZARUDE.png",
+    "width": 1152,
+    "height": 96,
+    "frameCount": 12
+  },
+  "ZARUDE_1": {
+    "file": "ZARUDE_1.png",
+    "width": 1980,
+    "height": 90,
+    "frameCount": 22
+  },
+  "ZEBSTRIKA": {
+    "file": "ZEBSTRIKA.png",
+    "width": 5624,
+    "height": 74,
+    "frameCount": 72
+  },
+  "ZEKROM": {
+    "file": "ZEKROM.png",
+    "width": 9690,
+    "height": 102,
+    "frameCount": 95
+  },
+  "ZERAORA": {
+    "file": "ZERAORA.png",
+    "width": 11904,
+    "height": 96,
+    "frameCount": 124
+  },
+  "ZIGZAGOON": {
+    "file": "ZIGZAGOON.png",
+    "width": 3248,
+    "height": 58,
+    "frameCount": 56
+  },
+  "ZIGZAGOON_1": {
+    "file": "ZIGZAGOON_1.png",
+    "width": 5278,
+    "height": 58,
+    "frameCount": 91
+  },
+  "ZOROARK": {
+    "file": "ZOROARK.png",
+    "width": 6586,
+    "height": 74,
+    "frameCount": 85
+  },
+  "ZOROARK_1": {
+    "file": "ZOROARK_1.png",
+    "width": 1848,
+    "height": 77,
+    "frameCount": 24
+  },
+  "ZORUA": {
+    "file": "ZORUA.png",
+    "width": 2891,
+    "height": 49,
+    "frameCount": 59
+  },
+  "ZORUA_1": {
+    "file": "ZORUA_1.png",
+    "width": 10368,
+    "height": 96,
+    "frameCount": 108
+  },
+  "ZUBAT": {
+    "file": "ZUBAT.png",
+    "width": 1431,
+    "height": 53,
+    "frameCount": 16
+  },
+  "ZUBAT_female": {
+    "file": "ZUBAT_female.png",
+    "width": 1431,
+    "height": 53,
+    "frameCount": 16
+  },
+  "ZWEILOUS": {
+    "file": "ZWEILOUS.png",
+    "width": 3808,
+    "height": 68,
+    "frameCount": 56
+  },
+  "ZYGARDE": {
+    "file": "ZYGARDE.png",
+    "width": 8096,
+    "height": 92,
+    "frameCount": 88
+  },
+  "ZYGARDE_1": {
+    "file": "ZYGARDE_1.png",
+    "width": 5175,
+    "height": 69,
+    "frameCount": 75
+  },
+  "ZYGARDE_2": {
+    "file": "ZYGARDE_2.png",
+    "width": 5080,
+    "height": 127,
+    "frameCount": 40
+  },
+  "ZYGARDE_3": {
+    "file": "ZYGARDE_3.png",
+    "width": 5080,
+    "height": 127,
+    "frameCount": 40
+  }
+}

@@ -1,0 +1,652 @@
+
+import type { OwnedPokemon } from './roster';
+import { setSeed, uniform, uniformInt } from '../utils/rng';
+import { toDisplayPokemonName } from '../utils/pokemon-name';
+import { createBattleMove } from '../skills/registry';
+import { chooseCpuAction } from './ai';
+import { getTypeMultiplier } from './type-chart';
+import { createSkillOps } from './ops';
+import type { SkillContext } from '../skills/runtime-api';
+import {
+  checkStatusBeforeAction,
+  checkConfusion,
+  applyEndOfTurnStatusDamage,
+  handleSwitchStatus,
+  getSpeedMultiplierFromParalysis,
+} from './status';
+import { DEFAULT_STAT_RANKS } from './ranks';
+import type {
+  BattleCommand,
+  BattleSession,
+  BattleSide,
+  BattleSnapshot,
+  BattlePokemon,
+  BattleLogEntry,
+  BattleMove,
+  BattleEvent,
+} from './types';
+
+const LEVEL = 50;
+const TRAINER_LABEL: Record<BattleSide, string> = {
+  player: '플레이어',
+  opponent: '상대',
+};
+
+interface Teams {
+  player: OwnedPokemon[];
+  opponent: OwnedPokemon[];
+}
+
+const createLog = (side: BattleLogEntry['side'], message: string): BattleLogEntry => ({
+  id: crypto.randomUUID(),
+  side,
+  message,
+  timestamp: Date.now(),
+});
+
+const cloneMove = (move: BattleMove): BattleMove => ({
+  ...move,
+});
+
+const clonePokemon = (pokemon: BattlePokemon): BattlePokemon => ({
+  ...pokemon,
+  moves: pokemon.moves.map(cloneMove),
+});
+
+const cloneSnapshot = (snapshot: BattleSnapshot): BattleSnapshot => ({
+  turn: snapshot.turn,
+  active: {
+    player: clonePokemon(snapshot.active.player),
+    opponent: clonePokemon(snapshot.active.opponent),
+  },
+  bench: {
+    player: snapshot.bench.player.map(clonePokemon),
+    opponent: snapshot.bench.opponent.map(clonePokemon),
+  },
+  log: [...snapshot.log],
+  events: [...snapshot.events],
+  winner: snapshot.winner,
+  surrenderedBy: snapshot.surrenderedBy,
+});
+
+const toBattlePokemon = (owned: OwnedPokemon): BattlePokemon => ({
+  instanceId: owned.instanceId,
+  speciesId: owned.speciesId,
+  koName: toDisplayPokemonName(owned.koName),
+  enName: owned.enName,
+  stats: owned.stats,
+  currentHp: owned.stats.hp,
+  types: owned.types,
+  moves: owned.moves.map(createBattleMove),
+  statRanks: { ...DEFAULT_STAT_RANKS },
+});
+
+const buildSnapshot = (teams: Teams): BattleSnapshot => {
+  if (!teams.player.length || !teams.opponent.length) {
+    throw new Error('양쪽 모두 최소 한 마리 이상의 포켓몬이 필요합니다.');
+  }
+
+  const [playerActive, ...playerBench] = teams.player.map(toBattlePokemon);
+  const [opponentActive, ...opponentBench] = teams.opponent.map(toBattlePokemon);
+
+  const log: BattleLogEntry[] = [
+    createLog('system', '배틀이 시작됐다!'),
+    // createLog('system', TRAINER_LABEL.player + '는 ' + playerActive.koName + '을(를) 내보냈다!'),
+    // createLog('system', TRAINER_LABEL.opponent + '는 ' + opponentActive.koName + '을(를) 내보냈다!'),
+  ];
+
+  return {
+    turn: 1,
+    active: {
+      player: playerActive,
+      opponent: opponentActive,
+    },
+    bench: {
+      player: playerBench,
+      opponent: opponentBench,
+    },
+    log,
+    events: [],
+  };
+};
+
+const getStat = (pokemon: BattlePokemon, category: BattleMove['category']) =>
+  category === 'physical'
+    ? { atk: pokemon.stats.atk, def: pokemon.stats.def }
+    : { atk: pokemon.stats.spa, def: pokemon.stats.spd };
+
+const calculateDamage = (attacker: BattlePokemon, defender: BattlePokemon, move: BattleMove) => {
+  if (move.category === 'status' || !move.power) {
+    return 0;
+  }
+
+  const { atk, def } = getStat(attacker, move.category);
+  const base = Math.floor(
+    Math.floor(((2 * LEVEL) / 5 + 2) * move.power * (atk / Math.max(1, def))) / 50 + 2,
+  );
+  const stab = attacker.types.includes(move.type) ? 1.5 : 1;
+  const effectiveness = getTypeMultiplier(move.type, defender.types);
+  const randomFactor = 0.85 + uniform() * 0.15;
+  const damage = Math.floor(base * stab * effectiveness * randomFactor);
+  return Math.max(1, damage);
+};
+
+// const hasRemainingPokemon = (bench: BattlePokemon[]) => bench.some((pokemon) => pokemon.currentHp > 0);
+
+const validateSwitch = (snapshot: BattleSnapshot, side: BattleSide, targetIndex?: number) => {
+  if (typeof targetIndex !== 'number') {
+    return false;
+  }
+  const bench = snapshot.bench[side];
+  return targetIndex >= 0 && targetIndex < bench.length && bench[targetIndex].currentHp > 0;
+};
+
+interface SwitchOptions {
+  skipRecall?: boolean;
+}
+
+const executeSwitch = (snapshot: BattleSnapshot, side: BattleSide, targetIndex: number, options: SwitchOptions = {}) => {
+  const bench = snapshot.bench[side];
+  if (targetIndex < 0 || targetIndex >= bench.length) {
+    return false;
+  }
+  const incoming = bench.splice(targetIndex, 1)[0];
+  const outgoing = snapshot.active[side];
+  bench.push(outgoing);
+  snapshot.active[side] = incoming;
+
+  if (!options.skipRecall && outgoing.currentHp > 0) {
+    snapshot.log.push(createLog('system', TRAINER_LABEL[side] + '는 ' + outgoing.koName + '을(를) 불러들였다!'));
+  }
+  snapshot.log.push(createLog('system', TRAINER_LABEL[side] + '는 ' + incoming.koName + '을(를) 내보냈다!'));
+  
+  // 교체 시 상태 이상 처리 (혼란 해제, 잠듦 턴수 리셋)
+  handleSwitchStatus(incoming);
+  
+  return true;
+};
+
+const resolveMove = (
+  session: BattleSession,
+  snapshot: BattleSnapshot,
+  side: BattleSide,
+  move: BattleMove,
+) => {
+  const attacker = snapshot.active[side];
+  const defenderSide = side === 'player' ? 'opponent' : 'player';
+  const defender = snapshot.active[defenderSide];
+
+  if (attacker.currentHp <= 0) {
+    return { defenderFainted: false };
+  }
+
+  // 행동 전 상태 이상 체크 (마비, 잠듦, 얼음)
+  const statusCheck = checkStatusBeforeAction(attacker);
+  if (statusCheck.message) {
+    snapshot.log.push(createLog('system', statusCheck.message));
+  }
+  
+  if (!statusCheck.canAct) {
+    // 행동 불가
+    return { defenderFainted: false };
+  }
+  
+  // 혼란 체크
+  const confusionCheck = checkConfusion(attacker);
+  if (confusionCheck.message) {
+    snapshot.log.push(createLog('system', confusionCheck.message));
+  }
+  
+  if (confusionCheck.selfHit) {
+    // 자해 처리
+    if (attacker.currentHp <= 0) {
+      const message =
+        side === 'opponent'
+          ? '상대의 ' + attacker.koName + '은(는) 쓰러졌다!'
+          : attacker.koName + '은(는) 쓰러졌다!';
+      snapshot.log.push(createLog('system', message));
+      return { defenderFainted: false, attackerFainted: true };
+    }
+    return { defenderFainted: false };
+  }
+
+  snapshot.log.push(createLog(side, attacker.koName + '의 ' + move.name + '!'));
+
+  if (move.remainingPp <= 0) {
+    snapshot.log.push(createLog('system', '하지만 사용할 수 있는 PP가 없다!'));
+    return { defenderFainted: false };
+  }
+
+  move.remainingPp -= 1;
+
+  // 공통 명중 판정 (스킬/일반 모두 적용)
+  if (move.accuracy !== null && move.accuracy !== undefined) {
+    const roll = uniform() * 100;
+    if (roll > move.accuracy) {
+      snapshot.log.push(createLog('system', '하지만 빗나갔다!'));
+      return { defenderFainted: false };
+    }
+  }
+
+  if (move.handler) {
+    const context: SkillContext = {
+      session,
+      userSide: side,
+      targetSide: defenderSide,
+      user: attacker,
+      target: defender,
+      move,
+    };
+    const ops = createSkillOps(snapshot)(context);
+    const prevEventCount = snapshot.events.length;
+    // 스킬 핸들러는 동기 또는 비동기일 수 있으나, 현재 구현은 동기 핸들러를 사용한다고 가정
+    // 반환값은 사용하지 않고, 이벤트 큐의 증가로 피해량을 추적한다
+    void move.handler(context, ops);
+    const newEvents = snapshot.events
+      .slice(prevEventCount)
+      .filter((e): e is Extract<BattleEvent, { kind: 'damage' }> => e.kind === 'damage' && e.targetId === defender.instanceId);
+    const totalDamage = newEvents.reduce((sum, e) => sum + e.amount, 0);
+    if (totalDamage > 0) {
+      const effectiveness = getTypeMultiplier(move.type, defender.types);
+      if (effectiveness === 0) {
+        snapshot.log.push(createLog('system', '효과가 전혀 없는 듯하다...'));
+      } else if (effectiveness > 1.1) {
+        snapshot.log.push(createLog('system', '효과가 굉장하다!'));
+      } else if (effectiveness < 0.9) {
+        snapshot.log.push(createLog('system', '효과가 별로인 듯하다...'));
+      }
+    }
+    const defenderFainted = defender.currentHp <= 0;
+    if (defenderFainted) {
+      const message =
+        defenderSide === 'opponent'
+          ? '상대의 ' + defender.koName + '은(는) 쓰러졌다!'
+          : defender.koName + '은(는) 쓰러졌다!';
+      snapshot.log.push(createLog('system', message));
+    }
+    return { defenderFainted, pendingDamage: totalDamage };
+  }
+
+  if (move.accuracy !== null && move.accuracy !== undefined) {
+    const roll = uniform() * 100;
+    if (roll > move.accuracy) {
+      snapshot.log.push(createLog('system', '하지만 빗나갔다!'));
+      return { defenderFainted: false };
+    }
+  }
+
+  const damage = calculateDamage(attacker, defender, move);
+
+  const damageEvent: BattleEvent = {
+    id: crypto.randomUUID(),
+    kind: 'damage',
+    targetSide: defenderSide,
+    targetId: defender.instanceId,
+    amount: damage,
+    timestamp: Date.now(),
+    source: 'move', // 기술로 인한 데미지
+  };
+
+  // 엔진에서 즉시 HP 갱신하고, 이벤트는 UI 연출용으로만 사용
+  defender.currentHp = Math.max(0, defender.currentHp - damage);
+  snapshot.events.push(damageEvent);
+
+  const effectiveness = getTypeMultiplier(move.type, defender.types);
+  if (effectiveness === 0) {
+    snapshot.log.push(createLog('system', '효과가 전혀 없는 듯하다...'));
+  } else if (effectiveness > 1.1) {
+    snapshot.log.push(createLog('system', '효과가 굉장하다!'));
+  } else if (effectiveness < 0.9) {
+    snapshot.log.push(createLog('system', '효과가 별로인 듯하다...'));
+  }
+
+  const defenderFainted = defender.currentHp <= 0;
+
+  if (defenderFainted) {
+    const message =
+      defenderSide === 'opponent'
+        ? '상대의 ' + defender.koName + '은(는) 쓰러졌다!'
+        : defender.koName + '은(는) 쓰러졌다!';
+    snapshot.log.push(createLog('system', message));
+  }
+
+  return { defenderFainted, pendingDamage: damage };
+};
+
+const handleFaint = (snapshot: BattleSnapshot, side: BattleSide, skipSwitchRequestLog: boolean = false) => {
+  const bench = snapshot.bench[side];
+  const hasReplacement = bench.some((pokemon) => pokemon.currentHp > 0);
+  if (!hasReplacement) {
+    snapshot.winner = side === 'player' ? 'opponent' : 'player';
+    snapshot.log.push(
+      createLog('system', side === 'player' ? '플레이어는 남은 포켓몬이 없다!' : '상대는 남은 포켓몬이 없다!'),
+    );
+    return { battleEnded: true, playerMustSwitch: false };
+  }
+
+  if (side === 'opponent') {
+    const nextIndex = bench.findIndex((pokemon) => pokemon.currentHp > 0);
+    executeSwitch(snapshot, 'opponent', nextIndex, { skipRecall: true });
+    return { battleEnded: false, playerMustSwitch: false, opponentSwitched: true };
+  }
+
+  // skipSwitchRequestLog가 true면 교체 요청 로그를 나중에 추가
+  if (!skipSwitchRequestLog) {
+    snapshot.log.push(createLog('system', '다음 포켓몬을 선택해 주세요.'));
+  }
+  return { battleEnded: false, playerMustSwitch: true };
+};
+
+const determineOrder = (playerMove: BattleMove, opponentMove: BattleMove, snapshot: BattleSnapshot): BattleSide[] => {
+  if (playerMove.priority !== opponentMove.priority) {
+    return playerMove.priority > opponentMove.priority ? ['player', 'opponent'] : ['opponent', 'player'];
+  }
+  // 마비로 인한 스피드 감소 적용
+  const playerSpeed = snapshot.active.player.stats.spe * getSpeedMultiplierFromParalysis(snapshot.active.player);
+  const opponentSpeed = snapshot.active.opponent.stats.spe * getSpeedMultiplierFromParalysis(snapshot.active.opponent);
+  if (playerSpeed !== opponentSpeed) {
+    return playerSpeed > opponentSpeed ? ['player', 'opponent'] : ['opponent', 'player'];
+  }
+  return uniformInt(2) === 0 ? ['player', 'opponent'] : ['opponent', 'player'];
+};
+
+const normalizeMove = (pokemon: BattlePokemon, moveId?: string): BattleMove => {
+  if (moveId) {
+    const found = pokemon.moves.find((move) => move.id === moveId);
+    if (found) {
+      return found;
+    }
+  }
+  const available = pokemon.moves.find((move) => move.remainingPp > 0);
+  return available ?? pokemon.moves[0];
+};
+
+export interface BattleEngineConfig {
+  seed?: string;
+}
+
+export class BattleEngine {
+  private session: BattleSession;
+
+  constructor(teams: Teams, config: BattleEngineConfig = {}) {
+    const seed = config.seed ?? crypto.randomUUID();
+    setSeed(seed);
+    this.session = {
+      id: crypto.randomUUID(),
+      seed,
+      snapshot: buildSnapshot(teams),
+      pendingChoice: null,
+      status: 'awaiting',
+    };
+  }
+
+  public getSession() {
+    return this.session;
+  }
+
+  public getSnapshot() {
+    return this.session.snapshot;
+  }
+
+  public applyPlayerCommand(command: BattleCommand) {
+    if (this.session.status === 'finished') {
+      return this.session;
+    }
+
+    const currentSnapshot = this.session.snapshot;
+    const requiresForcedSwitch =
+      this.session.pendingChoice === 'player' && currentSnapshot.active.player.currentHp <= 0;
+
+    if (requiresForcedSwitch) {
+      if (command.kind !== 'switch') {
+        return this.session;
+      }
+      const snapshot = cloneSnapshot(currentSnapshot);
+      if (!validateSwitch(snapshot, 'player', command.targetIndex)) {
+        snapshot.log.push(createLog('system', '교체할 수 없는 포켓몬입니다.'));
+        this.session = {
+          ...this.session,
+          snapshot,
+          pendingChoice: 'player',
+          status: 'awaiting',
+        };
+        return this.session;
+      }
+      executeSwitch(snapshot, 'player', command.targetIndex!, { skipRecall: true });
+      this.session = {
+        ...this.session,
+        snapshot,
+        pendingChoice: null,
+        status: 'awaiting',
+      };
+      return this.session;
+    }
+
+    const snapshot = cloneSnapshot(currentSnapshot);
+    // 이번 턴 이벤트만 담도록 초기화
+    snapshot.events = [];
+
+    if (command.kind === 'surrender') {
+      snapshot.winner = 'opponent';
+      snapshot.surrenderedBy = 'player';
+      snapshot.log.push(createLog('system', '플레이어가 항복했다.'));
+      this.finish(snapshot);
+      return this.session;
+    }
+
+    if (command.kind === 'switch' && !validateSwitch(snapshot, 'player', command.targetIndex)) {
+      snapshot.log.push(createLog('system', '교체할 수 없는 포켓몬입니다.'));
+      this.session = {
+        ...this.session,
+        snapshot,
+        pendingChoice: null,
+        status: 'awaiting',
+      };
+      return this.session;
+    }
+
+    const playerMove = normalizeMove(snapshot.active.player, command.kind === 'move' ? command.moveId : undefined);
+    const opponentCommand = chooseCpuAction(this.session);
+    const opponentMove = normalizeMove(
+      snapshot.active.opponent,
+      opponentCommand.kind === 'move' ? opponentCommand.moveId : undefined,
+    );
+
+    const isPlayerSwitch = command.kind === 'switch';
+    const isOpponentSwitch = opponentCommand.kind === 'switch';
+
+    const actionOrder: BattleSide[] = [];
+    if (isPlayerSwitch) {
+      actionOrder.push('player');
+    }
+    if (isOpponentSwitch) {
+      actionOrder.push('opponent');
+    }
+
+    const movesToResolve: BattleSide[] = [];
+    if (!isPlayerSwitch) {
+      movesToResolve.push('player');
+    }
+    if (!isOpponentSwitch) {
+      movesToResolve.push('opponent');
+    }
+
+    if (movesToResolve.length === 2) {
+      const order = determineOrder(playerMove, opponentMove, snapshot);
+      actionOrder.push(...order);
+    } else if (movesToResolve.length === 1) {
+      actionOrder.push(movesToResolve[0]);
+    }
+
+    const commands: Record<BattleSide, BattleCommand> = {
+      player: isPlayerSwitch ? command : { kind: 'move', moveId: playerMove.id },
+      opponent: opponentCommand,
+    };
+
+    let playerMustSwitch = false;
+
+    for (const side of actionOrder) {
+      if (snapshot.winner) {
+        break;
+      }
+      if (playerMustSwitch && side === 'opponent') {
+        break;
+      }
+
+      const currentCommand = commands[side];
+
+      if (currentCommand.kind === 'switch') {
+        if (!validateSwitch(snapshot, side, currentCommand.targetIndex)) {
+          snapshot.log.push(createLog('system', '교체할 수 없는 포켓몬입니다.'));
+        } else {
+          const skipRecall = snapshot.active[side].currentHp <= 0;
+          executeSwitch(snapshot, side, currentCommand.targetIndex!, { skipRecall });
+        }
+        continue;
+      }
+
+      if (currentCommand.kind === 'surrender') {
+        snapshot.winner = side === 'player' ? 'opponent' : 'player';
+        snapshot.surrenderedBy = side;
+        snapshot.log.push(createLog('system', TRAINER_LABEL[side] + '가 항복했다.'));
+        break;
+      }
+
+      const move = side === 'player' ? playerMove : opponentMove;
+      const outcome = resolveMove(this.session, snapshot, side, move);
+      
+      // 공격자가 혼란 자해로 쓰러진 경우
+      if (outcome.attackerFainted) {
+        const faintResult = handleFaint(snapshot, side);
+        if (faintResult.battleEnded) {
+          break;
+        }
+        if (side === 'player' && faintResult.playerMustSwitch) {
+          playerMustSwitch = true;
+          break;
+        }
+        if (side === 'opponent') {
+          break;
+        }
+      }
+      
+      if (outcome.defenderFainted) {
+        const defenderSide = side === 'player' ? 'opponent' : 'player';
+        // 플레이어가 쓰러진 경우, 상태 이상 데미지 후 교체 요청 로그 추가
+        const skipSwitchLog = defenderSide === 'player';
+        const faintResult = handleFaint(snapshot, defenderSide, skipSwitchLog);
+        if (faintResult.battleEnded) {
+          break;
+        }
+        if (defenderSide === 'player' && faintResult.playerMustSwitch) {
+          playerMustSwitch = true;
+          break;
+        }
+        if (defenderSide === 'opponent') {
+          break;
+        }
+      }
+    }
+
+    // 턴 종료 시 상태 이상 데미지 적용 (독, 화상)
+    if (!snapshot.winner) {
+      // 플레이어 포켓몬 상태 이상 데미지 (교체 대기 중이 아닐 때만)
+      if (!playerMustSwitch && snapshot.active.player.currentHp > 0) {
+        const playerStatusDamage = applyEndOfTurnStatusDamage(snapshot.active.player, 'player');
+        if (playerStatusDamage.damage > 0) {
+          // 상태 이상 데미지 이벤트 기록
+          snapshot.events.push({
+            id: crypto.randomUUID(),
+            kind: 'damage',
+            targetSide: 'player',
+            targetId: snapshot.active.player.instanceId,
+            amount: playerStatusDamage.damage,
+            timestamp: Date.now(),
+            source: 'status',
+          });
+          
+          // HP 감소
+          snapshot.active.player.currentHp = Math.max(0, snapshot.active.player.currentHp - playerStatusDamage.damage);
+          
+          // 로그 추가
+          if (playerStatusDamage.message) {
+            snapshot.log.push(createLog('system', playerStatusDamage.message));
+          }
+          
+          // 쓰러짐 체크
+          if (snapshot.active.player.currentHp <= 0) {
+            snapshot.log.push(createLog('system', snapshot.active.player.koName + '은(는) 쓰러졌다!'));
+            // 교체 요청 로그는 상대 상태 이상 데미지 후에 추가
+            const faintResult = handleFaint(snapshot, 'player', true);
+            if (faintResult.battleEnded) {
+              // 전투 종료 처리는 handleFaint에서 이미 수행됨
+            } else if (faintResult.playerMustSwitch) {
+              playerMustSwitch = true;
+            }
+          }
+        }
+      }
+      
+      // 상대 포켓몬 상태 이상 데미지 (플레이어가 쓰러진 경우에도 적용!)
+      if (!snapshot.winner && snapshot.active.opponent.currentHp > 0) {
+        const opponentStatusDamage = applyEndOfTurnStatusDamage(snapshot.active.opponent, 'opponent');
+        if (opponentStatusDamage.damage > 0) {
+          // 상태 이상 데미지 이벤트 기록
+          snapshot.events.push({
+            id: crypto.randomUUID(),
+            kind: 'damage',
+            targetSide: 'opponent',
+            targetId: snapshot.active.opponent.instanceId,
+            amount: opponentStatusDamage.damage,
+            timestamp: Date.now(),
+            source: 'status',
+          });
+          
+          // HP 감소
+          snapshot.active.opponent.currentHp = Math.max(0, snapshot.active.opponent.currentHp - opponentStatusDamage.damage);
+          
+          // 로그 추가
+          if (opponentStatusDamage.message) {
+            snapshot.log.push(createLog('system', opponentStatusDamage.message));
+          }
+          
+          // 쓰러짐 체크
+          if (snapshot.active.opponent.currentHp <= 0) {
+            snapshot.log.push(createLog('system', '상대의 ' + snapshot.active.opponent.koName + '은(는) 쓰러졌다!'));
+            handleFaint(snapshot, 'opponent');
+            // 상대 포켓몬 쓰러짐은 자동 교체됨
+          }
+        }
+      }
+      
+      // 플레이어가 쓰러진 경우 (상태 이상 or 상대 공격), 이제 교체 요청 로그 추가
+      if (playerMustSwitch && !snapshot.winner) {
+        snapshot.log.push(createLog('system', '다음 포켓몬을 선택해 주세요.'));
+      }
+    }
+    
+    if (!snapshot.winner) {
+      snapshot.turn += 1;
+    }
+
+    this.session = {
+      ...this.session,
+      snapshot,
+      pendingChoice: playerMustSwitch ? 'player' : null,
+      status: snapshot.winner ? 'finished' : 'awaiting',
+    };
+
+    return this.session;
+  }
+
+  private finish(snapshot: BattleSnapshot) {
+    this.session = {
+      ...this.session,
+      snapshot,
+      status: 'finished',
+      pendingChoice: null,
+    };
+  }
+}
+
+export const createBattleEngine = (teams: Teams, config?: BattleEngineConfig) => new BattleEngine(teams, config);

@@ -1,0 +1,681 @@
+import React, { useCallback, useEffect, useRef, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+
+import type { BattleLogEntry, BattleSide } from '../../battle/types';
+import { useGameStore } from '../../state/store';
+import { BattleStage } from '../components/BattleStage';
+import { BattleHUD } from '../components/BattleHUD';
+import { BattleLog } from '../components/BattleLog';
+import { ActionBar } from '../components/ActionBar';
+
+const LOG_DELAY_MS = 2000;
+
+export const BattlePage: React.FC = () => {
+  const navigate = useNavigate();
+  const activeBattle = useGameStore((state) => state.activeBattle);
+  const completedBattle = useGameStore((state) => state.completedBattle);
+  const pendingSwitch = useGameStore((state) => state.pendingSwitch);
+  const cancelPendingSwitch = useGameStore((state) => state.cancelPendingSwitch);
+  const submitCommand = useGameStore((state) => state.submitBattleCommand);
+  const party = useGameStore((state) => state.party);
+  const startCpuBattle = useGameStore((state) => state.startCpuBattle);
+  const acknowledgeBattleResult = useGameStore((state) => state.acknowledgeBattleResult);
+  const points = useGameStore((state) => state.points);
+  const [displayedLogs, setDisplayedLogs] = useState<BattleLogEntry[]>([]);
+  const renderedCountRef = useRef(0);
+  const timersRef = useRef<number[]>([]);
+  const lastSessionIdRef = useRef<string | null>(null);
+  const [isResolving, setIsResolving] = useState(false);
+  const logQueueRef = useRef<BattleLogEntry[]>([]);
+  const processingRef = useRef(false);
+  const hasBlockingLogsRef = useRef(false);
+  const lastPokemonIdsRef = useRef<{ player: string; opponent: string }>({ player: '', opponent: '' });
+  const currentAttackerRef = useRef<BattleSide | null>(null);
+  const lastTurnRef = useRef<number>(0);
+  // 교체 시점의 HP를 저장 (이번 턴 데미지는 아직 반영되지 않은 상태)
+  const hpAtSwitchRef = useRef<Partial<Record<BattleSide, number>>>({});
+  // 턴 시작 전 벤치 포켓몬들의 HP 저장
+  const benchHpRef = useRef<Map<string, number>>(new Map());
+  // 기술명 로그가 나왔는지 (효과 로그를 기다려야 함)
+  const pendingEffectLogRef = useRef(false);
+
+  // 애니메이션 상태
+  const [currentAnimation, setCurrentAnimation] = useState<{
+    type: 'attack' | 'hit' | 'faint';
+    side: 'player' | 'opponent';
+  } | null>(null);
+
+  // 애니메이션 완료 후 상태 초기화
+  useEffect(() => {
+    if (currentAnimation) {
+      const duration = currentAnimation.type === 'attack' ? 300 : 
+                     currentAnimation.type === 'hit' ? 400 : 1000;
+      const timer = setTimeout(() => {
+        setCurrentAnimation(null);
+      }, duration + 100); // 애니메이션 지속 시간 + 여유시간
+      
+      return () => clearTimeout(timer);
+    }
+  }, [currentAnimation]);
+  const currentSession = activeBattle ?? completedBattle?.session ?? null;
+  const isReady = party.length > 0;
+  const resultOverlay = !activeBattle && completedBattle ? completedBattle : null;
+  const [hpOverride, setHpOverride] = useState<Partial<Record<BattleSide, number>>>({});
+  
+  // 표시용 세션 (로그가 진행되면서 업데이트됨)
+  const [displaySession, setDisplaySession] = useState<typeof currentSession>(currentSession);
+  // 표시용 세션의 즉시 참조용 ref
+  const displaySessionRef = useRef<typeof currentSession>(currentSession);
+  
+  // 교체창 표시 여부 (로그 진행 후 표시)
+  const [showSwitchUI, setShowSwitchUI] = useState(false);
+  
+  // HP 표시용 maxHp 추적 (포켓몬이 바뀔 때 업데이트)
+  const [maxHpForDisplay, setMaxHpForDisplay] = useState<Partial<Record<BattleSide, number>>>({});
+  
+  // 결과창 표시 여부 (로그 진행 후 표시)
+  const [showResultOverlay, setShowResultOverlay] = useState(false);
+  
+
+  // 엔진이 HP를 즉시 갱신하므로, 여기서는 애니메이션 타이밍만 제어한다 (no-op)
+
+  // 특정 쪽의 HP를 엔진의 최종 HP로 업데이트 (excludeStatusDamage: 상태 이상 데미지 제외 여부)
+  const syncHpForSide = useCallback((side: BattleSide, _attackerSide: BattleSide, excludeStatusDamage: boolean = false) => {
+    if (!currentSession) return;
+    
+    // displaySessionRef의 포켓몬 ID로 엔진에서 HP 찾기 (최신 상태 사용)
+    const currentDisplaySession = displaySessionRef.current;
+    if (!currentDisplaySession) return;
+    
+    const targetId = currentDisplaySession.snapshot.active[side].instanceId;
+    
+    // 해당 포켓몬이 현재 active면 currentSession에서 찾고, 아니면 bench에서 찾기
+    let finalHp: number;
+    if (currentSession.snapshot.active[side].instanceId === targetId) {
+      // 아직 교체 안 됨 - active에서 가져오기
+      finalHp = currentSession.snapshot.active[side].currentHp;
+      
+      // 상태 이상 데미지 제외 옵션 (기술 데미지 계산 시 사용)
+      // 단, HP가 0이면 죽은 것이므로 역산하지 않음
+      if (excludeStatusDamage && finalHp > 0) {
+        // 상태 이상 데미지 이벤트만 찾아서 역산
+        const statusDamageEvents = currentSession.snapshot.events.filter((e): e is Extract<typeof e, { kind: 'damage' }> =>
+          e.kind === 'damage' &&
+          e.source === 'status' &&
+          e.targetSide === side &&
+          e.targetId === targetId
+        );
+        
+        const totalStatusDamage = statusDamageEvents.reduce((sum, e) => sum + e.amount, 0);
+        
+        if (totalStatusDamage > 0) {
+          finalHp = Math.min(currentSession.snapshot.active[side].stats.hp, finalHp + totalStatusDamage);
+          console.log('상태 이상 데미지 제외:', { side, statusDamage: totalStatusDamage, originalHp: currentSession.snapshot.active[side].currentHp, adjustedHp: finalHp });
+        }
+      }
+    } else {
+      // 이미 교체됨 - bench에서 찾기
+      const benchPokemon = currentSession.snapshot.bench[side].find(p => p.instanceId === targetId);
+      if (benchPokemon) {
+        finalHp = benchPokemon.currentHp;
+      } else {
+        // bench에도 없으면 죽었거나 이미 교체됨
+        finalHp = 0;
+      }
+    }
+    
+    console.log('syncHpForSide:', { 
+      side, 
+      targetId, 
+      finalHp, 
+      excludeStatusDamage,
+      currentActive: currentSession.snapshot.active[side].instanceId,
+      found: currentSession.snapshot.active[side].instanceId === targetId,
+      currentHp: currentSession.snapshot.active[side].currentHp,
+      maxHp: currentSession.snapshot.active[side].stats.hp
+    });
+    
+    // HP가 실제로 감소했는지 확인하여 피해 애니메이션 트리거
+    const currentHpOverride = hpOverride[side];
+    const hpDecreased = currentHpOverride !== undefined && finalHp < currentHpOverride;
+    
+    if (hpDecreased) {
+      console.log('피해 애니메이션 트리거:', { side, from: currentHpOverride, to: finalHp });
+      // 피해 애니메이션 트리거
+      setCurrentAnimation({ type: 'hit', side });
+    }
+    
+    setHpOverride((prev) => ({
+      ...prev,
+      [side]: finalHp,
+    }));
+  }, [currentSession, displaySession, hpOverride]);
+
+  // 양쪽 HP 모두 엔진 스냅샷 값으로 업데이트
+  const syncHpAfterLog = useCallback(() => {
+    if (!currentSession) return;
+    
+    setHpOverride({
+      player: currentSession.snapshot.active.player.currentHp,
+      opponent: currentSession.snapshot.active.opponent.currentHp,
+    });
+  }, [currentSession]);
+
+  // 턴 추적
+  useEffect(() => {
+    if (currentSession) {
+      const turnChanged = lastTurnRef.current !== currentSession.snapshot.turn;
+      
+      if (turnChanged) {
+        lastTurnRef.current = currentSession.snapshot.turn;
+      }
+    }
+  }, [currentSession?.snapshot.turn]);
+
+  useEffect(() => {
+    const sessionId = currentSession?.id ?? null;
+    if (sessionId !== lastSessionIdRef.current) {
+      lastSessionIdRef.current = sessionId;
+      renderedCountRef.current = 0;
+      setDisplayedLogs([]);
+      // 세션이 바뀌면 표시용 세션과 HP 초기화
+      setDisplaySession(currentSession);
+      displaySessionRef.current = currentSession; // ref도 업데이트
+      setShowSwitchUI(false);
+      setShowResultOverlay(false);
+      if (currentSession) {
+        const initialIds = {
+          player: currentSession.snapshot.active.player.instanceId,
+          opponent: currentSession.snapshot.active.opponent.instanceId,
+        };
+        setHpOverride({
+          player: currentSession.snapshot.active.player.currentHp,
+          opponent: currentSession.snapshot.active.opponent.currentHp,
+        });
+        setMaxHpForDisplay({
+          player: currentSession.snapshot.active.player.stats.hp,
+          opponent: currentSession.snapshot.active.opponent.stats.hp,
+        });
+        lastPokemonIdsRef.current = initialIds;
+        lastTurnRef.current = currentSession.snapshot.turn;
+      } else {
+        setHpOverride({});
+        setMaxHpForDisplay({});
+        lastPokemonIdsRef.current = { player: '', opponent: '' };
+        lastTurnRef.current = 0;
+      }
+      timersRef.current.forEach((id) => window.clearTimeout(id));
+      timersRef.current = [];
+      logQueueRef.current = [];
+      processingRef.current = false;
+      setIsResolving(false);
+      hasBlockingLogsRef.current = false;
+    }
+    return () => {
+      timersRef.current.forEach((id) => window.clearTimeout(id));
+      timersRef.current = [];
+    };
+  }, [currentSession?.id]);
+
+  const processNextLog = useCallback(() => {
+    const next = logQueueRef.current.shift();
+    if (!next) {
+      processingRef.current = false;
+      hasBlockingLogsRef.current = false;
+      setIsResolving(false);
+      currentAttackerRef.current = null;
+      return;
+    }
+    setDisplayedLogs((prev) => [...prev, next]);
+    
+    // 교체 관련 로그면 즉시 HP 동기화 (풀피로 보이도록)
+    const isSwitchLog = next.message.includes('내보냈다') || next.message.includes('불러들였다');
+    // 쓰러짐 로그 직후에 HP 동기화 (교체 전에 HP가 0으로 보이도록)
+    const isFaintLog = next.message.includes('쓰러졌다');
+    // 효과 로그 직후에 HP 동기화 (데미지가 들어간 후)
+    const isEffectLog = next.message.includes('효과가') || next.message.includes('급소');
+    // 빗나감 로그
+    const isMissLog = next.message.includes('빗나갔다');
+    // 상태 이상 부여 로그 (UI 업데이트용)
+    const isStatusInflictLog = next.message.includes('독이 퍼졌다') || 
+                               next.message.includes('화상을 입었다') ||
+                               next.message.includes('마비되어') ||
+                               next.message.includes('잠들어') ||
+                               next.message.includes('얼어붙었다');
+    
+    // 상태 이상 행동 불가 로그 (데미지 없음)
+    const isStatusActionBlockLog = next.message.includes('몸이 저려서') ||
+                                    next.message.includes('쿨쿨 잠들어') ||
+                                    next.message.includes('잠에서 깨어났다') ||
+                                    next.message.includes('얼어버려서') ||
+                                    next.message.includes('얼음이 녹았다');
+    
+    // 상태 이상 데미지 로그 (HP 감소 필요)
+    const isStatusDamageLog = next.message.includes('독에 의한 데미지') || 
+                              next.message.includes('화상 데미지');
+    
+    if (isSwitchLog) {
+      // 교체 로그 - 새 포켓몬으로 화면 업데이트
+      if (currentSession) {
+        // 어느 쪽이 교체했는지 확인
+        const isPlayerSwitch = next.message.includes('플레이어');
+        const switchedSide: BattleSide = isPlayerSwitch ? 'player' : 'opponent';
+        
+        // 교체된 쪽만 maxHp 업데이트, 교체 안 된 쪽은 절대 변경하지 않음
+        setMaxHpForDisplay((prev) => ({
+          ...prev,
+          [switchedSide]: currentSession.snapshot.active[switchedSide].stats.hp,
+        }));
+        
+        // displaySession 업데이트 (새 포켓몬 정보)
+        setDisplaySession(currentSession);
+        displaySessionRef.current = currentSession; // ref도 즉시 업데이트
+        
+        // 교체 후 이번 턴에 받은 데미지 계산
+        const switchedPokemonId = currentSession.snapshot.active[switchedSide].instanceId;
+        const damageAfterSwitch = currentSession.snapshot.events.filter(
+          (e): e is Extract<typeof e, { kind: 'damage' }> =>
+            e.kind === 'damage' && e.targetSide === switchedSide && e.targetId === switchedPokemonId
+        ).reduce((sum, e) => sum + e.amount, 0);
+        
+        // 교체 직후 HP 계산
+        const currentHp = currentSession.snapshot.active[switchedSide].currentHp;
+        const maxHp = currentSession.snapshot.active[switchedSide].stats.hp;
+        
+        // 벤치에서의 HP 가져오기 (턴 시작 시 저장한 값)
+        const benchHp = benchHpRef.current.get(switchedPokemonId);
+        
+        let hpAtSwitch: number;
+        if (benchHp !== undefined) {
+          // 벤치 HP가 저장되어 있으면 그것 사용
+          hpAtSwitch = benchHp;
+        } else if (damageAfterSwitch > 0) {
+          // 이번 턴에 데미지를 받았으면 역계산
+          hpAtSwitch = Math.min(maxHp, currentHp + damageAfterSwitch);
+        } else {
+          // 데미지를 안 받았으면 현재 HP 그대로
+          hpAtSwitch = currentHp;
+        }
+        
+        console.log('교체 로그 HP 계산:', {
+          switchedSide,
+          switchedPokemonId,
+          pokemonName: currentSession.snapshot.active[switchedSide].koName,
+          benchHp,
+          currentHp,
+          damageAfterSwitch,
+          hpAtSwitch,
+          maxHp,
+          events: currentSession.snapshot.events,
+        });
+        
+        // 교체된 쪽만 HP 업데이트, 교체 안 된 쪽은 절대 변경하지 않음
+        setHpOverride((prev) => ({
+          ...prev,
+          [switchedSide]: hpAtSwitch,
+        }));
+        
+        // 교체 시점 HP 저장
+        hpAtSwitchRef.current = {
+          ...hpAtSwitchRef.current,
+          [switchedSide]: hpAtSwitch,
+        };
+        
+        // 추적 ref 업데이트
+        lastPokemonIdsRef.current = {
+          player: currentSession.snapshot.active.player.instanceId,
+          opponent: currentSession.snapshot.active.opponent.instanceId,
+        };
+      }
+      currentAttackerRef.current = null;
+      setShowSwitchUI(false); // 교체 완료 시 교체창 닫기
+      
+      // 교체 로그 이후 입력 가능 (상대 교체 완료)
+      const remainingLogs = logQueueRef.current;
+      const hasMoreActions = remainingLogs.some((log) => log.side !== 'system');
+      
+      console.log('교체 로그 후 입력 체크:', {
+        remainingLogsCount: remainingLogs.length,
+        remainingLogs: remainingLogs.map(l => l.message),
+        hasMoreActions,
+      });
+      
+      if (!hasMoreActions) {
+        hasBlockingLogsRef.current = false;
+        setIsResolving(false);
+        console.log('입력 허용!');
+      }
+    } else if (isFaintLog) {
+      // 쓰러짐 로그 - 쓰러진 쪽의 maxHp만 저장 (HP는 이미 기술명 로그에서 0으로 설정됨)
+      const currentDisplaySession = displaySessionRef.current;
+      if (currentDisplaySession) {
+        // 쓰러진 쪽 확인 (로그 메시지에서 파싱)
+        const isPlayerFaint = !next.message.includes('상대');
+        const faintedSide: BattleSide = isPlayerFaint ? 'player' : 'opponent';
+        // displaySessionRef 사용 (아직 교체되지 않은 포켓몬 정보)
+        const faintedMaxHp = currentDisplaySession.snapshot.active[faintedSide].stats.hp;
+        
+        console.log('쓰러짐 로그 maxHp 저장:', {
+          faintedSide,
+          pokemonName: currentDisplaySession.snapshot.active[faintedSide].koName,
+          faintedMaxHp,
+          currentHpOverride: hpOverride[faintedSide],
+          currentSessionName: currentSession?.snapshot.active[faintedSide].koName,
+        });
+        
+        // 쓰러짐 애니메이션 트리거
+        console.log('쓰러짐 애니메이션 트리거:', faintedSide);
+        setCurrentAnimation({ type: 'faint', side: faintedSide });
+        
+        // maxHp만 저장 (교체 전까지 유지)
+        setMaxHpForDisplay((prev) => ({
+          ...prev,
+          [faintedSide]: faintedMaxHp,
+        }));
+      }
+      // 쓰러짐 로그에서는 입력 허용 체크 안 함 (교체 로그에서 체크)
+    } else if (next.message.includes('다음 포켓몬을 선택해 주세요')) {
+      // 플레이어 교체 요청 로그 - 즉시 교체창 표시
+      console.log('교체 요청 로그 - 교체창 표시');
+      setShowSwitchUI(true);
+    } else if (next.message.includes('남은 포켓몬이 없다')) {
+      // 승패 결정 로그 - 결과창 표시
+      setShowResultOverlay(true);
+    } else if (next.message.includes('항복했다')) {
+      // 항복 로그 - 즉시 결과창 표시
+      setShowResultOverlay(true);
+    } else if (next.message.includes('HP가 회복됐다')) {
+      // 회복 로그 - HP 증가 처리
+      if (currentSession) {
+        // 누가 회복했는지 포켓몬 이름으로 확인
+        const playerName = currentSession.snapshot.active.player.koName;
+        const opponentName = currentSession.snapshot.active.opponent.koName;
+        
+        let healedSide: BattleSide;
+        if (next.message.startsWith(playerName)) {
+          healedSide = 'player';
+        } else if (next.message.startsWith(opponentName)) {
+          healedSide = 'opponent';
+        } else {
+          console.warn('회복 대상 파싱 실패:', next.message);
+          return;
+        }
+        
+        // 로그 후 HP 동기화
+        setTimeout(() => {
+          syncHpForSide(healedSide, healedSide);
+        }, LOG_DELAY_MS / 2);
+      }
+    } else if (isStatusActionBlockLog) {
+      // 상태 이상 행동 불가 로그 - displaySession 업데이트 (깨어남/녹음 포함)
+      if (currentSession) {
+        setDisplaySession({ ...currentSession });
+        displaySessionRef.current = currentSession;
+      }
+    } else if (isStatusInflictLog) {
+      // 상태 이상 부여 로그 - displaySession 업데이트하여 UI에 상태 표시
+      if (currentSession) {
+        setDisplaySession({ ...currentSession });
+        displaySessionRef.current = currentSession;
+      }
+    } else if (isStatusDamageLog) {
+      // 상태 이상 데미지 로그 - HP 감소 처리
+      if (currentSession) {
+        // 어느 쪽 포켓몬인지 포켓몬 이름으로 확인
+        const playerName = currentSession.snapshot.active.player.koName;
+        const opponentName = currentSession.snapshot.active.opponent.koName;
+        
+        let damagedSide: BattleSide;
+        if (next.message.startsWith(playerName)) {
+          damagedSide = 'player';
+        } else if (next.message.startsWith(opponentName)) {
+          damagedSide = 'opponent';
+        } else {
+          // 메시지 파싱 실패 시 기본값
+          console.warn('상태 이상 데미지 대상 파싱 실패:', next.message);
+          return;
+        }
+        
+        console.log('상태 이상 데미지:', { damagedSide, message: next.message });
+        
+        // 상태 이상 데미지 로그 후 HP 동기화 (피해 애니메이션과 함께)
+        setTimeout(() => {
+          syncHpForSide(damagedSide, damagedSide);
+        }, LOG_DELAY_MS / 2);
+      }
+    } else if (isEffectLog || isMissLog) {
+      // 효과/빗나감 로그는 HP 변화 없음 (이미 기술명 로그에서 반영됨)
+      pendingEffectLogRef.current = false; // 효과 로그 처리 완료
+      
+      // 효과 로그 이후 남은 로그가 모두 system이면 입력 허용
+      const remainingLogs = logQueueRef.current;
+      const hasNonSystemLogs = remainingLogs.some((log) => log.side !== 'system');
+      if (!hasNonSystemLogs && !pendingEffectLogRef.current) {
+        hasBlockingLogsRef.current = false;
+        setIsResolving(false);
+        console.log('효과 로그 후 입력 허용');
+      }
+    } else if (next.side !== 'system') {
+      // 기술명 로그 - 공격자 기록하고 HP 감소
+      const attacker = next.side as BattleSide;
+      currentAttackerRef.current = attacker;
+      
+      // 공격 애니메이션 트리거
+      console.log('공격 애니메이션 트리거:', attacker);
+      setCurrentAnimation({ type: 'attack', side: attacker });
+      
+      // 다음 로그가 효과 로그, 회복 로그, 상태이상 부여 로그인지 확인
+      const nextLog = logQueueRef.current[0];
+      const hasEffectLog = nextLog && (
+        nextLog.message.includes('효과가') || 
+        nextLog.message.includes('급소') || 
+        nextLog.message.includes('빗나갔다')
+      );
+      
+      const isHealMove = nextLog && nextLog.message.includes('HP가 회복됐다');
+      
+      // 데미지가 있는지 엔진 이벤트로 확인 (정확한 판단)
+      const defenderSide = attacker === 'player' ? 'opponent' : 'player';
+      // displaySessionRef에서 defenderId 가져오기 (아직 교체되지 않은 포켓몬)
+      const defenderId = displaySessionRef.current?.snapshot.active[defenderSide].instanceId;
+      const hasDamageEvent = currentSession?.snapshot.events.some(e => 
+        e.kind === 'damage' && 
+        e.source === 'move' && 
+        e.targetSide === defenderSide &&
+        e.targetId === defenderId
+      ) ?? false;
+      
+      pendingEffectLogRef.current = hasEffectLog; // 효과 로그가 있을 때만 대기
+      
+      console.log('기술명 로그:', { 
+        hasEffectLog, 
+        isHealMove, 
+        hasDamageEvent,
+        nextLogMessage: nextLog?.message 
+      });
+      
+      // 데미지 이벤트가 있으면 HP 감소 처리
+      if (!isHealMove && hasDamageEvent) {
+        // 기술명 로그 직후 잠시 대기 후 HP 감소 (상태 이상 데미지 제외)
+        setTimeout(() => {
+          console.log('기술명 로그 HP 업데이트:', {
+            attacker,
+            defenderSide,
+            defenderId,
+            defenderCurrentHp: currentSession?.snapshot.active[defenderSide].currentHp,
+            hasDamageEvent,
+            isHealMove
+          });
+          syncHpForSide(defenderSide, attacker, true);
+        }, LOG_DELAY_MS / 2);
+      } else {
+        console.log('HP 업데이트 스킵:', {
+          attacker,
+          defenderSide,
+          hasDamageEvent,
+          isHealMove,
+          nextLogMessage: nextLog?.message
+        });
+      }
+    }
+    
+    if (logQueueRef.current.length > 0) {
+      const handle = window.setTimeout(processNextLog, LOG_DELAY_MS);
+      timersRef.current.push(handle);
+    } else {
+      console.log('로그 큐 완료', { pendingEffectLog: pendingEffectLogRef.current });
+      
+      // 효과 로그 대기 중이 아닐 때만 입력 허용
+      if (!pendingEffectLogRef.current) {
+      processingRef.current = false;
+      hasBlockingLogsRef.current = false;
+      setIsResolving(false);
+        console.log('입력 허용!');
+      }
+      currentAttackerRef.current = null;
+      
+      // 로그 처리 완료 - 현재 상태를 벤치 HP로 저장 및 displaySession 동기화
+      if (currentSession) {
+        const newBenchHp = new Map<string, number>();
+        
+        // Active 포켓몬 저장
+        newBenchHp.set(currentSession.snapshot.active.player.instanceId, currentSession.snapshot.active.player.currentHp);
+        newBenchHp.set(currentSession.snapshot.active.opponent.instanceId, currentSession.snapshot.active.opponent.currentHp);
+        
+        // 벤치 포켓몬 저장
+        currentSession.snapshot.bench.player.forEach((pokemon) => {
+          newBenchHp.set(pokemon.instanceId, pokemon.currentHp);
+        });
+        currentSession.snapshot.bench.opponent.forEach((pokemon) => {
+          newBenchHp.set(pokemon.instanceId, pokemon.currentHp);
+        });
+        benchHpRef.current = newBenchHp;
+        
+        // displaySession을 currentSession과 동기화 (PP 등 업데이트 반영)
+        setDisplaySession(currentSession);
+        displaySessionRef.current = currentSession;
+        
+        console.log('로그 완료 - 모든 포켓몬 HP 저장:', Object.fromEntries(newBenchHp));
+      }
+    }
+  }, [syncHpAfterLog, syncHpForSide]);
+
+  useEffect(() => {
+    const logs = currentSession?.snapshot.log ?? [];
+    const alreadyRendered = renderedCountRef.current;
+
+    if (!logs.length || logs.length <= alreadyRendered) {
+      return;
+    }
+
+    const newEntries = logs.slice(alreadyRendered);
+    logQueueRef.current.push(...newEntries);
+    renderedCountRef.current = logs.length;
+    if (newEntries.some((entry) => entry.side !== 'system')) {
+      hasBlockingLogsRef.current = true;
+      setIsResolving(true);
+    }
+
+    if (!processingRef.current) {
+      processingRef.current = true;
+      processNextLog();
+    }
+  }, [currentSession?.snapshot.log?.length, processNextLog]);
+
+  const handleResultConfirm = () => {
+    acknowledgeBattleResult();
+    navigate('/dashboard');
+  };
+
+  const handleSwitchSelect = (targetIndex: number) => {
+    submitCommand({ kind: 'switch', targetIndex });
+  };
+
+  const handleCancelSwitch = () => {
+    cancelPendingSwitch();
+  };
+
+  if (!isReady) {
+    return (
+      <div className="page battle-page">
+        <div className="card">
+          <h1>배틀 준비가 필요해요</h1>
+          <p>파티가 비어 있어요. 최소 한 마리 이상의 포켓몬이 필요해요.</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (!currentSession) {
+    return (
+      <div className="page battle-page">
+        <div className="card">
+          <h1>배틀 대기 중</h1>
+          <p>오른쪽 사이드바에서 CPU 배틀을 시작해 주세요.</p>
+          <button
+            type="button"
+            className="primary"
+            onClick={() => {
+              void startCpuBattle();
+            }}
+          >
+            지금 배틀 시작
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  console.log();
+
+  const manualSwitchPending = pendingSwitch === 'manual';
+  const forcedSwitchPending = pendingSwitch === 'forced';
+
+  // 교체창 표시 조건: 수동 교체는 즉시, 강제 교체는 로그 진행 후
+  const switchMode: 'manual' | 'forced' | null =
+    manualSwitchPending ? 'manual' :
+    (forcedSwitchPending && showSwitchUI) ? 'forced' : null;
+
+  // 표시용 세션 사용 (로그가 진행되면서 업데이트됨)
+  const sessionForDisplay = displaySession ?? currentSession;
+  const switchOptions = sessionForDisplay?.snapshot.bench.player
+    .map((pokemon, index) => ({ pokemon, index }))
+    .filter(({ pokemon }) => pokemon.currentHp > 0) ?? [];
+
+  return (
+    <div className="page battle-page">
+      <div className="battle-layout">
+        <BattleStage
+          session={sessionForDisplay!}
+          animation={currentAnimation || undefined}
+          result={
+            resultOverlay && showResultOverlay
+              ? {
+                  outcome: resultOverlay.result,
+                  pointsGained: resultOverlay.pointsGained,
+                  currentPoints: points,
+                  onConfirm: handleResultConfirm,
+                }
+              : undefined
+          }
+        />
+        <div className="battle-sidebar">
+          <BattleHUD session={sessionForDisplay!} hpOverride={hpOverride} maxHpOverride={maxHpForDisplay} />
+          <BattleLog entries={displayedLogs} />
+          {activeBattle && (
+            <ActionBar
+              session={sessionForDisplay!}
+              disabled={isResolving}
+              switchMode={switchMode}
+              switchOptions={switchOptions}
+              onSwitchSelect={handleSwitchSelect}
+              onCancelSwitch={switchMode === 'manual' ? handleCancelSwitch : undefined}
+            />
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default BattlePage;

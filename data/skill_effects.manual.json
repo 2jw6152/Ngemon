@@ -1,0 +1,205 @@
+{
+  "014": {
+    "name": "칼춤",
+    "effects": [
+      {
+        "kind": "buff",
+        "target": "self",
+        "stat": "atk",
+        "stages": 2
+      }
+    ]
+  },
+  "039": {
+    "name": "꼬리흔들기",
+    "effects": [
+      {
+        "kind": "debuff",
+        "target": "opponent",
+        "stat": "def",
+        "stages": -1
+      }
+    ]
+  },
+  "040": {
+    "name": "독침",
+    "effects": [
+      {
+        "kind": "status",
+        "target": "opponent",
+        "status": "poison",
+        "chance": 30
+      }
+    ]
+  },
+  "058": {
+    "name": "냉동빔",
+    "effects": [
+      {
+        "kind": "status",
+        "target": "opponent",
+        "status": "freeze",
+        "chance": 10
+      }
+    ]
+  },
+  "079": {
+    "name": "수면가루",
+    "effects": [
+      {
+        "kind": "status",
+        "target": "opponent",
+        "status": "sleep",
+        "chance": 100
+      }
+    ]
+  },
+  "086": {
+    "name": "전기자석파",
+    "effects": [
+      {
+        "kind": "status",
+        "target": "opponent",
+        "status": "paralysis",
+        "chance": 100
+      }
+    ]
+  },
+  "092": {
+    "name": "맹독",
+    "effects": [
+      {
+        "kind": "status",
+        "target": "opponent",
+        "status": "poison",
+        "chance": 100
+      }
+    ]
+  },
+  "097": {
+    "name": "고속이동",
+    "effects": [
+      {
+        "kind": "buff",
+        "target": "self",
+        "stat": "spe",
+        "stages": 2
+      }
+    ]
+  },
+  "104": {
+    "name": "단단해지기",
+    "effects": [
+      {
+        "kind": "buff",
+        "target": "self",
+        "stat": "def",
+        "stages": 1
+      }
+    ]
+  },
+  "108": {
+    "name": "연막",
+    "effects": [
+      {
+        "kind": "debuff",
+        "target": "opponent",
+        "stat": "accuracy",
+        "stages": -1
+      }
+    ]
+  },
+  "109": {
+    "name": "이상한빛",
+    "effects": [
+      {
+        "kind": "custom",
+        "target": "opponent",
+        "chance": 100,
+        "metadata": {
+          "volatileStatus": "confusion"
+        }
+      }
+    ]
+  },
+  "115": {
+    "name": "리플렉터",
+    "effects": [
+      {
+        "kind": "custom",
+        "target": "field",
+        "metadata": {
+          "tag": "reflect",
+          "notes": "field effect placeholder"
+        }
+      }
+    ]
+  },
+  "184": {
+    "name": "겁나는얼굴",
+    "effects": [
+      {
+        "kind": "debuff",
+        "target": "opponent",
+        "stat": "spe",
+        "stages": -2
+      }
+    ]
+  },
+  "261": {
+    "name": "도깨비불",
+    "effects": [
+      {
+        "kind": "status",
+        "target": "opponent",
+        "status": "burn",
+        "chance": 100
+      }
+    ]
+  },
+  "347": {
+    "name": "명상",
+    "effects": [
+      {
+        "kind": "buff",
+        "target": "self",
+        "stat": "spa",
+        "stages": 1
+      },
+      {
+        "kind": "buff",
+        "target": "self",
+        "stat": "spd",
+        "stages": 1
+      }
+    ]
+  },
+  "349": {
+    "name": "용의춤",
+    "effects": [
+      {
+        "kind": "buff",
+        "target": "self",
+        "stat": "atk",
+        "stages": 1
+      },
+      {
+        "kind": "buff",
+        "target": "self",
+        "stat": "spe",
+        "stages": 1
+      }
+    ]
+  },
+  "395": {
+    "name": "발경",
+    "effects": [
+      {
+        "kind": "status",
+        "target": "opponent",
+        "status": "paralysis",
+        "chance": 30
+      }
+    ]
+  }
+}
